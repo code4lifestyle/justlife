@@ -1,0 +1,700 @@
+/*
+ * HomePage styles, ported from the original site's Nuxt style blocks:
+ *   scoped: 4a952506 (page), 46bafdc9 (Welcome hero), a0234af9 (LocationSearch), 3f2d0c7f (LocateMe),
+ *           1f1a3cab (BlogCategoriesSection), da1300b6 (ServiceShortcuts), 7afd0082 (ActiveServices)
+ *   unscoped blocks 41abe92ddb (FeaturesSection), d7c79685d1 (InsuranceSection), scoped to this component.
+ * Shared atoms (section-title-wrapper, mobile-app-downloader, body-text) are global (atoms.css).
+ */
+
+/* The original page root is a direct flex child of div.main-wrapper: keep the host out of the layout. */
+:host {
+  display: contents;
+}
+
+/* ported from Nuxt style block 8c093844bc */
+@media screen and (max-width: 780px) {
+  .retained-section {
+    border-top: 16px solid #fafafa;
+  }
+}
+
+/* ported from Nuxt style block b29299d132 */
+.hero-container {
+  position: relative;
+}
+.hero-container .main-section {
+  left: calc(50% - 370px);
+  padding-top: 180px;
+  position: absolute;
+  transition: 0.1s ease-out;
+  z-index: 2;
+}
+.hero-container .main-section.ar {
+  left: calc(50% - 272px);
+}
+.hero-container .main-section h1.main-title {
+  color: #333;
+  font-size: 48px;
+  line-height: 62px;
+  margin-bottom: 18px;
+  text-align: center;
+}
+.hero-wrapper {
+  background: linear-gradient(90deg, #a59e94, #e0dedc);
+  display: inline-block;
+  min-height: 583px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.hero-wrapper .image-gradient {
+  display: none;
+  height: 100%;
+  position: absolute;
+  width: 20%;
+  z-index: 1;
+}
+.hero-wrapper .image-gradient.gradient-left {
+  background: linear-gradient(90deg, #a59e94 60%, transparent);
+  left: 0;
+}
+.hero-wrapper .image-gradient.gradient-right {
+  background: linear-gradient(270deg, #e0dedc 60%, transparent);
+  right: 0;
+}
+.hero-wrapper img.hero-image {
+  left: 50%;
+  margin: 0 auto;
+  max-width: 1800px;
+  min-width: 1440px;
+  pointer-events: none;
+  position: absolute;
+  transform: translate(-50%);
+  transition: 0.1s ease-out;
+  width: 100%;
+}
+.location-search-wrapper {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px #00000040;
+  margin: 0 auto;
+  max-width: 558px;
+  padding: 16px;
+  width: 100%;
+}
+.location-search-wrapper p {
+  color: #000000de;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+.location-search-wrapper p.ar {
+  text-align: right;
+}
+@media screen and (max-width: 780px) {
+  .hero-container .main-section {
+    background: linear-gradient(180deg, #0000001a, #0009 50%, #000 70%, #000);
+    left: 0;
+    padding: 40px 16px;
+    width: 100%;
+  }
+  .hero-container .main-section h1.main-title {
+    color: #fff;
+    font-size: 30px;
+    line-height: 39px;
+    margin: 24px auto;
+    width: 70%;
+  }
+  .hero-container .location-search-wrapper p {
+    font-size: 15px;
+  }
+  .hero-wrapper {
+    background: #000;
+    min-height: 310px;
+  }
+  .hero-wrapper img.hero-image {
+    min-width: auto;
+    top: -30px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .hero-wrapper img.hero-image {
+    top: -10px;
+    width: 110%;
+  }
+}
+@media screen and (max-width: 520px) {
+  .hero-wrapper img.hero-image {
+    width: 120%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .hero-wrapper img.hero-image {
+    width: 140%;
+  }
+}
+@media screen and (min-width: 1800px) {
+  .hero-wrapper .image-gradient {
+    display: block;
+    width: 8%;
+  }
+}
+@media screen and (min-width: 2000px) {
+  .hero-wrapper .image-gradient {
+    width: 15%;
+  }
+}
+@media screen and (min-width: 2200px) {
+  .hero-wrapper .image-gradient {
+    width: 20%;
+  }
+}
+@media screen and (min-width: 2400px) {
+  .hero-wrapper .image-gradient {
+    width: 25%;
+  }
+}
+@media screen and (min-width: 2700px) {
+  .hero-wrapper .image-gradient {
+    width: 35%;
+  }
+}
+@media screen and (max-width: 780px) {
+  .hero-container .main-section.ar {
+    left: 0;
+  }
+}
+
+/* ported from Nuxt style block bf81dba85a */
+.address-skeleton {
+  background-color: #fff;
+  height: 24px;
+  left: 0;
+  margin-top: 6px;
+  padding: 0 23%;
+  position: fixed;
+  width: 100%;
+  z-index: 9;
+}
+.location-container {
+  position: relative;
+}
+.clickable {
+  cursor: pointer;
+}
+.location-search {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 24px;
+  display: flex;
+  height: 48px;
+  position: relative;
+}
+.location-search.has-bg {
+  background-color: #ebfaff;
+}
+.location-search.active {
+  background-color: #f5f5f5;
+}
+.location-search .location-search-input-wrapper {
+  height: 28px;
+}
+.location-search .location-search-input-wrapper .location-search-input {
+  background-color: transparent;
+  border: none;
+  color: #000000de;
+  font-size: 1rem;
+  line-height: 24px;
+  outline: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+.location-search .location-search-input-wrapper .location-search-input.typed {
+  font-weight: 700;
+}
+.location-search .pin-wrapper {
+  display: block;
+  width: 24px;
+}
+.location-search .search-results {
+  background-color: #fff;
+  display: none;
+  left: 0;
+  position: absolute;
+  top: 56px;
+  width: 100%;
+  z-index: 40;
+}
+.location-search .search-results.with-border {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  padding: 8px 0;
+}
+.location-search .search-results .location-item {
+  cursor: pointer;
+  display: flex;
+}
+.location-search .search-results .location-item:hover {
+  background-color: #d9f6ff;
+}
+.location-search .search-results .location-item:hover .item-title {
+  color: #00c3ff !important;
+}
+.location-search .search-results.active {
+  display: block;
+}
+.location-search .location-search-right {
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+}
+.location-search .location-search-right .address-icon img {
+  margin-bottom: 3px;
+}
+.location-search .location-search-right .location-search-clear {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  transition: 0.3s ease-out;
+}
+.navbar-section .location-search-input-wrapper {
+  flex-shrink: 1;
+  min-width: 0;
+}
+@media screen and (max-width: 780px) {
+  .search-results-bg {
+    background-color: #fff;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  .location-container {
+    width: 100%;
+  }
+  .location-container.navbar-section .location-search {
+    border: none;
+    border-radius: 8px;
+    height: 36px;
+  }
+  .location-container.navbar-section .location-search.location-search-narrow {
+    height: 28px;
+  }
+  .location-container.welcome-section {
+    padding: 0;
+  }
+  .location-container.welcome-section .location-search {
+    border: none;
+    border-radius: 24px;
+    box-shadow:
+      1px 1px 2px #0000001a,
+      -1px -1px 2px #0000001a;
+    height: 48px;
+  }
+  .location-container.map-section
+    .location-search
+    .location-search-input-wrapper
+    .location-search-input,
+  .location-container.welcome-section
+    .location-search
+    .location-search-input-wrapper
+    .location-search-input {
+    font-size: 16px;
+  }
+  .location-container.map-section .search-results {
+    height: 100%;
+    padding-top: 72px;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+  }
+  .location-container .location-search {
+    min-width: 100%;
+  }
+  .location-container .location-search.clickable {
+    height: 36px;
+  }
+  .location-container .location-search.active {
+    background-color: #fff;
+  }
+  .location-container .location-search.clickable {
+    width: 100%;
+  }
+  .location-container .location-search .location-search-input-wrapper .location-search-input {
+    font-size: 14px;
+  }
+}
+
+/* ported from Nuxt style block e27217fce2 */
+.locate-me-button {
+  background: #ebfaff;
+  border-radius: 16px;
+  cursor: pointer;
+  display: flex;
+}
+.locate-me-button span {
+  color: #00c3ff;
+  display: block;
+  font-size: 14px;
+  line-height: 18px;
+  margin-left: 2px;
+  width: 105px;
+}
+.locate-me-button .locate-me-icon {
+  height: 18px;
+  padding-top: 1px;
+  width: 18px;
+}
+
+/* ported from Nuxt style block 50a97e06c2 */
+.blog-categories-section {
+  background-color: #fff;
+  padding: 48px 32px 0;
+}
+.blog-categories-section .section-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 -20px;
+  padding-top: 48px;
+}
+.blog-categories-section .section-content .category-card {
+  margin: 0 20px 48px;
+  text-align: center;
+  width: 178px;
+}
+.blog-categories-section .section-content .category-card .category-image {
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #f2f2f2;
+  border-radius: 8px;
+  display: flex;
+  height: 86px;
+  justify-content: center;
+  transition: 0.1s ease-out;
+  width: 100%;
+}
+.blog-categories-section .section-content .category-card p {
+  color: #000000de;
+  display: inline-block;
+  font-size: 16px;
+  height: 48px;
+  line-height: 24px;
+  margin-top: 8px;
+}
+.blog-categories-section .section-content .category-card:hover .category-image {
+  background-color: #f8f8f8;
+}
+@media screen and (max-width: 780px) {
+  .blog-categories-section .section-content {
+    margin: 0 -8px;
+    padding-top: 32px;
+  }
+  .blog-categories-section .section-content .category-card {
+    margin: 0 8px 16px;
+    width: 148px;
+  }
+}
+
+/* ported from Nuxt style block 8fb14bd84a */
+.service-shortcuts {
+  background-color: #fff;
+  padding: 24px 0 8px;
+  position: relative;
+}
+.service-shortcuts .shortcuts {
+  display: flex;
+  margin: 0 -10px;
+}
+.service-shortcuts .shortcuts .shortcut {
+  background-color: #fff;
+  display: inline-block;
+  margin: 0 12px;
+  text-align: center;
+  width: 96px;
+}
+.service-shortcuts .shortcuts .shortcut:hover {
+  background-color: #f5f5f5;
+}
+.service-shortcuts .shortcuts .shortcut .tag-container {
+  border-radius: 0.5rem;
+  padding: 0.125rem 0.5rem;
+}
+.service-shortcuts .shortcuts .shortcut .image-container {
+  padding: 5px 0;
+}
+.service-shortcuts .shortcuts .shortcut .image-container.with-tag {
+  padding: 0;
+}
+@media screen and (max-width: 780px) {
+  .service-shortcuts {
+    height: auto;
+    margin: 0;
+    padding: 24px 0 16px;
+  }
+  .service-shortcuts .shortcuts {
+    margin: 0 4px;
+  }
+  .service-shortcuts .shortcuts .shortcut {
+    margin: 0 8px;
+    width: 76px;
+  }
+  .service-shortcuts .shortcuts .shortcut .tag-container {
+    border-radius: 0.25rem;
+    padding: 0.125rem 0.25rem;
+  }
+  .service-shortcuts .shortcuts .shortcut .image-container .shortcut-image {
+    height: 50px;
+    width: 50px;
+  }
+  .service-shortcuts .shortcuts .shortcut .image-container.with-tag .shortcut-image {
+    height: 47px;
+    width: 47px;
+  }
+}
+
+/* ported from Nuxt style block f2534dd5e9 */
+.active-services {
+  background-color: #fff;
+  padding-top: 32px;
+}
+.active-services h1 {
+  color: #000000de;
+  font-size: 36px;
+  line-height: 48px;
+  padding: 0 0 24px;
+}
+.active-services h1.h1-v2 {
+  color: #00000061;
+  padding: 48px 0 0;
+  text-align: center;
+}
+.active-services.service-layout {
+  background-color: #fafafa;
+  padding-top: 0;
+}
+.active-services .service-category {
+  position: relative;
+}
+.active-services .service-category:nth-child(-n + 4) {
+  min-height: 293px;
+}
+@media screen and (max-width: 1180px) {
+  .active-services {
+    padding: 32px 16px;
+  }
+}
+@media screen and (max-width: 780px) {
+  .active-services {
+    padding: 16px 0 0;
+  }
+  .active-services .service-category:nth-child(-n + 4) {
+    min-height: 202px;
+  }
+  .active-services h1 {
+    font-size: 26px;
+    line-height: 32px;
+    padding: 8px 16px 24px;
+  }
+  .active-services h1.h1-v2 {
+    color: #00000061;
+    padding: 8px 32px 0;
+  }
+}
+
+/* ported from Nuxt style block 41abe92ddb */
+.features-section {
+  background-color: #fafafa;
+  padding: 48px 32px;
+}
+.features-section .features-section-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -14px;
+  padding-top: 48px;
+}
+.features-section .features-section-content .feature-card {
+  background-color: #fff;
+  border-radius: 12px;
+  margin: 0 14px;
+  max-width: 379px;
+  padding: 36px 24px;
+  text-align: center;
+  width: 100%;
+}
+.features-section .features-section-content .feature-card .feature-image {
+  display: flex;
+  height: 120px;
+  justify-content: center;
+}
+.features-section .features-section-content .feature-card .feature-image img {
+  height: 120px;
+  width: 103px;
+}
+.features-section .features-section-content .feature-card span {
+  font-size: 18px;
+  line-height: 24px;
+}
+.features-section .features-section-content .feature-card p {
+  color: #333;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 24px 0;
+}
+@media screen and (max-width: 780px) {
+  .features-section {
+    padding: 24px 8px;
+  }
+  .features-section .features-section-content {
+    flex-wrap: wrap;
+    margin: 0;
+    padding-top: 16px;
+  }
+  .features-section .features-section-content .feature-card {
+    margin: 1%;
+    padding: 24px;
+    width: 48%;
+  }
+  .features-section .features-section-content .feature-card .feature-image {
+    height: 85px;
+  }
+  .features-section .features-section-content .feature-card .feature-image img {
+    height: 85px;
+    width: 80px;
+  }
+  .features-section .features-section-content .feature-card p {
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 16px;
+  }
+  .features-section .features-section-content .feature-card span {
+    display: none;
+  }
+}
+
+/* ported from Nuxt style block d7c79685d1 */
+.insurance-section {
+  padding: 48px;
+}
+.insurance-section .insurance-section-inside {
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 840px;
+}
+.insurance-section .insurance-section-inside .insurance-logo {
+  margin: 0 42px 5px;
+  min-width: 108px;
+}
+@media screen and (max-width: 780px) {
+  .insurance-section .insurance-section-inside {
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .insurance-section .insurance-section-inside .insurance-logo {
+    margin-bottom: calc(1rem + 5.5px);
+  }
+  .insurance-section .insurance-section-inside .section-title {
+    padding: 0 !important;
+  }
+}
+
+/* ---------------------------------------------------------------------------------------------
+ * Not in the original pages' CSS
+ * ------------------------------------------------------------------------------------------- */
+
+/* InsuranceSection set this background from JS on the first scroll (primary colour + pattern). */
+.insurance-section {
+  background: #00c3ff
+    url('https://deax38zvkau9d.cloudfront.net/prod/assets/static/home/pattern.png?f=webp') repeat;
+}
+
+/*
+ * City pages: service cards. The live API's category rows are not in the saved pages; the locale's
+ * service pages are shown as one wrapping list of the site's ServiceCard (scope 941d3a91) and
+ * CategoryServices (scope e20ff372) components, colour tokens resolved.
+ */
+.category-services {
+  margin: 0 -12px;
+  position: relative;
+}
+.category-services .service-cards {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+.service-card {
+  display: block;
+  margin: 0 12px;
+  position: relative;
+  width: 208.8px;
+}
+.service-card .service-image {
+  background-color: #ddd;
+  border-radius: 6px;
+  box-shadow:
+    0 0 1px #4a4a4a1a,
+    0 1px 1px #4a4a4a17,
+    0 3px 2px #4a4a4a0d,
+    0 6px 2px #4a4a4a03;
+  height: 160px;
+  position: relative;
+  transition: 0.1s ease-out;
+}
+.service-card .service-image img {
+  border-radius: 4px;
+  display: block;
+  height: 160px;
+  object-fit: cover;
+  width: 100%;
+}
+.service-card .service-image::before {
+  background-color: #0003;
+  border-radius: 4px;
+  content: '';
+  height: 100%;
+  position: absolute;
+  top: 0;
+  transition: 0.1s ease-out;
+  width: 100%;
+  z-index: 1;
+}
+.service-card:hover .service-image::before {
+  background-color: transparent;
+}
+@media screen and (max-width: 780px) {
+  .category-services {
+    margin: 0 10px;
+  }
+  .category-services .service-cards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .service-card {
+    margin: 0 6px;
+    width: auto;
+  }
+  .service-card .service-image,
+  .service-card .service-image img {
+    height: 105px;
+  }
+}
+
+/*
+ * Shortcut icons: the site's category icons are line drawings of varying aspect ratio; show them in
+ * the 60px square of the original shortcut skeleton (the ported mobile rule above makes it 50px).
+ */
+.service-shortcuts .shortcuts .shortcut .shortcut-image {
+  height: 60px;
+  object-fit: contain;
+  width: 60px;
+}

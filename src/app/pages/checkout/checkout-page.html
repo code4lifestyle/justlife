@@ -1,0 +1,125 @@
+@let c = checkout();
+<div class="service-wrapper service-header-in-flow opacity-1">
+  <div class="service-header">
+    <div class="checkout-header _vc">
+      <a
+        class="back-button _c _vc"
+        [appLink]="c.backLink.href"
+        [attr.aria-label]="c.backLink.text"
+        [attr.title]="c.backLink.text"
+      >
+        <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true">
+          <path
+            fill="currentColor"
+            d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"
+          />
+        </svg>
+      </a>
+      <h1 class="custom-title checkout-title">{{ c.serviceName }}</h1>
+    </div>
+  </div>
+
+  <div class="_sb checkout-body">
+    <div class="main-section mr_x6 sm_mr_x0">
+      <div class="main-card radiusX3 smNoRadius smNoBorder p_x6 sm_px_x4">
+        @if (c.image) {
+          <img
+            class="service-image"
+            [src]="c.image"
+            [alt]="c.serviceName"
+            width="1280"
+            height="853"
+            fetchpriority="high"
+          />
+        }
+        <p class="overline is-uppercase has-text-black38" [class.mt_x6]="c.image">
+          Download our Super app!
+        </p>
+        <h2 class="f-h3 mt_x2">Continue your booking in the Justlife app</h2>
+        <p class="body-text block copy">
+          Online booking for {{ c.serviceName }} is not available on this website. Download the
+          Justlife app to choose your date and time, pick your professional and confirm your booking
+          in a few taps.
+        </p>
+        <p class="body-text block copy">
+          Book and manage your appointments, view your professional’s profile and ratings, get the
+          latest offers, and much more.
+        </p>
+        <div class="app-icons mt_x6">
+          @for (app of appStores; track app.alt) {
+            <a [href]="app.href" target="_blank" rel="noopener noreferrer">
+              <img [src]="app.img" [alt]="app.alt" width="125" height="40" loading="lazy" />
+            </a>
+          }
+        </div>
+
+        <div class="service-footer-wrapper">
+          <div class="service-footer">
+            <a
+              class="default-button primaryOutline lg fullWidth _c _vc"
+              [appLink]="c.backLink.href"
+            >
+              <span>{{ c.backLink.text }}</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <aside class="sidebar">
+      <div class="sidebar-sticky">
+        <div class="main-card radiusX3 smNoRadius smNoBorder p_x6 sm_px_x4">
+          @if (c.related.length) {
+            <p class="f-subtitle1">More about {{ c.serviceName }}</p>
+            <ul class="link-list mt_x2">
+              @for (link of c.related; track link.href) {
+                <li>
+                  <a class="link-row _sb _vc" [appLink]="link.href">
+                    <span>{{ link.text }}</span>
+                    <img [src]="arrowIcon" alt="" width="16" height="16" />
+                  </a>
+                </li>
+              }
+            </ul>
+          }
+          @if (c.articles.length) {
+            <p class="f-subtitle1" [class.mt_x6]="c.related.length">From our blog</p>
+            <ul class="link-list mt_x2">
+              @for (link of c.articles; track link.href) {
+                <li>
+                  <a class="link-row _sb _vc" [appLink]="link.href">
+                    <span>{{ link.text }}</span>
+                    <img [src]="arrowIcon" alt="" width="16" height="16" />
+                  </a>
+                </li>
+              }
+            </ul>
+          }
+          <p class="f-subtitle1" [class.mt_x6]="c.related.length || c.articles.length">
+            Need help?
+          </p>
+          <ul class="link-list mt_x2">
+            <li>
+              <a class="link-row _sb _vc" [routerLink]="['/', locale(), 'my-account', 'help']">
+                <span>Help</span>
+                <img [src]="arrowIcon" alt="" width="16" height="16" />
+              </a>
+            </li>
+            <li>
+              <a class="link-row _sb _vc" [routerLink]="['/', locale(), 'faq']">
+                <span>F.A.Q</span>
+                <img [src]="arrowIcon" alt="" width="16" height="16" />
+              </a>
+            </li>
+            <li>
+              <a class="link-row _sb _vc" [routerLink]="['/', locale(), 'contact-us']">
+                <span>Contact Us</span>
+                <img [src]="arrowIcon" alt="" width="16" height="16" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </aside>
+  </div>
+</div>

@@ -1,0 +1,188 @@
+{
+ "header": {
+  "logo": "https://a.storyblok.com/f/285972427025846/173x24/7981607c7b/cleanslate-logo.svg",
+  "brand": "by Justlife"
+ },
+ "footer": {
+  "servicesTitle": "Services",
+  "services": [
+   {
+    "text": "Home Cleaning Service",
+    "href": "/en-AE/house-cleaning"
+   },
+   {
+    "text": "AC Cleaning Service",
+    "href": "/en-AE/ac-cleaning"
+   },
+   {
+    "text": "Pest Control Service",
+    "href": "/en-AE/pest-control"
+   },
+   {
+    "text": "Woman's Salon Service",
+    "href": "/en-AE/salon-services-at-home"
+   },
+   {
+    "text": "Woman's Spa & Massage Service",
+    "href": "/en-AE/spa-and-massage-service-at-home"
+   }
+  ],
+  "countries": [
+   {
+    "title": "United Arab Emirates",
+    "cities": [
+     {
+      "text": "Dubai",
+      "href": "/en-AE/dubai"
+     },
+     {
+      "text": "Abu Dhabi",
+      "href": "/en-AE/abu-dhabi"
+     },
+     {
+      "text": "Sharjah",
+      "href": "/en-AE/sharjah"
+     },
+     {
+      "text": "Ajman",
+      "href": "/en-AE/ajman"
+     }
+    ]
+   },
+   {
+    "title": "Saudi Arabia",
+    "cities": [
+     {
+      "text": "Jeddah",
+      "href": "/en-SA/jeddah"
+     },
+     {
+      "text": "Riyadh",
+      "href": "/en-SA/riyadh"
+     }
+    ]
+   },
+   {
+    "title": "Qatar",
+    "cities": [
+     {
+      "text": "Doha",
+      "href": "/"
+     }
+    ]
+   },
+   {
+    "title": "Bahrain",
+    "cities": [
+     {
+      "text": "Manama",
+      "href": "/"
+     }
+    ]
+   },
+   {
+    "title": "Oman",
+    "cities": [
+     {
+      "text": "Oman",
+      "href": "/"
+     }
+    ]
+   }
+  ],
+  "appButtons": [
+   {
+    "href": "https://just.life/YQBgj2",
+    "img": "https://a.storyblok.com/f/285972427025846/120x40/5861ec3add/app-store.svg",
+    "alt": "apple-store",
+    "width": 120,
+    "height": 40,
+    "highlight": true,
+    "newTab": true
+   },
+   {
+    "href": "https://just.life/YQBgj2",
+    "img": "https://a.storyblok.com/f/285972427025846/136x40/78f1ec4f23/google-play.svg",
+    "alt": "google-play",
+    "width": 120,
+    "height": 40,
+    "highlight": false,
+    "newTab": true
+   }
+  ],
+  "social": [
+   {
+    "href": "https://www.linkedin.com/company/justlifemena/",
+    "img": "https://a.storyblok.com/f/285972427025846/33x33/ff1d4c09fa/linkedin-logo.svg",
+    "newTab": true
+   },
+   {
+    "href": "https://www.instagram.com/justlifeuae",
+    "img": "https://a.storyblok.com/f/285972427025846/33x33/912a36d1bd/instagram-logo-v2.svg",
+    "newTab": true
+   },
+   {
+    "href": "https://www.tiktok.com/@justlifeuae",
+    "img": "https://a.storyblok.com/f/285972427025846/33x33/d149cec818/tiktok-logo-v2.svg",
+    "newTab": true
+   },
+   {
+    "href": "https://x.com/justlifeuae",
+    "img": "https://a.storyblok.com/f/285972427025846/33x33/08cb1b106c/x-logo.svg",
+    "newTab": true
+   }
+  ],
+  "links": [
+   {
+    "text": "F.A.Q",
+    "href": "/en-AE/faq",
+    "newTab": true
+   },
+   {
+    "text": "Terms",
+    "href": "/en-AE/terms",
+    "newTab": true
+   },
+   {
+    "text": "Privacy",
+    "href": "/en-AE/privacy",
+    "newTab": true
+   },
+   {
+    "text": "Sitemap",
+    "href": "/en-AE/sitemap",
+    "newTab": true
+   },
+   {
+    "text": "Career",
+    "href": "https://career.justlife.com/",
+    "newTab": true
+   }
+  ]
+ },
+ "justlifeCard": {
+  "logo": "https://a.storyblok.com/f/285972427025846/181x57/b21180d1cf/justlife-logo.svg",
+  "title": "Tired of juggling home tasks?",
+  "button": "Download Justlife",
+  "href": "https://just.life/YQBgj2",
+  "subtitle": "Everything your home needs, in one tap."
+ },
+ "mobileApp": {
+  "title": "About us",
+  "lines": [
+   "We’re Justlife, your one-stop super app for everything home.",
+   "What began in 2015 as Justmop has grown into the region’s go-to platform for cleaning, beauty, healthcare, maintenance, and more.",
+   "With over 10 million bookings completed and thousands of professionals across the GCC, our belief is simple: life is better when it’s clean, manageable, and cared for. That’s the best kind of clean slate."
+  ],
+  "image": "https://a.storyblok.com/f/285972427025846/407x463/7718844817/mobile-apps-v2.png/m/680x774/filters:format(webp)"
+ },
+ "bookNowCard": {
+  "logo": "https://a.storyblok.com/f/285972427025846/140x45/86979fd21d/justlife-logo-blue.svg",
+  "text": "Need things sorted fast? Book UAE’s favorite home services on Justlife.",
+  "button": "Book now"
+ },
+ "map": {
+  "title": "Service Areas",
+  "src": "https://maps.google.com/maps?ll=24.950189,55.070096&z=8&output=embed"
+ }
+}

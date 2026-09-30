@@ -1,0 +1,73 @@
+{
+ "features": {
+  "title": "There are so many reasons to love Justlife!",
+  "subtitle": "Here are the top 4!",
+  "items": [
+   {
+    "icon": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/svgs/star-lg.svg",
+    "alt": "star-lg-icon",
+    "title": "Top rated professionals",
+    "text": "Our professionals are reliable & well-trained, with an average rating of 4.78 out of 5!"
+   },
+   {
+    "icon": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/svgs/schdle_lg.svg",
+    "alt": "schedule-icon",
+    "title": "Same-day availability",
+    "text": "Book in less than 60 seconds, and even select same-day slots."
+   },
+   {
+    "icon": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/svgs/gph-lg.svg",
+    "alt": "graphic-icon",
+    "title": "Top quality, value for money services",
+    "text": "Our professionals are equipped with the best tools and our services are always priced with you in mind."
+   },
+   {
+    "icon": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/svgs/frame.svg",
+    "alt": "frame-icon",
+    "title": "Super app",
+    "text": "Being a Super app means we’ve got the widest range of home services, so we’ve got you covered!"
+   }
+  ]
+ },
+ "promise": {
+  "logo": {
+   "src": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/svgs/jl-insurance-logo.svg",
+   "alt": "insurance-icon",
+   "width": 108,
+   "height": 108
+  },
+  "title": "The Justlife Promise – Excellence in Every Home",
+  "text": "At Justlife, we commit to the highest standards of home care. Our trained professionals deliver a superior service experience, ensuring your home is in expert hands. Your peace of mind is our promise."
+ },
+ "app": {
+  "badge": "Download our Super app!",
+  "title": "Manage all to-dos with a single tap!",
+  "subtitle": "Book and manage your appointments, view your professional’s profile and ratings, get the latest offers, and much more.",
+  "links": [
+   {
+    "href": "https://cutt.ly/JMApp-Website",
+    "img": {
+     "src": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/home/appstore.png?f=webp",
+     "alt": "Download iOS App",
+     "width": 125,
+     "height": 40
+    }
+   },
+   {
+    "href": "https://cutt.ly/JMApp-Website",
+    "img": {
+     "src": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/home/playstore.png?f=webp",
+     "alt": "Download Android App",
+     "width": 125,
+     "height": 40
+    }
+   }
+  ],
+  "image": {
+   "src": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/home/apps.webp?f=webp",
+   "alt": "Footer app",
+   "width": 395,
+   "height": 332
+  }
+ }
+}

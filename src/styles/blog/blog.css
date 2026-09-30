@@ -1,0 +1,6 @@
+/* Blog ("Cleanslate by Justlife", originally a Next.js app) global styles. Loaded as the "blog" style bundle.
+ * The files are the original CSS-module bundles; their class names are globally unique hashes. */
+@import './base.css';
+@import './components.css';
+@import './sections.css';
+@import './pagination.css';

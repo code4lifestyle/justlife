@@ -1,0 +1,30 @@
+{
+ "meta": {
+  "title": "Home Services in UAE - Cleaning, Beauty, PCR, & More",
+  "description": "Get the best professional at home services for beauty, cleaning, PCR and more in UAE",
+  "robots": "noindex, nofollow",
+  "canonical": "https://www.justlife.com/en-AE/pest-control/checkout/flex",
+  "ogTitle": "Home Services in UAE - Cleaning, Beauty, PCR, & More",
+  "ogDescription": "Get the best professional at home services for beauty, cleaning, PCR and more in UAE"
+ },
+ "shell": {
+  "locale": "en-AE",
+  "wrapperClass": "funnel-page-wrapper en lang-service_type-checkout-flex app-layout main-wrapper",
+  "navbarClass": "navbar visitor hide-on-mobile",
+  "footer": {
+   "desktopOnly": true,
+   "servicesTitle": "Service Areas",
+   "serviceAreas": null
+  }
+ },
+ "checkout": {
+  "serviceName": "Pest Control Service",
+  "image": "https://deax38zvkau9d.cloudfront.net/prod/assets/images/uploads/services/1667551131pest-control-services.webp?f=webp&w=1280",
+  "backLink": {
+   "text": "Back to Pest Control Service",
+   "href": "/en-AE/pest-control"
+  },
+  "related": [],
+  "articles": []
+ }
+}

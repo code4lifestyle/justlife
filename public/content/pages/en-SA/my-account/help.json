@@ -1,0 +1,34 @@
+{
+ "meta": {
+  "title": "Help",
+  "description": "Justlife DMCC",
+  "robots": "noindex, nofollow",
+  "canonical": "https://www.justlife.com/en-SA/my-account/help",
+  "ogTitle": "justlife"
+ },
+ "shell": {
+  "locale": "en-SA",
+  "wrapperClass": "en lang-my-account-help app-layout main-wrapper",
+  "navbarClass": "navbar visitor",
+  "footer": {
+   "desktopOnly": true,
+   "servicesTitle": null,
+   "serviceAreas": null
+  }
+ },
+ "title": "Help",
+ "crumb": {
+  "text": "Help",
+  "href": "/en-SA/my-account/help"
+ },
+ "supportLinks": [
+  {
+   "text": "Terms and Conditions",
+   "href": "/en-SA/terms"
+  },
+  {
+   "text": "Privacy Policy",
+   "href": "/en-SA/privacy"
+  }
+ ]
+}

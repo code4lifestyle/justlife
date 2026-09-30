@@ -1,0 +1,35 @@
+{
+ "meta": {
+  "title": "Justlife Home Services – Cleaning, Beauty, Spa, Handyman & More",
+  "description": "Top-rated home services in the UAE, delivered to your door. Cleaning, Beauty, Spa, Handyman & Repairs & more.",
+  "robots": "noindex, nofollow",
+  "canonical": "https://www.justlife.com/en-AE/ac_cleaning_at_home/checkout/flex",
+  "ogTitle": "Justlife Home Services – Cleaning, Beauty, Spa, Handyman & More",
+  "ogDescription": "Top-rated home services in the UAE, delivered to your door. Cleaning, Beauty, Spa, Handyman & Repairs & more."
+ },
+ "shell": {
+  "locale": "en-AE",
+  "wrapperClass": "funnel-page-wrapper en lang-service_type-checkout-flex app-layout main-wrapper",
+  "navbarClass": "navbar visitor hide-on-mobile",
+  "footer": {
+   "desktopOnly": true,
+   "servicesTitle": "Service Areas",
+   "serviceAreas": null
+  }
+ },
+ "checkout": {
+  "serviceName": "AC Cleaning Service",
+  "image": "https://deax38zvkau9d.cloudfront.net/prod/assets/images/uploads/services/1690540430ac-cleaning-service.webp?f=webp&w=1280",
+  "backLink": {
+   "text": "Back to AC Cleaning Service",
+   "href": "/en-AE/ac-cleaning"
+  },
+  "related": [],
+  "articles": [
+   {
+    "text": "3 Alarming Reasons to Clean Your AC Before Summer",
+    "href": "/blog/en-AE/3-alarming-reasons-to-clean-your-ac-before-summer"
+   }
+  ]
+ }
+}

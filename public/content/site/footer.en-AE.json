@@ -1,0 +1,105 @@
+{
+ "services": [
+  {
+   "text": "House Cleaning",
+   "href": "/en-AE/house-cleaning"
+  },
+  {
+   "text": "AC Cleaning Service",
+   "href": "/en-AE/ac-cleaning"
+  },
+  {
+   "text": "Women's Salon",
+   "href": "/en-AE/salon-services-at-home"
+  },
+  {
+   "text": "Women's Spa",
+   "href": "/en-AE/spa-and-massage-service-at-home"
+  },
+  {
+   "text": "Pest Control Service",
+   "href": "/en-AE/pest-control"
+  }
+ ],
+ "cities": [
+  {
+   "title": "United Arab Emirates",
+   "links": [
+    {
+     "text": "Dubai",
+     "href": "/en-AE/dubai"
+    },
+    {
+     "text": "Abu Dhabi",
+     "href": "/en-AE/abu-dhabi"
+    },
+    {
+     "text": "Sharjah",
+     "href": "/en-AE/sharjah"
+    },
+    {
+     "text": "Ajman",
+     "href": "/en-AE/ajman"
+    }
+   ]
+  },
+  {
+   "title": "Saudi Arabia",
+   "links": [
+    {
+     "text": "Jeddah",
+     "href": "/en-SA/jeddah"
+    },
+    {
+     "text": "Riyadh",
+     "href": "/en-SA/riyadh"
+    }
+   ]
+  }
+ ],
+ "ksaDocs": [],
+ "appIcons": [
+  {
+   "href": "https://cutt.ly/JMApp-Website",
+   "img": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/home/appstore.png?f=webp",
+   "alt": "Download iOS App"
+  },
+  {
+   "href": "https://cutt.ly/JMApp-Website",
+   "img": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/home/playstore.png?f=webp",
+   "alt": "Download Android App"
+  }
+ ],
+ "links": [
+  {
+   "text": "Contact Us",
+   "href": "/en-AE/contact-us"
+  },
+  {
+   "text": "F.A.Q",
+   "href": "/en-AE/faq"
+  },
+  {
+   "text": "Terms",
+   "href": "/en-AE/terms"
+  },
+  {
+   "text": "Privacy",
+   "href": "/en-AE/privacy"
+  },
+  {
+   "text": "Sitemap",
+   "href": "/en-AE/sitemap",
+   "id": "sitemap-link"
+  },
+  {
+   "text": "Blog",
+   "href": "/blog/en-AE"
+  },
+  {
+   "text": "Career",
+   "href": "http://career.justlife.com/",
+   "newTab": true
+  }
+ ]
+}

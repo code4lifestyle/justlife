@@ -1,0 +1,10 @@
+/*
+ * "webflow" style world: global CSS of the cat-grooming landing page, originally a standalone
+ * Webflow site with its own resets. Built as the non-injected bundle `webflow.css` and applied by
+ * StyleWorldService only while CatGroomingPage is shown. Same order as the original <head>.
+ * The Google fonts (Montserrat, Poppins) are loaded by CatGroomingPage, asynchronously like the
+ * original WebFont loader, so a slow font server never keeps the page hidden.
+ */
+@import "./normalize.css";
+@import "./webflow-framework.css";
+@import "./cat-grooming-template.css";

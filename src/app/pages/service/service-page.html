@@ -1,0 +1,151 @@
+@let page = content();
+<div class="wrapper h-100">
+  <div class="container h-100 _column">
+    <div class="is-flex breadcrumb is-hidden-mobile">
+      @for (item of page.breadcrumbs; track $index; let first = $first, last = $last) {
+        <div class="has-text-black38 is-flex breadcrumb-item" [class.underline]="!last">
+          @if (!first) {
+            <img [src]="rightArrow" alt="breadcrumb-arrow-icon" class="separator rotate-ar" />
+          }
+          <a [appLink]="item.href" class="has-text-black38">
+            <p class="is-uppercase overline c-capitalize has-text-black38">{{ item.text }}</p>
+          </a>
+        </div>
+      }
+    </div>
+
+    <div class="top-image is-relative">
+      <img [src]="page.image" alt="service" fetchpriority="high" class="service-image" />
+      <div class="image-content">
+        <div class="en content-container">
+          <h1 class="f-h1 m-f-h2 has-text-white">{{ page.title }}</h1>
+          <div class="is-flex">
+            <p class="has-text-white body-text-item">{{ page.subtitle }}</p>
+          </div>
+          <!-- The original nested two <button>s in the link (interactive content inside <a>). The link is the only
+               control: the pills are spans with the same Bulma button classes (see .booknow-button .button). -->
+          <a class="booknow-button" [appLink]="page.bookNow">
+            <span
+              class="button is-rounded is-uppercase has-text-weight-bold is-secondary has-text-white is-hidden-touch"
+            >
+              Book Now
+            </span>
+            <span
+              class="button is-rounded is-uppercase has-text-weight-bold is-secondary has-text-white is-fullwidth is-hidden-desktop"
+            >
+              Book Now
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="is-flex breadcrumb is-hidden-desktop sm_px_x5">
+      <div class="has-text-black38 is-flex breadcrumb-item">
+        <img [src]="leftArrow" alt="left-arrow" class="separator rotate-ar" />
+        <a [appLink]="page.back.href" class="has-text-black38">
+          <p class="is-uppercase overline c-capitalize has-text-black38">{{ page.back.text }}</p>
+        </a>
+      </div>
+    </div>
+
+    <div class="services-content">
+      <div class="service-content" appContentLinks [innerHTML]="page.html | safeHtml"></div>
+    </div>
+
+    @if (showOtherServices()) {
+      <div class="content-services-wrapper">
+        <p class="is-uppercase overline c-capitalize has-text-black38 mb_x2">Everything you need</p>
+        <h2 class="custom-title c-b-m-emp c-text-text-primary mb_x4">
+          What other services can we help you with?
+        </h2>
+        <div class="content-services-list">
+          <div #scroller class="service-cards-scroller" (scroll)="updateArrows()">
+            <div class="_flex sm_px_x4 service-cards">
+              @for (service of otherServices(); track service.href) {
+                <a class="service-card" [appLink]="service.href">
+                  <img
+                    [src]="service.image"
+                    [alt]="service.title"
+                    loading="lazy"
+                    width="208"
+                    height="160"
+                  />
+                  <span class="service-card-title">{{ service.title }}</span>
+                </a>
+              }
+            </div>
+          </div>
+          <!-- arrows only exist while the row overflows (4 cards fit from 1000px up: none); CSS shows them for a
+               mouse (fine pointer) at any width, touch screens below 1024px swipe instead -->
+          @if (canScrollBack()) {
+            <button
+              type="button"
+              class="service-cards-arrow prev"
+              aria-label="Previous services"
+              (click)="scrollCards(-1)"
+            >
+              <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+                <path d="M15 5l-7 7 7 7" />
+              </svg>
+            </button>
+          }
+          @if (canScrollForward()) {
+            <button
+              type="button"
+              class="service-cards-arrow next"
+              aria-label="Next services"
+              (click)="scrollCards(1)"
+            >
+              <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+                <path d="M9 5l7 7-7 7" />
+              </svg>
+            </button>
+          }
+        </div>
+      </div>
+    }
+
+    <div class="mobile-app-downloader container en">
+      <div class="left-content">
+        <div class="section-title-wrapper dark left">
+          <span class="section-badge-text">Download our Super app!</span>
+          <p class="dark section-title">Manage all to-dos with a single tap!</p>
+          <p class="section-subtitle">
+            Book and manage your appointments, view your professional’s profile and ratings, get the
+            latest offers, and much more.
+          </p>
+        </div>
+        <div class="app-icons">
+          <a href="https://cutt.ly/JMApp-Website">
+            <img
+              [src]="cdn + 'home/appstore.png?f=webp'"
+              alt="Download iOS App"
+              loading="lazy"
+              width="125"
+              height="40"
+            />
+          </a>
+          <a href="https://cutt.ly/JMApp-Website">
+            <img
+              [src]="cdn + 'home/playstore.png?f=webp'"
+              alt="Download Android App"
+              loading="lazy"
+              width="125"
+              height="40"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="right-content">
+        <img
+          [src]="cdn + 'home/apps.webp?f=webp'"
+          alt="Footer app"
+          loading="lazy"
+          width="395"
+          height="332"
+        />
+      </div>
+    </div>
+  </div>
+</div>

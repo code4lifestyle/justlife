@@ -1,0 +1,33 @@
+{
+ "meta": {
+  "title": "Cleanslate by Justlife – Cleaning Tips, Home Comfort & Lifestyle",
+  "description": "Explore the Justlife blog for expert cleaning guides, everyday home and wellness tips, and lifestyle hacks designed to bring comfort and peace of mind.",
+  "robots": "index, follow",
+  "canonical": "https://www.justlife.com/blog/en-AE",
+  "ogTitle": "Cleanslate by Justlife – Cleaning Tips, Home Comfort & Lifestyle",
+  "ogDescription": "Explore the Justlife blog for expert cleaning guides, everyday home and wellness tips, and lifestyle hacks designed to bring comfort and peace of mind.",
+  "ogImage": "https://a.storyblok.com/f/285972427025846/192x192/3194ab638d/justlife-logo-mini.webp"
+ },
+ "banner": "3-alarming-reasons-to-clean-your-ac-before-summer",
+ "featured": [
+  "how-to-deep-clean-a-kitchen",
+  "what-is-aromatherapy-massage",
+  "different-types-of-massages"
+ ],
+ "trending": [
+  "bathroom-cleaning-checklist",
+  "how-to-deep-clean-a-kitchen"
+ ],
+ "suggestions": [
+  "bathroom-cleaning-checklist"
+ ],
+ "pages": [
+  [
+   "bathroom-cleaning-checklist",
+   "how-to-deep-clean-a-kitchen",
+   "what-is-aromatherapy-massage",
+   "different-types-of-massages",
+   "3-alarming-reasons-to-clean-your-ac-before-summer"
+  ]
+ ]
+}

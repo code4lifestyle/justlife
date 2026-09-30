@@ -1,0 +1,28 @@
+{
+ "meta": {
+  "title": "Contact Us | Justlife UAE",
+  "description": "Have a question or need support? Our team is here to help. Contact Justlife UAE for inquiries, service requests or assistance.",
+  "robots": "index, follow",
+  "canonical": "https://www.justlife.com/en-AE/contact-us",
+  "ogTitle": "Contact Us",
+  "ogDescription": "Enjoy all of your favorite Home Services in just a matter of few clicks. Visit Justlife.com to book our trustworthy and reliable Home Services.",
+  "ogImage": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/rounded1.png"
+ },
+ "shell": {
+  "locale": "en-AE",
+  "wrapperClass": "en lang-contact-us app-layout main-wrapper",
+  "navbarClass": "navbar visitor",
+  "footer": {
+   "desktopOnly": false,
+   "servicesTitle": "Service Areas",
+   "serviceAreas": null
+  }
+ },
+ "layout": "content",
+ "title": "Contact Us",
+ "crumb": {
+  "text": "Home",
+  "href": "/en-AE"
+ },
+ "html": "<p><strong>Need a Hand?</strong></p>\n<p>You will find instant answers and support in the Help Center on your Justlife app. Whether it is about service charges, booking changes, or our terms, everything you need is just a tap away.<br/>\n </p>\n<p><strong>How to reach the Help Center:</strong></p>\n<ol>\n<li>\n<p>Open the Justlife app and log in<br/>\n\t </p>\n</li>\n<li>\n<p>Tap Profile (bottom right)<br/>\n\t </p>\n</li>\n<li>\n<p>Select Get Help<br/>\n\t </p>\n</li>\n<li>\n<p>Choose your appointment (tap View All if it is not your latest)<br/>\n\t </p>\n</li>\n<li>\n<p>Pick the topic and either start a Live Chat or create a Support Ticket<br/>\n\t </p>\n</li>\n</ol>\n<p><strong>Tip:</strong> You can also find Get Help inside your booking details page to get support on a specific appointment.<br/>\n </p>\n<p><strong>Note: </strong></p>\n<ul>\n<li>Our Live Chat is available between 7 am to 9 pm. Visit our <a href=\"/en-AE/my-account/help\">Help Center </a>on the app or website to get support.  </li>\n<li>​Email is not an official support channel. Using the app ensures your request is tracked and resolved faster<br/>\n\t </li>\n</ul>\n<p><strong>Talking to Your Professional</strong></p>\n<p>If you need to reach your professional before your booking starts, you can:</p>\n<ul>\n<li>Call Professional through the app (with call masking for privacy) by going to Bookings → Edit This Booking → Call Professional<br/>\n\t </li>\n<li>Chat with Professional before your appointment by going to Bookings → Chat With Professional. We will pass the note to your professional<br/>\n\t </li>\n<li>Add or update instructions when creating your booking, or later by going to Bookings → Edit This Booking → Add Instruction. We will pass the note to your professional<br/>\n\t </li>\n</ul>\n<p><strong>Manage It Yourself</strong></p>\n<p>You can make changes to your one-off bookings directly in the app:</p>\n<ul>\n<li>Add special instructions<br/>\n\t </li>\n<li>Change duration<br/>\n\t </li>\n<li>Update materials (for Home Cleaning)<br/>\n\t </li>\n<li>Change address<br/>\n\t </li>\n<li>Reschedule (rescheduling penalty may apply)<br/>\n\t </li>\n<li>Cancel (cancellation penalty may apply)<br/>\n\t </li>\n<li>For packages or recurring services, please raise a support ticket or use Live Chat through the Help Center<br/>\n\t </li>\n</ul>\n<p><strong>Stay in the Loop</strong></p>\n<p>Enable your Justlife app notifications to make sure you never miss an update about your booking.<br/>\n </p>\n<p><strong>Check Our FAQs</strong></p>\n<p>Have a question? Check our <a href=\"/en-AE/faq\">FAQs</a>, where we’ve gathered answers to our most often asked questions, all in one place.</p>"
+}

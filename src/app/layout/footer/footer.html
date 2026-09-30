@@ -1,0 +1,71 @@
+<div class="footer-wrapper">
+  @if (data(); as lists) {
+    <div class="container" [class.is-hidden-touch]="settings().desktopOnly">
+      <div>
+        @if (serviceAreas().length) {
+          <p class="footer-title">Service Areas</p>
+          <div class="services is-flex">
+            @for (link of serviceAreas(); track $index) {
+              <a class="service" [appLink]="link.href" [newTab]="link.newTab">{{ link.text }}</a>
+            }
+          </div>
+        }
+        @if (settings().servicesTitle && lists.services.length) {
+          <p class="footer-title">{{ settings().servicesTitle }}</p>
+          <div class="services is-flex">
+            @for (link of lists.services; track $index) {
+              <a class="service" [appLink]="link.href">{{ link.text }}</a>
+            }
+          </div>
+        } @else {
+          <br />
+        }
+        <div class="_sb _vc sm_wrap">
+          <div class="cities-wrapper">
+            @for (group of lists.cities; track group.title) {
+              @if (group.links.length) {
+                <div class="cities">
+                  <p class="footer-title">{{ group.title }}</p>
+                  <div class="services is-flex">
+                    @for (link of group.links; track link.href) {
+                      <a class="service" [appLink]="link.href">{{ link.text }}</a>
+                    }
+                  </div>
+                </div>
+              }
+            }
+          </div>
+          @if (lists.ksaDocs.length) {
+            <div class="ksa-docs _flex ml_x4">
+              @for (doc of lists.ksaDocs; track doc.href; let last = $last) {
+                <a target="_blank" rel="noopener" [class.mr_x3]="!last" [href]="doc.href">
+                  <img loading="lazy" [alt]="doc.alt" [src]="doc.img" />
+                </a>
+              }
+            </div>
+          }
+        </div>
+      </div>
+      <div class="en footer-bottom">
+        <div class="app-icons">
+          @for (app of lists.appIcons; track app.img) {
+            <a target="_blank" rel="noopener" [href]="app.href">
+              <img height="40" width="125" loading="lazy" [alt]="app.alt" [src]="app.img" />
+            </a>
+          }
+        </div>
+        <div class="footer-links">
+          @for (link of lists.links; track link.href) {
+            <a [appLink]="link.href" [newTab]="link.newTab" [attr.id]="link.id ?? null">
+              @if (link.text === 'Career') {
+                <p class="caption-text-item has-text-white">{{ link.text }}</p>
+              } @else {
+                <span>{{ link.text }}</span>
+              }
+            </a>
+          }
+        </div>
+      </div>
+    </div>
+  }
+</div>

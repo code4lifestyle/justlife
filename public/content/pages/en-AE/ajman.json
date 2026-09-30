@@ -1,0 +1,108 @@
+{
+ "meta": {
+  "title": "Home Services in Ajman - Justlife",
+  "description": "Your trusted home services in Ajman. There are better ways to spend your time. Book your home services in 60 seconds, we will take care of the rest.",
+  "keywords": "maids in uae,maid services in uae,cleaning services in uae,cleaning companies in uae",
+  "robots": "noindex, nofollow",
+  "canonical": "https://www.justlife.com/en-AE/ajman",
+  "ogTitle": "Home Services in Ajman - Justlife",
+  "ogDescription": "Your trusted home services in Ajman. There are better ways to spend your time. Book your home services in 60 seconds, we will take care of the rest.",
+  "ogImage": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/rounded1.png",
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Justlife",
+    "description": "Book House Cleaning, Salon & Spa at home with highest ranking home services app.",
+    "applicationCategory": "House & Home",
+    "author": {
+     "name": "Justlife",
+     "@type": "Organization",
+     "url": "https://www.justlife.com"
+    },
+    "url": "https://www.justlife.com",
+    "hasPart": [
+     {
+      "name": "Justlife (Home Services)",
+      "applicationCategory": "House & Home",
+      "@type": "MobileApplication",
+      "operatingSystem": "iOS",
+      "downloadUrl": "https://apps.apple.com/ae/app/justlife-home-services/id1107705982",
+      "aggregateRating": {
+       "@type": "AggregateRating",
+       "ratingValue": 4.6,
+       "ratingCount": 32846
+      },
+      "offers": [
+       {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "AED",
+        "url": "https://apps.apple.com/ae/app/justlife-home-services/id1107705982"
+       }
+      ]
+     },
+     {
+      "name": "Justlife (Home Services)",
+      "applicationCategory": "House & Home",
+      "@type": "MobileApplication",
+      "operatingSystem": "Android",
+      "downloadUrl": "https://play.google.com/store/apps/details?id=com.mobile.justmop",
+      "aggregateRating": {
+       "@type": "AggregateRating",
+       "ratingValue": 4.6,
+       "ratingCount": 15816
+      },
+      "offers": [
+       {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "AED",
+        "url": "https://play.google.com/store/apps/details?id=com.mobile.justmop"
+       }
+      ]
+     }
+    ],
+    "review": [],
+    "operatingSystem": "Android, iOS",
+    "offers": [
+     {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "AED",
+      "url": "https://play.google.com/store/apps/details?id=com.mobile.justmop"
+     },
+     {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "AED",
+      "url": "https://apps.apple.com/ae/app/justlife-home-services/id1107705982"
+     }
+    ],
+    "aggregateRating": {
+     "@type": "AggregateRating",
+     "ratingValue": 4.6,
+     "reviewCount": 48662
+    },
+    "isAccessibleForFree": true
+   }
+  ]
+ },
+ "shell": {
+  "locale": "en-AE",
+  "wrapperClass": "home-wrapper lg-navbar en lang-services app-layout main-wrapper",
+  "navbarClass": "navbar is-home",
+  "footer": {
+   "desktopOnly": false,
+   "servicesTitle": "Service Areas",
+   "serviceAreas": null
+  }
+ },
+ "kind": "city",
+ "hero": null,
+ "categories": null,
+ "city": {
+  "title": "Expert Home Services by Trusted Professionals",
+  "catalog": "content/home/catalog.en-AE.json"
+ }
+}

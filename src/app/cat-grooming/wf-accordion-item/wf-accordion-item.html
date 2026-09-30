@@ -1,0 +1,39 @@
+<div
+  class="accordion-item-trigger-2"
+  role="button"
+  tabindex="0"
+  [attr.aria-expanded]="open()"
+  [attr.aria-controls]="contentId"
+  (click)="toggle()"
+  (keydown.enter)="onKey($event)"
+  (keydown.space)="onKey($event)"
+>
+  <h3
+    class="accordion-heading-2"
+    [style.color]="headingColor()"
+    [style.transition]="'color ' + transition()"
+  >
+    <strong class="bold-text-copy">{{ item().question }}</strong>
+  </h3>
+  <div
+    class="icon-2 accordion-icon"
+    [style.transform]="open() ? 'rotateZ(180deg)' : null"
+    [style.transition]="'transform ' + transition()"
+  >
+    <img
+      [src]="icon().src"
+      loading="lazy"
+      [attr.width]="icon().width"
+      [alt]="icon().alt"
+      class="image-4"
+    />
+  </div>
+</div>
+<div
+  class="accordion-item-content"
+  #content
+  [id]="contentId"
+  (transitionend)="onTransitionEnd($event)"
+>
+  <p class="paragraph-15" appContentLinks [innerHTML]="item().answerHtml | safeHtml"></p>
+</div>

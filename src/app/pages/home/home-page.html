@@ -1,0 +1,246 @@
+@let page = content();
+<div class="h-100 _column">
+  @if (page.hero; as hero) {
+    <div class="visitor-section">
+      <!-- Welcome: hero with the location search -->
+      <div class="hero-container">
+        <div class="en main-section">
+          <h1 class="main-title">{{ hero.title }}</h1>
+          <div class="location-search-wrapper">
+            <p class="en">{{ hero.search.label }}</p>
+            <div class="location-container welcome-section">
+              <div id="navbar-location-button" class="b_x1 p_x2 lg location-search">
+                <div class="_vc pl_x1">
+                  <div class="pin-wrapper">
+                    <img [src]="hero.search.pinIcon" alt="LocationPin" class="block" />
+                  </div>
+                </div>
+                <div class="_grow location-search-input-wrapper">
+                  <input
+                    #locationInput
+                    id="location-input"
+                    type="text"
+                    name="location-input"
+                    class="location-search-input overflow-hidden"
+                    [class.typed]="searchTerm()"
+                    [placeholder]="hero.search.placeholder"
+                    [attr.aria-label]="hero.search.label"
+                    [value]="searchTerm()"
+                    autocomplete="nope"
+                    (input)="searchTerm.set(locationInput.value)"
+                    (focus)="searchFocused.set(true)"
+                    (blur)="searchFocused.set(false)"
+                    (keydown.escape)="locationInput.blur()"
+                  />
+                </div>
+                <div class="ml_x1 location-search-right">
+                  <div
+                    class="en location-search-clear p_x1 sm_px_x0"
+                    [style.display]="searchTerm() ? null : 'none'"
+                    (mousedown)="$event.preventDefault()"
+                    (click)="clearSearch(locationInput)"
+                  >
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2ZM17 15.6L15.6 17L12 13.4L8.4 17L7 15.6L10.6 12L7 8.4L8.4 7L12 10.6L15.6 7L17 8.4L13.4 12L17 15.6Z"
+                        fill="black"
+                        fill-opacity="0.38"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    id="locate-me-button"
+                    class="locate-me-button _c _vc px_x2 pb_x05 mw_x16 h_x16"
+                    (mousedown)="$event.preventDefault()"
+                    (click)="locationInput.focus()"
+                  >
+                    <span>{{ hero.search.locateMe }}</span>
+                    <div class="locate-me-icon">
+                      <img [src]="hero.search.locateIcon" alt="LocateMe" class="block" />
+                    </div>
+                  </div>
+                </div>
+                <div class="with-border search-results" [class.active]="showSearchResults()">
+                  <div class="_tc p_x2">
+                    <img [src]="hero.search.emptyIcon" alt="SearchEmptyState" loading="lazy" />
+                    <span class="body-text block mt_x4"
+                      >{{ hero.search.emptyTitle }} '{{ searchTerm() }}'</span
+                    >
+                    <span class="body-text block mt_x2">{{ hero.search.emptyHint }}</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="en hero-wrapper">
+          <div class="image-gradient gradient-left"></div>
+          <div class="image-gradient gradient-right"></div>
+          <img [src]="hero.image" [alt]="hero.imageAlt" class="hero-image" fetchpriority="high" />
+        </div>
+      </div>
+
+      @if (page.categories; as categories) {
+        <div id="blog-categories-section" class="wrapper blog-categories-section">
+          <div class="container">
+            <div class="section-title-wrapper dark center">
+              <h2 class="dark section-title">{{ categories.title }}</h2>
+              <p class="section-subtitle">{{ categories.subtitle }}</p>
+            </div>
+            <div class="section-content">
+              @for (card of categories.items; track card.href) {
+                <a class="category-card" [appLink]="card.href">
+                  <div class="category-image">
+                    <img
+                      [src]="card.icon"
+                      [alt]="card.alt"
+                      [attr.width]="card.width"
+                      [attr.height]="card.height"
+                      loading="lazy"
+                    />
+                  </div>
+                  <p>{{ card.text }}</p>
+                </a>
+              }
+            </div>
+          </div>
+        </div>
+      }
+    </div>
+  }
+
+  @if (page.city; as city) {
+    @let shortcuts = catalog()?.shortcuts ?? [];
+    @let services = catalog()?.services ?? [];
+    <div class="retained-section">
+      @if (shortcuts.length) {
+        <div id="service-shortcuts" class="wrapper service-shortcuts">
+          <div class="container">
+            <app-home-slider>
+              <div class="shortcuts">
+                @for (shortcut of shortcuts; track shortcut.href; let i = $index) {
+                  <a [id]="'shortcut-' + i" class="shortcut" [appLink]="shortcut.href">
+                    <div class="mb_x4 image-container _vc _column">
+                      <img
+                        class="shortcut-image"
+                        [src]="shortcut.icon"
+                        [alt]="shortcut.text"
+                        width="60"
+                        height="60"
+                        loading="lazy"
+                      />
+                    </div>
+                    <p class="f-body2 m-f-caption">{{ shortcut.text }}</p>
+                  </a>
+                }
+              </div>
+            </app-home-slider>
+          </div>
+        </div>
+      }
+      <div id="active-services" class="wrapper active-services category-layout">
+        <div class="container">
+          <h1>{{ city.title }}</h1>
+        </div>
+        @if (services.length) {
+          <div class="container">
+            <div class="category-services">
+              <div class="service-cards">
+                @for (service of services; track service.href) {
+                  <a class="service-card pb_x6 sm_pb_x4" [appLink]="service.href">
+                    <div class="service-image">
+                      <img [src]="service.image" [alt]="service.text" loading="lazy" />
+                    </div>
+                    <p class="f-subtitle1 m-f-overline mt_x1">{{ service.text }}</p>
+                  </a>
+                }
+              </div>
+            </div>
+          </div>
+        }
+      </div>
+    </div>
+  }
+
+  @if (common(); as common) {
+    <div id="features-section" class="wrapper features-section">
+      <div class="container">
+        <div class="section-title-wrapper dark center">
+          <h2 class="dark section-title">{{ common.features.title }}</h2>
+          <p class="section-subtitle">{{ common.features.subtitle }}</p>
+        </div>
+        <div class="features-section-content">
+          @for (feature of common.features.items; track feature.icon) {
+            <div class="feature-card">
+              <div class="feature-image">
+                <img [src]="feature.icon" [alt]="feature.alt" loading="lazy" />
+              </div>
+              <p>{{ feature.title }}</p>
+              <span>{{ feature.text }}</span>
+            </div>
+          }
+        </div>
+      </div>
+    </div>
+
+    <div class="wrapper insurance-section">
+      <div class="container">
+        <div class="insurance-section-inside">
+          <div class="insurance-logo">
+            <img
+              [src]="common.promise.logo.src"
+              [alt]="common.promise.logo.alt"
+              [attr.width]="common.promise.logo.width"
+              [attr.height]="common.promise.logo.height"
+              loading="lazy"
+            />
+          </div>
+          <div class="section-title-wrapper white left">
+            <h2 class="white section-title">{{ common.promise.title }}</h2>
+            <p class="section-subtitle">{{ common.promise.text }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mobile-app-downloader container en">
+      <div class="left-content">
+        <div class="section-title-wrapper dark left">
+          <span class="section-badge-text">{{ common.app.badge }}</span>
+          <p class="dark section-title">{{ common.app.title }}</p>
+          <p class="section-subtitle">{{ common.app.subtitle }}</p>
+        </div>
+        <div class="app-icons">
+          @for (link of common.app.links; track link.img.src) {
+            <a [appLink]="link.href">
+              <img
+                [src]="link.img.src"
+                [alt]="link.img.alt"
+                [attr.width]="link.img.width"
+                [attr.height]="link.img.height"
+                loading="lazy"
+              />
+            </a>
+          }
+        </div>
+      </div>
+      <div class="right-content">
+        <img
+          [src]="common.app.image.src"
+          [alt]="common.app.image.alt"
+          [attr.width]="common.app.image.width"
+          [attr.height]="common.app.image.height"
+          loading="lazy"
+        />
+      </div>
+    </div>
+  }
+</div>

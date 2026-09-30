@@ -1,0 +1,14 @@
+/* Initial state of the Webflow interaction "Accordion Open 2": answers start collapsed. */
+.accordion-item-content {
+  height: 0;
+}
+
+.accordion-item-trigger-2:focus {
+  outline: 0;
+}
+
+.accordion-item-trigger-2:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 4px;
+  border-radius: 4px;
+}

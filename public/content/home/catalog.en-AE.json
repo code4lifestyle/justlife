@@ -1,0 +1,71 @@
+{
+ "shortcuts": [
+  {
+   "text": "Home Cleaning",
+   "href": "/en-AE/house-cleaning",
+   "icon": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/svgs/home-cleaning.svg",
+   "alt": "home-cleaning-icon",
+   "width": 55,
+   "height": 57
+  },
+  {
+   "text": "Women’s Salon",
+   "href": "/en-AE/salon-services-at-home",
+   "icon": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/svgs/women-salon.svg",
+   "alt": "women-salon-icon",
+   "width": 38,
+   "height": 52
+  },
+  {
+   "text": "Women’s Spa",
+   "href": "/en-AE/spa-and-massage-service-at-home",
+   "icon": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/svgs/women-spa.svg",
+   "alt": "women-spa-icon",
+   "width": 50,
+   "height": 50
+  },
+  {
+   "text": "A/C Cleaning",
+   "href": "/en-AE/ac-cleaning",
+   "icon": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/svgs/ac-cleaning.svg",
+   "alt": "ac-cleaning-icon",
+   "width": 49,
+   "height": 48
+  },
+  {
+   "text": "Pest Control",
+   "href": "/en-AE/pest-control",
+   "icon": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/svgs/pest-control.svg",
+   "alt": "pest-control-icon",
+   "width": 58,
+   "height": 50
+  }
+ ],
+ "services": [
+  {
+   "text": "House Cleaning",
+   "href": "/en-AE/house-cleaning",
+   "image": "https://deax38zvkau9d.cloudfront.net/prod/assets/images/uploads/services/1689846492house-cleaning-dubai.webp?f=webp&w=1280"
+  },
+  {
+   "text": "AC Cleaning Service",
+   "href": "/en-AE/ac-cleaning",
+   "image": "https://deax38zvkau9d.cloudfront.net/prod/assets/images/uploads/services/1690540430ac-cleaning-service.webp?f=webp&w=1280"
+  },
+  {
+   "text": "Women's Salon",
+   "href": "/en-AE/salon-services-at-home",
+   "image": "https://deax38zvkau9d.cloudfront.net/prod/assets/images/uploads/services/1670927635women-salon-at-home.webp?f=webp&w=1280"
+  },
+  {
+   "text": "Women's Spa",
+   "href": "/en-AE/spa-and-massage-service-at-home",
+   "image": "https://deax38zvkau9d.cloudfront.net/prod/assets/images/uploads/services/1670929266womens-spa-and-massage-service.webp?f=webp&w=1280"
+  },
+  {
+   "text": "Pest Control Service",
+   "href": "/en-AE/pest-control",
+   "image": "https://deax38zvkau9d.cloudfront.net/prod/assets/images/uploads/services/1667551131pest-control-services.webp?f=webp&w=1280"
+  }
+ ]
+}

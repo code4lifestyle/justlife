@@ -1,0 +1,754 @@
+{
+ "meta": {
+  "title": "FAQ | UAE",
+  "description": "Learn everything you need about Justlife UAE. Part time maids service is a more affordable way of having your home cleaned. Enjoy Justlife Experience.",
+  "robots": "index, follow",
+  "canonical": "https://www.justlife.com/en-AE/faq",
+  "ogTitle": "FAQ | UAE",
+  "ogDescription": "Enjoy all of your favorite Home Services in just a matter of few clicks. Visit Justlife.com to book our trustworthy and reliable Home Services.",
+  "ogImage": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/rounded1.png",
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "Will the doctor’s visit be covered under my insurance?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>The reimbursement for consultation is directly dependent on the terms and conditions provided by your insurance provider. Please check with your insurance provider directly whether this service will be covered or not. Neither Justlife nor its partners are responsible for reimbursement. An invoice can be arranged upon the patient&#39;s request.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Can the doctor make a home visit for a consultation?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>Yes, the doctor can visit you for a physical consultation. This could either be at the comfort of your home, office, or hotel.</p>\r\n\r\n<p>&nbsp;</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Is the service available all over UAE?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>No, currently this service is available only for Dubai residents.</p>\r\n\r\n<p>&nbsp;</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Can I use this service in case of an emergency?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>This service is available for non-emergency cases. In case of emergency, you should rush to the nearest hospital as soon as possible.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Can I be prescribed medication during a home visit?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>Yes, a prescription can be given in case medications are needed.</p>\r\n\r\n<p>&nbsp;</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Can controlled medicines be prescribed?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>No, as per DHA regulations, controlled medicines can&rsquo;t be prescribed during a home visit.</p>\r\n\r\n<p>&nbsp;</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Can IV drips and injections be administered, if needed?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>Yes, IV medication and injections can be administered at home.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Can a sick leave be requested?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>If needed, sick leave can be issued for as per DHA guidelines.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is the scope of a home visit by the doctor?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>The doctor will assess the patient&rsquo;s condition, perform a detailed examination, and check vital signs such as blood pressure, pulse rate, oxygen saturation, temperature, and blood sugar. If necessary, a prescription for medications will be provided.</p>\r\n\r\n<p>Additionally, blood work for further investigations and IV therapy treatments may be recommended; these services are charged separately or can be coordinated directly with the doctor team at the time of consultation.</p>\r\n\r\n<p>&nbsp;</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What are the terms and conditions for this service?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p><strong>Terms and Conditions</strong></p>\r\n\r\n<ul style=\"list-style-type:disc; padding-inline-start: 40px\">\r\n\t<li>\r\n\t<p>Maximum consultation time with the doctor will be up to 60 minutes.</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Patients must show valid ID proof at the time of doctor visit.</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Patients must complete registration and consent documents at the time of doctor visit.</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>If a patient is unavailable at the scheduled time, then the doctor will return after waiting for a maximum of 20 minutes. The patient will be charged full penalty as a no-show.</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Rescheduling by patient offers no guarantee of appointment for the same day.</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>All cash collections will be only in AED currency, and it is recommended that the patient provide exact change to the doctor.</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Patients will pay all costs related to medication and laboratory tests directly to the pharmacy and laboratory provider.&nbsp;</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Doctor on-call services should not be used for any emergency medical needs.&nbsp;</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Request for a visit for an additional family member during the visit it is advised to schedule a new booking from JustLife App.&nbsp;</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>In case of an emergency, the doctor will direct the patient to the ER.</p>\r\n\t</li>\r\n</ul>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Can I request a specific cleaning professional?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>You can request a specific cleaner through the App or the website. However, in the event that your requested cleaner is not available, you can still book another cleaner with the same rating.</p>\r\n\r\n<p>We promise to do our best to send you the same cleaner when you book one-time or ad-hoc appointments, but we cannot guarantee their availability as our top-notch crew members get booked up very quickly by weekly clients.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Why do I see a service fee at checkout?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>We charge a small service fee to enhance your Justlife experience, including new features &amp; responsive customer care. The exact fee is always shown at checkout before you confirm your booking.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is Justlife?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>Justlife is the largest online marketplace in the GCC, connecting customers with professional &amp; top‑rated service providers for home cleaning, beauty salon services, wellness &amp; healthcare at home, AC cleaning, home maintenance &amp; more, all through one easy‑to‑use platform.</p>\r\n\r\n<p>We are currently operating in the UAE &amp; KSA. Our goal is simple: to give you your free time back while trusted professionals take care of your home &amp; lifestyle needs. We believe everyone should be able to book a reliable service in under a minute, completely hassle‑free.<br />\r\n&nbsp;</p>\r\n\r\n<p><strong>Choose the service you need</strong></p>\r\n\r\n<ol>\r\n\t<li>Select your preferred date &amp; time</li>\r\n\t<li>Add your contact &amp; address details</li>\r\n\t<li>Pay online or in cash, your choice</li>\r\n\t<li>Sit back &amp; enjoy your free time</li>\r\n</ol>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How do I contact Justlife?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>Write to our Live Chat support, our team is available between <strong>7 AM to 11 PM</strong>. If you are trying to reach us outside this timeframe, our team will contact you as soon as they receive your Chat Request.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Do you supply your own cleaning materials?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>Prefer us to handle the supplies? Our team will bring a complete Justlife Cleaning Kit, which includes:<br />\r\n&nbsp;</p>\r\n\r\n<p><strong>Cleaning Products</strong></p>\r\n\r\n<p>Floor cleaner</p>\r\n\r\n<p>Toilet cleaner</p>\r\n\r\n<p>Multi-purpose cleaner</p>\r\n\r\n<p>Glass cleaner</p>\r\n\r\n<p>Cream cleaner</p>\r\n\r\n<p>Wood furniture polish<br />\r\n<br />\r\n<strong>Cleaning Equipment</strong></p>\r\n\r\n<p>Vacuum Cleaner</p>\r\n\r\n<p>Mop &amp; Stick</p>\r\n\r\n<p>Bucket &amp; Spinner</p>\r\n\r\n<p>Floor Wiper</p>\r\n\r\n<p>Glass Squeegee</p>\r\n\r\n<p>Microfiber Cloth</p>\r\n\r\n<p>Sponge Cloth</p>\r\n\r\n<p>Scouring Pad<br />\r\n&nbsp;</p>\r\n\r\n<p><strong>Note:</strong> An additional AED 10 per hour will be charged if you request cleaning materials, and this charge applies per professional.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What are the nationalities of your cleaning professionals?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>Most of our cleaners are from the Philippines, Nepal &amp; Sri Lanka, along with a few other nationalities.&nbsp;</p>\r\n\r\n<p>All our professionals are carefully trained, background‑checked &amp; trusted for quality service.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Can I ask for more than one cleaning professional?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>Yes. Booking for more cleaners to get the job done is easy. You can request up to four cleaners in total. Simply specify the number of professionals you need while booking the appointment.&nbsp;</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Can I book the same cleaning professional more than once?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<ul>\r\n\t<li>Yes, you can. 90% of our clients have a weekly cleaning with the same cleaner.&nbsp;</li>\r\n\t<li>It is easier for us to provide you with the same cleaner if you have a recurring appointment (usually weekly or bi-weekly).</li>\r\n\t<li>You can enjoy the lifetime discount once under the recurring service.&nbsp;</li>\r\n</ul>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What are the cleaning materials I need to provide?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>If you prefer to provide your own cleaning materials, we recommend having the following items at home:<br />\r\n&nbsp;</p>\r\n\r\n<p>Vacuum cleaner</p>\r\n\r\n<p>Mop</p>\r\n\r\n<p>Multi-purpose Cleaning Spray</p>\r\n\r\n<p>General Purpose Polish</p>\r\n\r\n<p>Floor Cleaner</p>\r\n\r\n<p>Bleach</p>\r\n\r\n<p>Limescale Remover</p>\r\n\r\n<p>Micro Fibre Cloths</p>\r\n\r\n<p>Furniture Polish</p>\r\n\r\n<p>Sponges<br />\r\n<br />\r\n<strong>Note: </strong>An additional AED 10 per hour will be charged if you request cleaning materials, and this charge applies per professional.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Do you have male cleaning professionals?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<ul>\r\n\t<li>We currently do not provide male cleaning professionals, as most of our clients request female cleaners.</li>\r\n\t<li>Our support team is available through live chat to help with any questions or bookings from <strong>7 AM to 11 PM.</strong></li>\r\n</ul>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Is it possible to have the cleaning done even if I am not at home?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<ul>\r\n\t<li>Busy and can&rsquo;t be home during the cleaning session? Worry no more, as our trusted cleaners can get the job done even if you are not around.</li>\r\n\t<li>For recurring services (weekly or bi-weekly), we recommend being present during the first appointment so you can meet the professional, show her your home, and explain your preferences.</li>\r\n\t<li>For one-time cleaning, please let us know how the professional can access your home (e.g., key with security, key under the mat, or door left open). You can also add any special instructions while booking.</li>\r\n</ul>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Can you send cleaning professionals on Fridays?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>Yes! Justlife operates seven days a week, and we can send a trusted cleaner even on Fridays.</p>\r\n\r\n<p><strong>Note: </strong>An additional AED 5 will be added to the hourly rate on Fridays as overtime pay for our cleaners.&nbsp;</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Where can I find promotions and discounts?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>You can find our latest promotions and discounts on our social media pages (Facebook, Twitter, and Instagram), on the Justlife website at www.justlife.com, or directly in the Justlife App.</p>\r\n\r\n<p><strong>Tip: </strong>Enable notifications in the Justlife App to stay updated on new offers &amp; discounts as soon as they&rsquo;re available.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What are my payment options?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p><strong>Justlife offers four payment methods:</strong><br />\r\n&nbsp;</p>\r\n\r\n<p>✅ Cash</p>\r\n\r\n<p>✅ Debit &amp; credit card (Visa and Mastercard)</p>\r\n\r\n<p>✅ Tabby</p>\r\n\r\n<p>✅ Justlife Credits<br />\r\n&nbsp;</p>\r\n\r\n<p>For card payments, we&rsquo;ll send a request to your bank, &amp; once approved, the amount will be charged at booking.</p>\r\n\r\n<p>Your credit card information is safe as we are using one of the most secured payment gateways&nbsp;<a href=\"https://www.checkout.com\">www.checkout.com</a></p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is the Justlife Credit?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p><strong>Save more with Justlife Credits!</strong><br />\r\n&nbsp;</p>\r\n\r\n<p>Justlife Credits let you book services at discounted rates. This is another payment option that gives you more savings whenever you book an appointment. Simply purchase a package that suits your needs and save up to 30% on all Justlife services.<br />\r\n&nbsp;</p>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ul>\r\n\t<li>Payments are deducted from your Justlife Credits in advance.</li>\r\n\t<li>If you cancel an appointment, the deducted amount will automatically be returned to your credit balance.</li>\r\n\t<li>Cancellation and rescheduling fees apply. Please refer to our Cancellation and Rescheduling FAQs for details.</li>\r\n</ul>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How to purchase the Justlife Credit?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p><strong>Purchasing the Justlife Credit is very easy, simply follow the steps below:</strong><br />\r\n<br />\r\n<strong>1. Log in</strong></p>\r\n\r\n<p>Sign in to your Justlife account using your phone number.<br />\r\n&nbsp;</p>\r\n\r\n<p><strong>2. Access Credits</strong></p>\r\n\r\n<p>On the mobile app: Tap on the Credits icon at the bottom navigation bar</p>\r\n\r\n<p>On the website: Click your name in the upper right corner, then select Justlife Credit and choose Top-up Credit.<br />\r\n&nbsp;</p>\r\n\r\n<p><strong>3. Complete your top-up</strong></p>\r\n\r\n<p>Select Justlife Credit and click TOP-UP CREDIT.&nbsp;</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How to check the credit balance?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p><strong>Checking your credit balance is quick and easy:</strong></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>1. Log in</strong></p>\r\n\r\n<p>Sign in to your Justlife account using your phone number.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>2. Access Credit Balance</strong></p>\r\n\r\n<p><strong>On the mobile app:</strong> Tap on the Credits icon in the bottom navigation bar.</p>\r\n\r\n<p><strong>On the website:</strong> On the upper right corner of the screen, please click your name to show the drop-down menu.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>3. Select Justlife Credit</strong></p>\r\n\r\n<p>After selecting it, your total credits will be displayed.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How do I register my card details?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p><strong>Registering your card details is quick and can be done on both the app and the website. Simply follow the steps below:</strong><br />\r\n&nbsp;</p>\r\n\r\n<p><strong>1. Log in</strong></p>\r\n\r\n<p>Sign in to your Justlife account using your phone number.<br />\r\n&nbsp;</p>\r\n\r\n<p><strong>2. On the mobile app</strong></p>\r\n\r\n<ul>\r\n\t<li>Tap the Profile icon in the bottom navigation bar.</li>\r\n\t<li>Go to Payment Methods.</li>\r\n\t<li>Select Add New Card to register your card details.<br />\r\n\t&nbsp;</li>\r\n</ul>\r\n\r\n<p><strong>3. On the website</strong></p>\r\n\r\n<ul>\r\n\t<li>Click your name in the upper right corner to open the drop-down menu.</li>\r\n\t<li>Select Payment Methods.</li>\r\n\t<li>Click Add New to save your card details.</li>\r\n</ul>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Is my credit card information secured with this service?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>Yes! Your credit card information is safe as we are using one of the most Secure payment gateways ✅</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>We use 128-bit SSL encryption during checkout to protect your personal information, ensuring it remains secure and inaccessible to third parties. However, your strongest layer of security is your password &mdash; never share it with anyone.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Justlife also follows a strict privacy policy and complies with all legal requirements. Your data is used only to process your orders and enhance our services.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Note: </strong>Our Customer Care team has no way of changing the payment methods offered to you at checkout. To keep your data private, we are also unable to find out exactly why a payment method is not being offered.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Do your professionals bring card machines for payments?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>No. We recommend you to please provide the exact amount of cash payment to them.&nbsp;</p>\r\n\r\n<p>You can also opt to pay via card while booking your appointment.&nbsp;</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Does your professional bring change to bills?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>Unfortunately, our professionals do not bring change to the bills. We recommend you to please provide the exact amount of cash payment to them.&nbsp;</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Can I get an invoice?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>Yes, you can. The service team will send the invoice to your email address. To request one, please contact us through our live chat support.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How will I receive my refund?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p><strong>Upon the cancellation of any service, you will have two options:</strong></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>1. Refund to Bank Account</strong></p>\r\n\r\n<p>The refund will be processed to your bank account within 7&ndash;14 business days (depending on your bank&rsquo;s policy).</p>\r\n\r\n<p><br />\r\n<strong>2. Refund as Justlife Credit</strong></p>\r\n\r\n<ul>\r\n\t<li>The refund will be added to your Justlife Credits immediately after cancellation.</li>\r\n\t<li>Credits are valid for 60 days from the date of cancellation.<br />\r\n\t&nbsp;</li>\r\n</ul>\r\n\r\n<p><strong>3. Refund Process Details</strong></p>\r\n\r\n<ul>\r\n\t<li>For appointments scheduled within 7 days of booking:</li>\r\n\t<li>We authorize the payment at the time of booking and charge it only after the session is completed.</li>\r\n\t<li>If the booking is canceled before the appointment start time, the authorization is voided and no charge is made (except for any applicable cancellation penalties).</li>\r\n\t<li>This voiding process usually takes 1&ndash;5 business days, depending on your bank.</li>\r\n\t<li>For appointments scheduled more than 7 days in advance:</li>\r\n\t<li>We capture the payment immediately when the appointment is created (as authorization cannot be held for more than 7 days).</li>\r\n\t<li>If a refund is needed, it will follow the standard bank refund timeline of 7&ndash;14 business days (varies by bank).</li>\r\n</ul>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is the price of Home Cleaning?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>Achieving a spotless home doesn&rsquo;t have to be expensive. At Justlife, we offer high-quality cleaning services at affordable rates.</p>\r\n\r\n<p>Pricing ranges from <strong>AED 34 to AED 55 per hour </strong>(without cleaning materials), and may vary depending on the service location you choose.</p>\r\n\r\n<p>Additional <strong>AED 10/hour</strong> applies for cleaning materials.</p>\r\n\r\n<p>Additional <strong>AED 5/hour</strong> applies for Friday bookings.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Can I expect the same cleaning professional for recurring services?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<ul>\r\n\t<li>Bookings are automatically assigned to the next available professional in your area.</li>\r\n\t<li>All professionals are trained, background‑checked, and highly rated for quality and reliability.</li>\r\n\t<li>For recurring bookings, we make every effort to send the same professional whenever possible, but availability may vary.</li>\r\n</ul>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How to book a home cleaning appointment?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>Booking with Justlife is quick and simple. Just simply follow the steps below.</p>\r\n\r\n<p>Visit <strong>www.justlife.com</strong> or open the<strong> Justlife App.</strong></p>\r\n\r\n<p><strong>1.</strong> Select Home Cleaning.</p>\r\n\r\n<p><strong>2.</strong> Choose the number of professionals and hours required.</p>\r\n\r\n<p><strong>3.</strong> Select if you need cleaning materials (optional).</p>\r\n\r\n<p><strong>4. </strong>Add any specific instructions for the professionals.</p>\r\n\r\n<p><strong>5.</strong> Choose your preferred date and time, then click Next.</p>\r\n\r\n<p><strong>6.</strong> Select your payment method and click Complete to confirm your booking.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How do I redeem a voucher code?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>Redeeming a voucher code is simple. Just follow the steps below.<br />\r\n<br />\r\n<strong>1. </strong>During Step 4 of the checkout process, enter your voucher code in the <strong>Add Voucher</strong> Code field.</p>\r\n\r\n<p><strong>2.</strong> Click Apply to activate the discount.</p>\r\n\r\n<p><strong>3. </strong>After the voucher is successfully applied, the discount will automatically be deducted from your total bill.</p>\r\n\r\n<p><strong>Note: </strong>Each voucher has specific terms and conditions that must be met for the discount to apply.</p>\r\n\r\n<p>If you access Justlife via a voucher link from any of our marketing campaigns (app or web), the voucher will be automatically applied when you select the service.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Can I add special instructions while booking?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>Yes, you can. While on the booking page, you will be asked if you have any specific instructions.&nbsp;</p>\n\n<p>If you finished booking the appointment and missed adding the instructions, no worries! You can still update your booking details by following the steps below:</p>\n\n<ol>\n\t<li>\n\t<p>Log in using your phone number.</p>\n\t</li>\n\t<li>\n\t<p>Once logged in:</p>\n\n\t<ol>\n\t\t<li>\n\t\t<p><strong>Mobile application</strong>: please tap the three vertical lines on the upper left corner of your screen to show the slide menu.</p>\n\t\t</li>\n\t\t<li>\n\t\t<p><strong>Website</strong>: On the upper right corner of the screen, please click your name to show the drop-down menu.</p>\n\t\t</li>\n\t</ol>\n\t</li>\n\t<li>\n\t<p>Select <strong>Appointments.</strong></p>\n\t</li>\n\t<li>\n\t<p>Once under the <strong>Upcoming appointment</strong> page, click the desired appointment to be updated.</p>\n\t</li>\n\t<li>\n\t<p>In the instructions field, click <strong>&ldquo;ADD.&rdquo;</strong></p>\n\t</li>\n</ol>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "I forgot to add a special instruction. What should I do?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>No worries, we&rsquo;re happy to help.</p>\r\n\r\n<p><strong>Note</strong> - Share your instruction at least 4 hours before the appointment.</p>\r\n\r\n<p>We&rsquo;ll make sure it&rsquo;s passed on to the professional assigned to your booking.<br />\r\n<br />\r\n<strong>On the Mobile App</strong></p>\r\n\r\n<p><strong>1.</strong> Log in using your phone number.</p>\r\n\r\n<p><strong>2.</strong> Tap the Bookings icon in the bottom navigation bar.</p>\r\n\r\n<p><strong>3.</strong> Go to the Upcoming Bookings section and select your booking.</p>\r\n\r\n<p><strong>4.</strong> Tap Manage Booking and choose Edit This Booking.</p>\r\n\r\n<p><strong>5.</strong> Select Add Instruction, enter your details, and Save.<br />\r\n<br />\r\n<strong>On the Website</strong></p>\r\n\r\n<p><strong>1.</strong> Log in using your phone number.</p>\r\n\r\n<p><strong>2.</strong> Click your name in the upper-right corner to open the drop-down menu.</p>\r\n\r\n<p><strong>3.</strong> Select Bookings and go to the Upcoming Bookings section.</p>\r\n\r\n<p><strong>4.</strong> Click Manage Booking and choose Edit This Booking.</p>\r\n\r\n<p><strong>5.</strong> Select Add Instruction, enter your details, and click Add.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "I booked the appointment with the wrong address, what should I do?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>Want to change your address? Here&rsquo;s how you can do it in a few steps</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>1. <strong>Log In</strong></p>\r\n\r\n<ul>\r\n\t<li>Sign in to your Justlife account using your phone number.<br />\r\n\t&nbsp;</li>\r\n</ul>\r\n\r\n<p>2. <strong>On the Mobile App</strong></p>\r\n\r\n<ul>\r\n\t<li>Tap the Booking icon in the bottom navigation bar.</li>\r\n\t<li>From Upcoming Bookings, select Manage Bookings.</li>\r\n\t<li>Click Edit This Booking.</li>\r\n\t<li>Choose the Change Address option from the list.</li>\r\n\t<li>Tap Add New Address and save.<br />\r\n\t&nbsp;</li>\r\n</ul>\r\n\r\n<p>3. <strong>On the Website</strong></p>\r\n\r\n<ul>\r\n\t<li>Click your name in the upper right corner to open the drop-down menu.</li>\r\n\t<li>Select Bookings and click on your upcoming booking.</li>\r\n\t<li>Click Edit This Booking.</li>\r\n\t<li>Choose the Change Address option from the list.</li>\r\n\t<li>Click Add New Address and save.</li>\r\n</ul>\r\n\r\n<p><br />\r\n<strong>Need Help?</strong></p>\r\n\r\n<p>If you face any issues, contact us via live chat support (available daily from 7 AM to 11 PM) and we&rsquo;ll help you update your address right away.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How can I extend my cleaning?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>If the duration you booked isn&rsquo;t enough, no need to worry. We&rsquo;ll assist you.</p>\r\n\r\n<p>Reach us through our live chat support, available daily from 7 AM to 11 PM.</p>\r\n\r\n<p>Our specialists will check the cleaner&rsquo;s schedule and confirm if an extension is possible.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is my booking reference number?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>You can quickly find your reference number by following these steps:<br />\r\n<br />\r\n1. <strong>Log In</strong></p>\r\n\r\n<ul>\r\n\t<li>Sign in to your Justlife account using your phone number.<br />\r\n\t&nbsp;</li>\r\n</ul>\r\n\r\n<p>2. <strong>On the Mobile App</strong></p>\r\n\r\n<ul>\r\n\t<li>Tap the Booking icon in the bottom navigation bar.</li>\r\n\t<li>Go to Upcoming Bookings and select Manage Bookings.</li>\r\n\t<li>Open Booking Details to view your reference number.</li>\r\n</ul>\r\n\r\n<p><br />\r\n3. <strong>On the Website</strong></p>\r\n\r\n<ul>\r\n\t<li>Click your name in the upper right corner to open the drop-down menu.</li>\r\n\t<li>Select Bookings and open your upcoming booking.</li>\r\n\t<li>Go to Manage Bookings.</li>\r\n\t<li>Open Booking Details to view your reference number.</li>\r\n</ul>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How do I reschedule my appointment?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>Managing your account on the app or website is simple. Follow these steps to reschedule your booking:</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>1. <strong>Log In</strong></p>\r\n\r\n<ul>\r\n\t<li>Sign in to your Justlife account using your phone number.<br />\r\n\t&nbsp;</li>\r\n</ul>\r\n\r\n<p>2. <strong>On the Mobile App</strong></p>\r\n\r\n<ul>\r\n\t<li>Tap the Booking icon in the bottom navigation bar.</li>\r\n\t<li>Go to Upcoming Bookings and select Manage Bookings.</li>\r\n\t<li>Choose Edit Booking and tap the Reschedule option.</li>\r\n\t<li>Select your preferred new date and time slot.</li>\r\n\t<li>Confirm by tapping Reschedule.<br />\r\n\t&nbsp;</li>\r\n</ul>\r\n\r\n<p>3. <strong>On the Website</strong></p>\r\n\r\n<ul>\r\n\t<li>Click your name in the upper right corner to open the drop-down menu.</li>\r\n\t<li>Select Bookings and open your upcoming booking.</li>\r\n\t<li>Go to Manage Bookings.</li>\r\n\t<li>Choose Edit Booking and select the Reschedule option.</li>\r\n\t<li>Pick your preferred new date and time slot.</li>\r\n\t<li>Click Reschedule to confirm.<br />\r\n\t&nbsp;</li>\r\n</ul>\r\n\r\n<p><strong>Note: </strong>Rescheduling may incur a fee because our cleaners&rsquo; schedules are set ahead of time. See the table below for details.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How can I cancel my booking?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>You can cancel your booking anytime through the Justlife app or website by following these steps:</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>1. <strong>Log In</strong></p>\r\n\r\n<ul>\r\n\t<li>Sign in to your Justlife account using your phone number.</li>\r\n</ul>\r\n\r\n<p><br />\r\n2. <strong>On the Mobile App</strong></p>\r\n\r\n<ul>\r\n\t<li>Tap the Booking icon in the bottom navigation bar.</li>\r\n\t<li>Go to Upcoming Bookings and select Manage Bookings.</li>\r\n\t<li>Choose Edit Booking and tap the Cancel option.</li>\r\n\t<li>Click Cancel This Booking.</li>\r\n\t<li>Select the Reason for Cancelling and tap Confirm.</li>\r\n</ul>\r\n\r\n<p><br />\r\n3. <strong>On the Website</strong></p>\r\n\r\n<ul>\r\n\t<li>Click your name in the upper right corner to open the drop-down menu.</li>\r\n\t<li>Select Bookings and open your upcoming booking.</li>\r\n\t<li>Go to Manage Bookings.</li>\r\n\t<li>Choose Edit Booking and select the Cancel option.</li>\r\n\t<li>Select the Reason for Cancelling and confirm.<br />\r\n\t&nbsp;</li>\r\n</ul>\r\n\r\n<p><strong>Note:</strong> A cancellation fee may apply, as our professionals&rsquo; schedules are arranged in advance. Please refer to the table below for details.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "My cleaning professional is late. What should I do?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<ul>\r\n\t<li>At Justlife, we aim to provide the best experience and understand how valuable your time is.</li>\r\n\t<li>If there&rsquo;s a possible delay due to traffic or other reasons, we&rsquo;ll contact you in advance to set expectations and provide options.</li>\r\n\t<li>We also send a WhatsApp message to confirm once the cleaner has arrived, helping you track everything easily.</li>\r\n\t<li>In the unlikely event of a delay, please reach us immediately through our live chat support, available daily from <strong>7 AM to 11 PM.</strong></li>\r\n</ul>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How can I rate my cleaning professional and provide feedback?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<ul>\r\n\t<li>We&rsquo;d love to hear about your recent experience with Justlife.&nbsp;</li>\r\n\t<li>After your session, you&rsquo;ll receive a notification via email, SMS, or the app asking for your feedback and rating.</li>\r\n\t<li>Rate the cleaner&rsquo;s performance on a scale of 1 to 5, with 5 being the highest.</li>\r\n\t<li>Feel free to share any comments &amp; your feedback helps us improve our service and serve you better.</li>\r\n</ul>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Why did you send me a different cleaning professional and not the one I requested for?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p><strong>For One-Time Appointments</strong></p>\r\n\r\n<ul>\r\n\t<li>We&rsquo;ll always do our best to assign the same cleaner for one-time or ad-hoc bookings. However, we cannot guarantee availability, as our top crew members are often booked quickly by weekly clients.</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>For Recurring Appointments</strong></p>\r\n\r\n<ul>\r\n\t<li>Justlife is committed to providing the best experience &mdash; from booking your appointment to the actual cleaning service.</li>\r\n\t<li>If your regular cleaner is unavailable, we&rsquo;ll notify you immediately to set expectations and share options.</li>\r\n\t<li>In the unlikely event you do not get your regular cleaner, please contact us right away through our live chat support, available daily from 7 AM to 11 PM.</li>\r\n</ul>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "My cleaning professional did not show up. What should I do?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<ul>\r\n\t<li>We sincerely apologize for the inconvenience. At Justlife, we aim to provide the best experience from booking your appointment to completing the service itself.</li>\r\n\t<li>In the unlikely event that we miss your service, please contact us immediately through our live chat support, available daily from <strong>7 AM to 11 PM.</strong></li>\r\n\t<li>Our case specialist will get in touch with you immediately to resolve the issue.</li>\r\n</ul>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "I'm not happy with the quality of the cleaning. What should i do?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<ul>\r\n\t<li>We sincerely apologize for the inconvenience. At Justlife, we strive to provide the best quality experience and ensure all our cleaning professionals are well-trained.</li>\r\n\t<li>If, in the unlikely event, the service does not meet your expectations, please notify us within 24 hours.</li>\r\n\t<li>You can contact us through our live chat support, available daily from <strong>7 AM to 11 PM.</strong></li>\r\n\t<li>Kindly share photos of the areas that were not cleaned properly to help us resolve the issue promptly.</li>\r\n</ul>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What should I do if the professional damaged my belongings?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<ul>\r\n\t<li>We apologize for the inconvenience. At Justlife, we aim to provide the best quality experience to our clients and ensure all our professionals are well-trained.</li>\r\n\t<li>In the unlikely event your expectations are not met or an item is damaged, please notify us within 24 hours.</li>\r\n\t<li>Contact us via live chat support, available daily from <strong>7 AM to 11 PM.</strong></li>\r\n\t<li>Kindly send photos of the damaged belongings as evidence to assist with our investigation.</li>\r\n\t<li>Our specialists will review the case and reach out to you within 24 hours.</li>\r\n</ul>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "My items are missing. What should I do?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<ul>\r\n\t<li>We apologize for the inconvenience. At Justlife, we aim to provide the best quality experience to our clients and ensure all our professionals are well-trained.</li>\r\n\t<li>In the unlikely event that an item is missing or your expectations are not met, please notify us within 24 hours.</li>\r\n\t<li>Contact us via live chat support, available daily from <strong>7 AM to 11 PM.</strong></li>\r\n\t<li>Kindly share photos or any relevant details about the missing item to assist with our investigation.</li>\r\n\t<li>Our specialists will review the case and reach out to you within 24 hours.</li>\r\n</ul>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Do I need to create a Justlife account to book an appointment?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<ul>\r\n\t<li>Yes, you need to have a registered Justlife account to book an appointment. Creating an account is quick and simple, and it saves you from re-entering your details every time you book.</li>\r\n\t<li>When you make your first booking, you&#39;ll be prompted to create an account.</li>\r\n\t<li>Just follow the on-screen instructions to complete the setup in seconds.</li>\r\n</ul>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How do I log in to my account?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>Logging in to your Justlife account is quick and simple. Follow these steps:<br />\r\n&nbsp;</p>\r\n\r\n<p><strong>On the Mobile App</strong></p>\r\n\r\n<ol>\r\n\t<li>Tap the Profile icon in the bottom navigation bar.</li>\r\n\t<li>Select Log In, enter your mobile number, and request an OTP.</li>\r\n\t<li>Enter the verification code sent to you via SMS to access your account.</li>\r\n</ol>\r\n\r\n<p><br />\r\n<strong>On the Website</strong></p>\r\n\r\n<ol>\r\n\t<li>Click your name in the upper right corner to open the drop-down menu.</li>\r\n\t<li>Select Log In, enter your mobile number, and request an OTP.</li>\r\n\t<li>Enter the verification code sent to you via SMS to access your account.</li>\r\n</ol>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How do I add or update my address?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>Managing your account is simple. Follow these steps to update or add a new address.<br />\r\n&nbsp;</p>\r\n\r\n<p>1. <strong>Log In</strong></p>\r\n\r\n<ul>\r\n\t<li>Sign in to your Justlife account using your phone number.<br />\r\n\t&nbsp;</li>\r\n</ul>\r\n\r\n<p>2. <strong>On the Mobile App</strong></p>\r\n\r\n<ul>\r\n\t<li>Tap the Profile icon in the bottom navigation bar.</li>\r\n\t<li>Go to Addresses.</li>\r\n\t<li>To add a new address: tap Add New Address and save.</li>\r\n\t<li>To update an existing address: tap Edit, make the changes, and save.<br />\r\n\t&nbsp;</li>\r\n</ul>\r\n\r\n<p>3. <strong>On the Website</strong></p>\r\n\r\n<ul>\r\n\t<li>Click your name in the upper right corner to open the drop-down menu.</li>\r\n\t<li>Go to Addresses.</li>\r\n\t<li>To add a new address: click Add New Address and save.</li>\r\n\t<li>To update an existing address: click Edit, make the changes, and save.</li>\r\n</ul>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How do I update my personal details?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>Managing your account on the Justlife app or website is simple. Follow these steps to update your personal details:</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>1. <strong>Log In</strong></p>\r\n\r\n<ul>\r\n\t<li>Sign in to your Justlife account using your phone number.</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>2. <strong>On the Mobile App</strong></p>\r\n\r\n<ul>\r\n\t<li>Tap the Profile icon in the bottom navigation bar.</li>\r\n\t<li>Select the Profile option.</li>\r\n\t<li>Update your personal details and save.</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>3. <strong>On the Website</strong></p>\r\n\r\n<ul>\r\n\t<li>Click your name in the upper right corner to open the drop-down menu.</li>\r\n\t<li>Go to Profile.</li>\r\n\t<li>Update your personal details and save.</li>\r\n</ul>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How can I check my appointment history?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>You can easily view your appointment history through the Justlife app or website. Follow these steps:<br />\r\n&nbsp;</p>\r\n\r\n<p>1. <strong>Log In</strong></p>\r\n\r\n<ul>\r\n\t<li>Sign in to your Justlife account using your phone number.</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>2. <strong>On the Mobile App</strong></p>\r\n\r\n<ul>\r\n\t<li>Tap the Booking icon in the bottom navigation bar.</li>\r\n\t<li>On the Appointments page, you&rsquo;ll see both your upcoming and past appointments, along with full booking details.</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>3. <strong>On the Website</strong></p>\r\n\r\n<ul>\r\n\t<li>Click your name in the upper right corner to open the drop-down menu.</li>\r\n\t<li>Select Bookings.</li>\r\n\t<li>On the Appointments page, you&rsquo;ll see both your upcoming and past appointments, along with full booking details.</li>\r\n</ul>"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "shell": {
+  "locale": "en-AE",
+  "wrapperClass": "en lang-faq app-layout main-wrapper",
+  "navbarClass": "navbar visitor",
+  "footer": {
+   "desktopOnly": false,
+   "servicesTitle": "Service Areas",
+   "serviceAreas": null
+  }
+ },
+ "title": "Frequently asked questions",
+ "crumb": {
+  "text": "Home",
+  "href": "/en-AE"
+ },
+ "categories": [
+  {
+   "name": "Doctor at Home",
+   "items": [
+    {
+     "question": "Will the doctor’s visit be covered under my insurance?",
+     "answer": "<p>The reimbursement for consultation is directly dependent on the terms and conditions provided by your insurance provider. Please check with your insurance provider directly whether this service will be covered or not. Neither Justlife nor its partners are responsible for reimbursement. An invoice can be arranged upon the patient's request.</p>"
+    },
+    {
+     "question": "Can the doctor make a home visit for a consultation?",
+     "answer": "<p>Yes, the doctor can visit you for a physical consultation. This could either be at the comfort of your home, office, or hotel.</p>\n<p> </p>"
+    },
+    {
+     "question": "Is the service available all over UAE?",
+     "answer": "<p>No, currently this service is available only for Dubai residents.</p>\n<p> </p>"
+    },
+    {
+     "question": "Can I use this service in case of an emergency?",
+     "answer": "<p>This service is available for non-emergency cases. In case of emergency, you should rush to the nearest hospital as soon as possible.</p>"
+    },
+    {
+     "question": "Can I be prescribed medication during a home visit?",
+     "answer": "<p>Yes, a prescription can be given in case medications are needed.</p>\n<p> </p>"
+    },
+    {
+     "question": "Can controlled medicines be prescribed?",
+     "answer": "<p>No, as per DHA regulations, controlled medicines can’t be prescribed during a home visit.</p>\n<p> </p>"
+    },
+    {
+     "question": "Can IV drips and injections be administered, if needed?",
+     "answer": "<p>Yes, IV medication and injections can be administered at home.</p>"
+    },
+    {
+     "question": "Can a sick leave be requested?",
+     "answer": "<p>If needed, sick leave can be issued for as per DHA guidelines.</p>"
+    },
+    {
+     "question": "What is the scope of a home visit by the doctor?",
+     "answer": "<p>The doctor will assess the patient’s condition, perform a detailed examination, and check vital signs such as blood pressure, pulse rate, oxygen saturation, temperature, and blood sugar. If necessary, a prescription for medications will be provided.</p>\n<p>Additionally, blood work for further investigations and IV therapy treatments may be recommended; these services are charged separately or can be coordinated directly with the doctor team at the time of consultation.</p>\n<p> </p>"
+    },
+    {
+     "question": "What are the terms and conditions for this service?",
+     "answer": "<p><strong>Terms and Conditions</strong></p>\n<ul style=\"list-style-type:disc; padding-inline-start: 40px\">\n<li>\n<p>Maximum consultation time with the doctor will be up to 60 minutes.</p>\n</li>\n<li>\n<p>Patients must show valid ID proof at the time of doctor visit.</p>\n</li>\n<li>\n<p>Patients must complete registration and consent documents at the time of doctor visit.</p>\n</li>\n<li>\n<p>If a patient is unavailable at the scheduled time, then the doctor will return after waiting for a maximum of 20 minutes. The patient will be charged full penalty as a no-show.</p>\n</li>\n<li>\n<p>Rescheduling by patient offers no guarantee of appointment for the same day.</p>\n</li>\n<li>\n<p>All cash collections will be only in AED currency, and it is recommended that the patient provide exact change to the doctor.</p>\n</li>\n<li>\n<p>Patients will pay all costs related to medication and laboratory tests directly to the pharmacy and laboratory provider. </p>\n</li>\n<li>\n<p>Doctor on-call services should not be used for any emergency medical needs. </p>\n</li>\n<li>\n<p>Request for a visit for an additional family member during the visit it is advised to schedule a new booking from JustLife App. </p>\n</li>\n<li>\n<p>In case of an emergency, the doctor will direct the patient to the ER.</p>\n</li>\n</ul>"
+    }
+   ]
+  },
+  {
+   "name": "General",
+   "items": [
+    {
+     "question": "Can I request a specific cleaning professional?",
+     "answer": "<p>You can request a specific cleaner through the App or the website. However, in the event that your requested cleaner is not available, you can still book another cleaner with the same rating.</p>\n<p>We promise to do our best to send you the same cleaner when you book one-time or ad-hoc appointments, but we cannot guarantee their availability as our top-notch crew members get booked up very quickly by weekly clients.</p>"
+    },
+    {
+     "question": "Why do I see a service fee at checkout?",
+     "answer": "<p>We charge a small service fee to enhance your Justlife experience, including new features &amp; responsive customer care. The exact fee is always shown at checkout before you confirm your booking.</p>"
+    },
+    {
+     "question": "What is Justlife?",
+     "answer": "<p>Justlife is the largest online marketplace in the GCC, connecting customers with professional &amp; top‑rated service providers for home cleaning, beauty salon services, wellness &amp; healthcare at home, AC cleaning, home maintenance &amp; more, all through one easy‑to‑use platform.</p>\n<p>We are currently operating in the UAE &amp; KSA. Our goal is simple: to give you your free time back while trusted professionals take care of your home &amp; lifestyle needs. We believe everyone should be able to book a reliable service in under a minute, completely hassle‑free.<br/>\n </p>\n<p><strong>Choose the service you need</strong></p>\n<ol>\n<li>Select your preferred date &amp; time</li>\n<li>Add your contact &amp; address details</li>\n<li>Pay online or in cash, your choice</li>\n<li>Sit back &amp; enjoy your free time</li>\n</ol>"
+    },
+    {
+     "question": "How do I contact Justlife?",
+     "answer": "<p>Write to our Live Chat support, our team is available between <strong>7 AM to 11 PM</strong>. If you are trying to reach us outside this timeframe, our team will contact you as soon as they receive your Chat Request.</p>"
+    },
+    {
+     "question": "Do you supply your own cleaning materials?",
+     "answer": "<p>Prefer us to handle the supplies? Our team will bring a complete Justlife Cleaning Kit, which includes:<br/>\n </p>\n<p><strong>Cleaning Products</strong></p>\n<p>Floor cleaner</p>\n<p>Toilet cleaner</p>\n<p>Multi-purpose cleaner</p>\n<p>Glass cleaner</p>\n<p>Cream cleaner</p>\n<p>Wood furniture polish<br/>\n<br/>\n<strong>Cleaning Equipment</strong></p>\n<p>Vacuum Cleaner</p>\n<p>Mop &amp; Stick</p>\n<p>Bucket &amp; Spinner</p>\n<p>Floor Wiper</p>\n<p>Glass Squeegee</p>\n<p>Microfiber Cloth</p>\n<p>Sponge Cloth</p>\n<p>Scouring Pad<br/>\n </p>\n<p><strong>Note:</strong> An additional AED 10 per hour will be charged if you request cleaning materials, and this charge applies per professional.</p>"
+    },
+    {
+     "question": "What are the nationalities of your cleaning professionals?",
+     "answer": "<p>Most of our cleaners are from the Philippines, Nepal &amp; Sri Lanka, along with a few other nationalities. </p>\n<p>All our professionals are carefully trained, background‑checked &amp; trusted for quality service.</p>"
+    },
+    {
+     "question": "Can I ask for more than one cleaning professional?",
+     "answer": "<p>Yes. Booking for more cleaners to get the job done is easy. You can request up to four cleaners in total. Simply specify the number of professionals you need while booking the appointment. </p>"
+    },
+    {
+     "question": "Can I book the same cleaning professional more than once?",
+     "answer": "<ul>\n<li>Yes, you can. 90% of our clients have a weekly cleaning with the same cleaner. </li>\n<li>It is easier for us to provide you with the same cleaner if you have a recurring appointment (usually weekly or bi-weekly).</li>\n<li>You can enjoy the lifetime discount once under the recurring service. </li>\n</ul>"
+    },
+    {
+     "question": "What are the cleaning materials I need to provide?",
+     "answer": "<p>If you prefer to provide your own cleaning materials, we recommend having the following items at home:<br/>\n </p>\n<p>Vacuum cleaner</p>\n<p>Mop</p>\n<p>Multi-purpose Cleaning Spray</p>\n<p>General Purpose Polish</p>\n<p>Floor Cleaner</p>\n<p>Bleach</p>\n<p>Limescale Remover</p>\n<p>Micro Fibre Cloths</p>\n<p>Furniture Polish</p>\n<p>Sponges<br/>\n<br/>\n<strong>Note: </strong>An additional AED 10 per hour will be charged if you request cleaning materials, and this charge applies per professional.</p>"
+    },
+    {
+     "question": "Do you have male cleaning professionals?",
+     "answer": "<ul>\n<li>We currently do not provide male cleaning professionals, as most of our clients request female cleaners.</li>\n<li>Our support team is available through live chat to help with any questions or bookings from <strong>7 AM to 11 PM.</strong></li>\n</ul>"
+    },
+    {
+     "question": "Is it possible to have the cleaning done even if I am not at home?",
+     "answer": "<ul>\n<li>Busy and can’t be home during the cleaning session? Worry no more, as our trusted cleaners can get the job done even if you are not around.</li>\n<li>For recurring services (weekly or bi-weekly), we recommend being present during the first appointment so you can meet the professional, show her your home, and explain your preferences.</li>\n<li>For one-time cleaning, please let us know how the professional can access your home (e.g., key with security, key under the mat, or door left open). You can also add any special instructions while booking.</li>\n</ul>"
+    },
+    {
+     "question": "Can you send cleaning professionals on Fridays?",
+     "answer": "<p>Yes! Justlife operates seven days a week, and we can send a trusted cleaner even on Fridays.</p>\n<p><strong>Note: </strong>An additional AED 5 will be added to the hourly rate on Fridays as overtime pay for our cleaners. </p>"
+    },
+    {
+     "question": "Where can I find promotions and discounts?",
+     "answer": "<p>You can find our latest promotions and discounts on our social media pages (Facebook, Twitter, and Instagram), on the Justlife website at www.justlife.com, or directly in the Justlife App.</p>\n<p><strong>Tip: </strong>Enable notifications in the Justlife App to stay updated on new offers &amp; discounts as soon as they’re available.</p>"
+    }
+   ]
+  },
+  {
+   "name": "Payment",
+   "items": [
+    {
+     "question": "What are my payment options?",
+     "answer": "<p><strong>Justlife offers four payment methods:</strong><br/>\n </p>\n<p>✅ Cash</p>\n<p>✅ Debit &amp; credit card (Visa and Mastercard)</p>\n<p>✅ Tabby</p>\n<p>✅ Justlife Credits<br/>\n </p>\n<p>For card payments, we’ll send a request to your bank, &amp; once approved, the amount will be charged at booking.</p>\n<p>Your credit card information is safe as we are using one of the most secured payment gateways <a href=\"https://www.checkout.com/\">www.checkout.com</a></p>"
+    },
+    {
+     "question": "What is the Justlife Credit?",
+     "answer": "<p><strong>Save more with Justlife Credits!</strong><br/>\n </p>\n<p>Justlife Credits let you book services at discounted rates. This is another payment option that gives you more savings whenever you book an appointment. Simply purchase a package that suits your needs and save up to 30% on all Justlife services.<br/>\n </p>\n<p><strong>Note:</strong></p>\n<ul>\n<li>Payments are deducted from your Justlife Credits in advance.</li>\n<li>If you cancel an appointment, the deducted amount will automatically be returned to your credit balance.</li>\n<li>Cancellation and rescheduling fees apply. Please refer to our Cancellation and Rescheduling FAQs for details.</li>\n</ul>"
+    },
+    {
+     "question": "How to purchase the Justlife Credit?",
+     "answer": "<p><strong>Purchasing the Justlife Credit is very easy, simply follow the steps below:</strong><br/>\n<br/>\n<strong>1. Log in</strong></p>\n<p>Sign in to your Justlife account using your phone number.<br/>\n </p>\n<p><strong>2. Access Credits</strong></p>\n<p>On the mobile app: Tap on the Credits icon at the bottom navigation bar</p>\n<p>On the website: Click your name in the upper right corner, then select Justlife Credit and choose Top-up Credit.<br/>\n </p>\n<p><strong>3. Complete your top-up</strong></p>\n<p>Select Justlife Credit and click TOP-UP CREDIT. </p>"
+    },
+    {
+     "question": "How to check the credit balance?",
+     "answer": "<p><strong>Checking your credit balance is quick and easy:</strong></p>\n<p> </p>\n<p><strong>1. Log in</strong></p>\n<p>Sign in to your Justlife account using your phone number.</p>\n<p> </p>\n<p><strong>2. Access Credit Balance</strong></p>\n<p><strong>On the mobile app:</strong> Tap on the Credits icon in the bottom navigation bar.</p>\n<p><strong>On the website:</strong> On the upper right corner of the screen, please click your name to show the drop-down menu.</p>\n<p> </p>\n<p><strong>3. Select Justlife Credit</strong></p>\n<p>After selecting it, your total credits will be displayed.</p>"
+    },
+    {
+     "question": "How do I register my card details?",
+     "answer": "<p><strong>Registering your card details is quick and can be done on both the app and the website. Simply follow the steps below:</strong><br/>\n </p>\n<p><strong>1. Log in</strong></p>\n<p>Sign in to your Justlife account using your phone number.<br/>\n </p>\n<p><strong>2. On the mobile app</strong></p>\n<ul>\n<li>Tap the Profile icon in the bottom navigation bar.</li>\n<li>Go to Payment Methods.</li>\n<li>Select Add New Card to register your card details.<br/>\n\t </li>\n</ul>\n<p><strong>3. On the website</strong></p>\n<ul>\n<li>Click your name in the upper right corner to open the drop-down menu.</li>\n<li>Select Payment Methods.</li>\n<li>Click Add New to save your card details.</li>\n</ul>"
+    },
+    {
+     "question": "Is my credit card information secured with this service?",
+     "answer": "<p>Yes! Your credit card information is safe as we are using one of the most Secure payment gateways ✅</p>\n<p> </p>\n<p>We use 128-bit SSL encryption during checkout to protect your personal information, ensuring it remains secure and inaccessible to third parties. However, your strongest layer of security is your password — never share it with anyone.</p>\n<p> </p>\n<p>Justlife also follows a strict privacy policy and complies with all legal requirements. Your data is used only to process your orders and enhance our services.</p>\n<p> </p>\n<p><strong>Note: </strong>Our Customer Care team has no way of changing the payment methods offered to you at checkout. To keep your data private, we are also unable to find out exactly why a payment method is not being offered.</p>"
+    },
+    {
+     "question": "Do your professionals bring card machines for payments?",
+     "answer": "<p>No. We recommend you to please provide the exact amount of cash payment to them. </p>\n<p>You can also opt to pay via card while booking your appointment. </p>"
+    },
+    {
+     "question": "Does your professional bring change to bills?",
+     "answer": "<p>Unfortunately, our professionals do not bring change to the bills. We recommend you to please provide the exact amount of cash payment to them. </p>"
+    },
+    {
+     "question": "Can I get an invoice?",
+     "answer": "<p>Yes, you can. The service team will send the invoice to your email address. To request one, please contact us through our live chat support.</p>"
+    },
+    {
+     "question": "How will I receive my refund?",
+     "answer": "<p><strong>Upon the cancellation of any service, you will have two options:</strong></p>\n<p> </p>\n<p><strong>1. Refund to Bank Account</strong></p>\n<p>The refund will be processed to your bank account within 7–14 business days (depending on your bank’s policy).</p>\n<p><br/>\n<strong>2. Refund as Justlife Credit</strong></p>\n<ul>\n<li>The refund will be added to your Justlife Credits immediately after cancellation.</li>\n<li>Credits are valid for 60 days from the date of cancellation.<br/>\n\t </li>\n</ul>\n<p><strong>3. Refund Process Details</strong></p>\n<ul>\n<li>For appointments scheduled within 7 days of booking:</li>\n<li>We authorize the payment at the time of booking and charge it only after the session is completed.</li>\n<li>If the booking is canceled before the appointment start time, the authorization is voided and no charge is made (except for any applicable cancellation penalties).</li>\n<li>This voiding process usually takes 1–5 business days, depending on your bank.</li>\n<li>For appointments scheduled more than 7 days in advance:</li>\n<li>We capture the payment immediately when the appointment is created (as authorization cannot be held for more than 7 days).</li>\n<li>If a refund is needed, it will follow the standard bank refund timeline of 7–14 business days (varies by bank).</li>\n</ul>"
+    },
+    {
+     "question": "What is the price of Home Cleaning?",
+     "answer": "<p>Achieving a spotless home doesn’t have to be expensive. At Justlife, we offer high-quality cleaning services at affordable rates.</p>\n<p>Pricing ranges from <strong>AED 34 to AED 55 per hour </strong>(without cleaning materials), and may vary depending on the service location you choose.</p>\n<p>Additional <strong>AED 10/hour</strong> applies for cleaning materials.</p>\n<p>Additional <strong>AED 5/hour</strong> applies for Friday bookings.</p>"
+    }
+   ]
+  },
+  {
+   "name": "Home Cleaning",
+   "items": [
+    {
+     "question": "Can I expect the same cleaning professional for recurring services?",
+     "answer": "<ul>\n<li>Bookings are automatically assigned to the next available professional in your area.</li>\n<li>All professionals are trained, background‑checked, and highly rated for quality and reliability.</li>\n<li>For recurring bookings, we make every effort to send the same professional whenever possible, but availability may vary.</li>\n</ul>"
+    },
+    {
+     "question": "How to book a home cleaning appointment?",
+     "answer": "<p>Booking with Justlife is quick and simple. Just simply follow the steps below.</p>\n<p>Visit <strong>www.justlife.com</strong> or open the<strong> Justlife App.</strong></p>\n<p><strong>1.</strong> Select Home Cleaning.</p>\n<p><strong>2.</strong> Choose the number of professionals and hours required.</p>\n<p><strong>3.</strong> Select if you need cleaning materials (optional).</p>\n<p><strong>4. </strong>Add any specific instructions for the professionals.</p>\n<p><strong>5.</strong> Choose your preferred date and time, then click Next.</p>\n<p><strong>6.</strong> Select your payment method and click Complete to confirm your booking.</p>"
+    },
+    {
+     "question": "How do I redeem a voucher code?",
+     "answer": "<p>Redeeming a voucher code is simple. Just follow the steps below.<br/>\n<br/>\n<strong>1. </strong>During Step 4 of the checkout process, enter your voucher code in the <strong>Add Voucher</strong> Code field.</p>\n<p><strong>2.</strong> Click Apply to activate the discount.</p>\n<p><strong>3. </strong>After the voucher is successfully applied, the discount will automatically be deducted from your total bill.</p>\n<p><strong>Note: </strong>Each voucher has specific terms and conditions that must be met for the discount to apply.</p>\n<p>If you access Justlife via a voucher link from any of our marketing campaigns (app or web), the voucher will be automatically applied when you select the service.</p>"
+    },
+    {
+     "question": "Can I add special instructions while booking?",
+     "answer": "<p>Yes, you can. While on the booking page, you will be asked if you have any specific instructions. </p>\n<p>If you finished booking the appointment and missed adding the instructions, no worries! You can still update your booking details by following the steps below:</p>\n<ol>\n<li>\n<p>Log in using your phone number.</p>\n</li>\n<li>\n<p>Once logged in:</p>\n<ol>\n<li>\n<p><strong>Mobile application</strong>: please tap the three vertical lines on the upper left corner of your screen to show the slide menu.</p>\n</li>\n<li>\n<p><strong>Website</strong>: On the upper right corner of the screen, please click your name to show the drop-down menu.</p>\n</li>\n</ol>\n</li>\n<li>\n<p>Select <strong>Appointments.</strong></p>\n</li>\n<li>\n<p>Once under the <strong>Upcoming appointment</strong> page, click the desired appointment to be updated.</p>\n</li>\n<li>\n<p>In the instructions field, click <strong>“ADD.”</strong></p>\n</li>\n</ol>"
+    },
+    {
+     "question": "I forgot to add a special instruction. What should I do?",
+     "answer": "<p>No worries, we’re happy to help.</p>\n<p><strong>Note</strong> - Share your instruction at least 4 hours before the appointment.</p>\n<p>We’ll make sure it’s passed on to the professional assigned to your booking.<br/>\n<br/>\n<strong>On the Mobile App</strong></p>\n<p><strong>1.</strong> Log in using your phone number.</p>\n<p><strong>2.</strong> Tap the Bookings icon in the bottom navigation bar.</p>\n<p><strong>3.</strong> Go to the Upcoming Bookings section and select your booking.</p>\n<p><strong>4.</strong> Tap Manage Booking and choose Edit This Booking.</p>\n<p><strong>5.</strong> Select Add Instruction, enter your details, and Save.<br/>\n<br/>\n<strong>On the Website</strong></p>\n<p><strong>1.</strong> Log in using your phone number.</p>\n<p><strong>2.</strong> Click your name in the upper-right corner to open the drop-down menu.</p>\n<p><strong>3.</strong> Select Bookings and go to the Upcoming Bookings section.</p>\n<p><strong>4.</strong> Click Manage Booking and choose Edit This Booking.</p>\n<p><strong>5.</strong> Select Add Instruction, enter your details, and click Add.</p>"
+    },
+    {
+     "question": "I booked the appointment with the wrong address, what should I do?",
+     "answer": "<p>Want to change your address? Here’s how you can do it in a few steps</p>\n<p> </p>\n<p>1. <strong>Log In</strong></p>\n<ul>\n<li>Sign in to your Justlife account using your phone number.<br/>\n\t </li>\n</ul>\n<p>2. <strong>On the Mobile App</strong></p>\n<ul>\n<li>Tap the Booking icon in the bottom navigation bar.</li>\n<li>From Upcoming Bookings, select Manage Bookings.</li>\n<li>Click Edit This Booking.</li>\n<li>Choose the Change Address option from the list.</li>\n<li>Tap Add New Address and save.<br/>\n\t </li>\n</ul>\n<p>3. <strong>On the Website</strong></p>\n<ul>\n<li>Click your name in the upper right corner to open the drop-down menu.</li>\n<li>Select Bookings and click on your upcoming booking.</li>\n<li>Click Edit This Booking.</li>\n<li>Choose the Change Address option from the list.</li>\n<li>Click Add New Address and save.</li>\n</ul>\n<p><br/>\n<strong>Need Help?</strong></p>\n<p>If you face any issues, contact us via live chat support (available daily from 7 AM to 11 PM) and we’ll help you update your address right away.</p>"
+    },
+    {
+     "question": "How can I extend my cleaning?",
+     "answer": "<p>If the duration you booked isn’t enough, no need to worry. We’ll assist you.</p>\n<p>Reach us through our live chat support, available daily from 7 AM to 11 PM.</p>\n<p>Our specialists will check the cleaner’s schedule and confirm if an extension is possible.</p>"
+    },
+    {
+     "question": "What is my booking reference number?",
+     "answer": "<p>You can quickly find your reference number by following these steps:<br/>\n<br/>\n1. <strong>Log In</strong></p>\n<ul>\n<li>Sign in to your Justlife account using your phone number.<br/>\n\t </li>\n</ul>\n<p>2. <strong>On the Mobile App</strong></p>\n<ul>\n<li>Tap the Booking icon in the bottom navigation bar.</li>\n<li>Go to Upcoming Bookings and select Manage Bookings.</li>\n<li>Open Booking Details to view your reference number.</li>\n</ul>\n<p><br/>\n3. <strong>On the Website</strong></p>\n<ul>\n<li>Click your name in the upper right corner to open the drop-down menu.</li>\n<li>Select Bookings and open your upcoming booking.</li>\n<li>Go to Manage Bookings.</li>\n<li>Open Booking Details to view your reference number.</li>\n</ul>"
+    },
+    {
+     "question": "How do I reschedule my appointment?",
+     "answer": "<p>Managing your account on the app or website is simple. Follow these steps to reschedule your booking:</p>\n<p> </p>\n<p>1. <strong>Log In</strong></p>\n<ul>\n<li>Sign in to your Justlife account using your phone number.<br/>\n\t </li>\n</ul>\n<p>2. <strong>On the Mobile App</strong></p>\n<ul>\n<li>Tap the Booking icon in the bottom navigation bar.</li>\n<li>Go to Upcoming Bookings and select Manage Bookings.</li>\n<li>Choose Edit Booking and tap the Reschedule option.</li>\n<li>Select your preferred new date and time slot.</li>\n<li>Confirm by tapping Reschedule.<br/>\n\t </li>\n</ul>\n<p>3. <strong>On the Website</strong></p>\n<ul>\n<li>Click your name in the upper right corner to open the drop-down menu.</li>\n<li>Select Bookings and open your upcoming booking.</li>\n<li>Go to Manage Bookings.</li>\n<li>Choose Edit Booking and select the Reschedule option.</li>\n<li>Pick your preferred new date and time slot.</li>\n<li>Click Reschedule to confirm.<br/>\n\t </li>\n</ul>\n<p><strong>Note: </strong>Rescheduling may incur a fee because our cleaners’ schedules are set ahead of time. See the table below for details.</p>"
+    },
+    {
+     "question": "How can I cancel my booking?",
+     "answer": "<p>You can cancel your booking anytime through the Justlife app or website by following these steps:</p>\n<p> </p>\n<p>1. <strong>Log In</strong></p>\n<ul>\n<li>Sign in to your Justlife account using your phone number.</li>\n</ul>\n<p><br/>\n2. <strong>On the Mobile App</strong></p>\n<ul>\n<li>Tap the Booking icon in the bottom navigation bar.</li>\n<li>Go to Upcoming Bookings and select Manage Bookings.</li>\n<li>Choose Edit Booking and tap the Cancel option.</li>\n<li>Click Cancel This Booking.</li>\n<li>Select the Reason for Cancelling and tap Confirm.</li>\n</ul>\n<p><br/>\n3. <strong>On the Website</strong></p>\n<ul>\n<li>Click your name in the upper right corner to open the drop-down menu.</li>\n<li>Select Bookings and open your upcoming booking.</li>\n<li>Go to Manage Bookings.</li>\n<li>Choose Edit Booking and select the Cancel option.</li>\n<li>Select the Reason for Cancelling and confirm.<br/>\n\t </li>\n</ul>\n<p><strong>Note:</strong> A cancellation fee may apply, as our professionals’ schedules are arranged in advance. Please refer to the table below for details.</p>"
+    },
+    {
+     "question": "My cleaning professional is late. What should I do?",
+     "answer": "<ul>\n<li>At Justlife, we aim to provide the best experience and understand how valuable your time is.</li>\n<li>If there’s a possible delay due to traffic or other reasons, we’ll contact you in advance to set expectations and provide options.</li>\n<li>We also send a WhatsApp message to confirm once the cleaner has arrived, helping you track everything easily.</li>\n<li>In the unlikely event of a delay, please reach us immediately through our live chat support, available daily from <strong>7 AM to 11 PM.</strong></li>\n</ul>"
+    },
+    {
+     "question": "How can I rate my cleaning professional and provide feedback?",
+     "answer": "<ul>\n<li>We’d love to hear about your recent experience with Justlife. </li>\n<li>After your session, you’ll receive a notification via email, SMS, or the app asking for your feedback and rating.</li>\n<li>Rate the cleaner’s performance on a scale of 1 to 5, with 5 being the highest.</li>\n<li>Feel free to share any comments &amp; your feedback helps us improve our service and serve you better.</li>\n</ul>"
+    },
+    {
+     "question": "Why did you send me a different cleaning professional and not the one I requested for?",
+     "answer": "<p><strong>For One-Time Appointments</strong></p>\n<ul>\n<li>We’ll always do our best to assign the same cleaner for one-time or ad-hoc bookings. However, we cannot guarantee availability, as our top crew members are often booked quickly by weekly clients.</li>\n</ul>\n<p> </p>\n<p><strong>For Recurring Appointments</strong></p>\n<ul>\n<li>Justlife is committed to providing the best experience — from booking your appointment to the actual cleaning service.</li>\n<li>If your regular cleaner is unavailable, we’ll notify you immediately to set expectations and share options.</li>\n<li>In the unlikely event you do not get your regular cleaner, please contact us right away through our live chat support, available daily from 7 AM to 11 PM.</li>\n</ul>"
+    },
+    {
+     "question": "My cleaning professional did not show up. What should I do?",
+     "answer": "<ul>\n<li>We sincerely apologize for the inconvenience. At Justlife, we aim to provide the best experience from booking your appointment to completing the service itself.</li>\n<li>In the unlikely event that we miss your service, please contact us immediately through our live chat support, available daily from <strong>7 AM to 11 PM.</strong></li>\n<li>Our case specialist will get in touch with you immediately to resolve the issue.</li>\n</ul>"
+    },
+    {
+     "question": "I'm not happy with the quality of the cleaning. What should i do?",
+     "answer": "<ul>\n<li>We sincerely apologize for the inconvenience. At Justlife, we strive to provide the best quality experience and ensure all our cleaning professionals are well-trained.</li>\n<li>If, in the unlikely event, the service does not meet your expectations, please notify us within 24 hours.</li>\n<li>You can contact us through our live chat support, available daily from <strong>7 AM to 11 PM.</strong></li>\n<li>Kindly share photos of the areas that were not cleaned properly to help us resolve the issue promptly.</li>\n</ul>"
+    },
+    {
+     "question": "What should I do if the professional damaged my belongings?",
+     "answer": "<ul>\n<li>We apologize for the inconvenience. At Justlife, we aim to provide the best quality experience to our clients and ensure all our professionals are well-trained.</li>\n<li>In the unlikely event your expectations are not met or an item is damaged, please notify us within 24 hours.</li>\n<li>Contact us via live chat support, available daily from <strong>7 AM to 11 PM.</strong></li>\n<li>Kindly send photos of the damaged belongings as evidence to assist with our investigation.</li>\n<li>Our specialists will review the case and reach out to you within 24 hours.</li>\n</ul>"
+    },
+    {
+     "question": "My items are missing. What should I do?",
+     "answer": "<ul>\n<li>We apologize for the inconvenience. At Justlife, we aim to provide the best quality experience to our clients and ensure all our professionals are well-trained.</li>\n<li>In the unlikely event that an item is missing or your expectations are not met, please notify us within 24 hours.</li>\n<li>Contact us via live chat support, available daily from <strong>7 AM to 11 PM.</strong></li>\n<li>Kindly share photos or any relevant details about the missing item to assist with our investigation.</li>\n<li>Our specialists will review the case and reach out to you within 24 hours.</li>\n</ul>"
+    }
+   ]
+  },
+  {
+   "name": "My Account",
+   "items": [
+    {
+     "question": "Do I need to create a Justlife account to book an appointment?",
+     "answer": "<ul>\n<li>Yes, you need to have a registered Justlife account to book an appointment. Creating an account is quick and simple, and it saves you from re-entering your details every time you book.</li>\n<li>When you make your first booking, you'll be prompted to create an account.</li>\n<li>Just follow the on-screen instructions to complete the setup in seconds.</li>\n</ul>"
+    },
+    {
+     "question": "How do I log in to my account?",
+     "answer": "<p>Logging in to your Justlife account is quick and simple. Follow these steps:<br/>\n </p>\n<p><strong>On the Mobile App</strong></p>\n<ol>\n<li>Tap the Profile icon in the bottom navigation bar.</li>\n<li>Select Log In, enter your mobile number, and request an OTP.</li>\n<li>Enter the verification code sent to you via SMS to access your account.</li>\n</ol>\n<p><br/>\n<strong>On the Website</strong></p>\n<ol>\n<li>Click your name in the upper right corner to open the drop-down menu.</li>\n<li>Select Log In, enter your mobile number, and request an OTP.</li>\n<li>Enter the verification code sent to you via SMS to access your account.</li>\n</ol>"
+    },
+    {
+     "question": "How do I add or update my address?",
+     "answer": "<p>Managing your account is simple. Follow these steps to update or add a new address.<br/>\n </p>\n<p>1. <strong>Log In</strong></p>\n<ul>\n<li>Sign in to your Justlife account using your phone number.<br/>\n\t </li>\n</ul>\n<p>2. <strong>On the Mobile App</strong></p>\n<ul>\n<li>Tap the Profile icon in the bottom navigation bar.</li>\n<li>Go to Addresses.</li>\n<li>To add a new address: tap Add New Address and save.</li>\n<li>To update an existing address: tap Edit, make the changes, and save.<br/>\n\t </li>\n</ul>\n<p>3. <strong>On the Website</strong></p>\n<ul>\n<li>Click your name in the upper right corner to open the drop-down menu.</li>\n<li>Go to Addresses.</li>\n<li>To add a new address: click Add New Address and save.</li>\n<li>To update an existing address: click Edit, make the changes, and save.</li>\n</ul>"
+    },
+    {
+     "question": "How do I update my personal details?",
+     "answer": "<p>Managing your account on the Justlife app or website is simple. Follow these steps to update your personal details:</p>\n<p> </p>\n<p>1. <strong>Log In</strong></p>\n<ul>\n<li>Sign in to your Justlife account using your phone number.</li>\n</ul>\n<p> </p>\n<p>2. <strong>On the Mobile App</strong></p>\n<ul>\n<li>Tap the Profile icon in the bottom navigation bar.</li>\n<li>Select the Profile option.</li>\n<li>Update your personal details and save.</li>\n</ul>\n<p> </p>\n<p>3. <strong>On the Website</strong></p>\n<ul>\n<li>Click your name in the upper right corner to open the drop-down menu.</li>\n<li>Go to Profile.</li>\n<li>Update your personal details and save.</li>\n</ul>"
+    },
+    {
+     "question": "How can I check my appointment history?",
+     "answer": "<p>You can easily view your appointment history through the Justlife app or website. Follow these steps:<br/>\n </p>\n<p>1. <strong>Log In</strong></p>\n<ul>\n<li>Sign in to your Justlife account using your phone number.</li>\n</ul>\n<p> </p>\n<p>2. <strong>On the Mobile App</strong></p>\n<ul>\n<li>Tap the Booking icon in the bottom navigation bar.</li>\n<li>On the Appointments page, you’ll see both your upcoming and past appointments, along with full booking details.</li>\n</ul>\n<p> </p>\n<p>3. <strong>On the Website</strong></p>\n<ul>\n<li>Click your name in the upper right corner to open the drop-down menu.</li>\n<li>Select Bookings.</li>\n<li>On the Appointments page, you’ll see both your upcoming and past appointments, along with full booking details.</li>\n</ul>"
+    }
+   ]
+  }
+ ],
+ "appDownloader": {
+  "badge": "Download our Super app!",
+  "title": "Manage all to-dos with a single tap!",
+  "subtitle": "Book and manage your appointments, view your professional’s profile and ratings, get the latest offers, and much more.",
+  "apps": [
+   {
+    "href": "https://cutt.ly/JMApp-Website",
+    "img": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/home/appstore.png?f=webp",
+    "alt": "Download iOS App"
+   },
+   {
+    "href": "https://cutt.ly/JMApp-Website",
+    "img": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/home/playstore.png?f=webp",
+    "alt": "Download Android App"
+   }
+  ],
+  "image": {
+   "src": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/home/apps.webp?f=webp",
+   "alt": "Footer app"
+  }
+ }
+}

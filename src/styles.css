@@ -1,0 +1,8 @@
+/*
+ * Always-loaded styles. The three original front-ends each bring their own global CSS as separate
+ * bundles (src/styles/site, src/styles/blog, src/styles/webflow) that StyleWorldService swaps in.
+ */
+html,
+body {
+  margin: 0;
+}

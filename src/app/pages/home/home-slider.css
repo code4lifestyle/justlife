@@ -1,0 +1,46 @@
+/*
+ * Slider of the Nuxt site's ServiceCardSlider component (scope e0180020). The component is not in
+ * the saved pages (its lists were loaded from the live API), so these rules are ported from the
+ * site's ServiceCardSlider stylesheet with its colour tokens resolved.
+ */
+:host {
+  display: block;
+}
+.move-icon {
+  background: #fff;
+  border: 0.2px solid #0000001f;
+  border-radius: 100%;
+  box-shadow: 0 1px 2px #00000026;
+  cursor: pointer;
+  height: 48px;
+  padding-top: 5px;
+  position: absolute;
+  text-align: center;
+  top: calc(50% - 23px);
+  width: 48px;
+  z-index: 9;
+}
+.move-icon:hover {
+  background-color: #f9fafb;
+}
+.move-icon.back-icon.en {
+  left: -52px;
+}
+.move-icon.next-icon.en {
+  right: -52px;
+}
+.slider-content {
+  display: flex;
+  overflow: scroll;
+  position: relative;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+.slider-content::-webkit-scrollbar {
+  display: none;
+}
+@media screen and (max-width: 1080px) {
+  .move-icon {
+    display: none;
+  }
+}

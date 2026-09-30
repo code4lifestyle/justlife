@@ -1,0 +1,83 @@
+:host {
+  display:block;
+}
+
+/* ported from Nuxt style block 41cf43e65c */
+.layout-wrapper {
+  background-color:#fafafa;
+  min-height:100vh;
+  position:relative;
+  width:100%;
+}
+.layout-wrapper .content-wrapper {
+  margin:0 auto;
+  padding-top:1.5rem;
+  position:relative;
+  width:558px;
+}
+.layout-wrapper .content-wrapper.full-size {
+  max-width:946px;
+  width:100%;
+}
+.layout-wrapper .content-wrapper.full-height {
+  min-height:100vh;
+}
+@media screen and (max-width:1023px) {
+  .layout-wrapper .content-wrapper {
+    padding-top:0;
+    width:100%;
+  }
+  .layout-wrapper.full-height {
+    padding-bottom:0;
+  }
+  .layout-wrapper.full-height,
+  .layout-wrapper.full-height .content-wrapper {
+    min-height:calc(100vh - 3rem);
+  }
+}
+
+/* ported from Nuxt style block d4cb18f1a6 */
+.breadcrumb-container {
+  display:flex;
+  flex-direction:column;
+  position:relative;
+  width:auto;
+}
+.has-margin-bottom {
+  margin-bottom:.85rem;
+}
+.has-margin {
+  margin:0 1.5rem;
+}
+.breadcrumb-title {
+  text-align:center;
+}
+@media screen and (max-width:1023px) {
+  .has-margin-bottom {
+    margin-bottom:.3rem;
+  }
+  .breadcrumb-title {
+    order:999;
+    text-align:start;
+  }
+}
+
+/* ported from Nuxt style block 69b815a8d9 (only the rules for the variant these pages use: the title
+   logo, footer area, radius and border modifier classes never occur here) */
+.content-container {
+  background-color:#fff;
+  border:1px solid #e0e0e0;
+  border-radius:12px;
+  position:relative;
+  width:100%;
+}
+@media screen and (max-width:1023px) {
+  .content-container {
+    border:none;
+    border-radius:0;
+  }
+  .content-container .slot-container {
+    flex-grow:1;
+    position:relative;
+  }
+}

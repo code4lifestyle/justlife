@@ -1,0 +1,305 @@
+/* ported from Nuxt style block ebffc9cedb */
+.wrapper {
+  background-color:#fff;
+}
+.wrapper .container .top-image {
+  border-radius:.5rem;
+  height:500px;
+}
+.wrapper .container .top-image .image-content {
+  background-image:linear-gradient(180deg,#0003,#000000b3);
+  border-radius:.5rem;
+  height:100%;
+  left:0;
+  position:absolute;
+  top:0;
+  width:100%;
+}
+.wrapper .container .top-image .image-content .content-container {
+  bottom:2.5rem;
+  left:0;
+  padding:0 2.5rem;
+  position:absolute;
+}
+.wrapper .container .top-image .image-content .content-container.ar {
+  left:unser;
+  right:0;
+}
+.wrapper .container .top-image .image-content .content-container ::ng-deep :nth-child(2),
+.wrapper .container .top-image .image-content .content-container ::ng-deep > :first-child {
+  margin-bottom:.5rem;
+}
+.wrapper .container .top-image .image-content .content-container ::ng-deep > :nth-child(3) {
+  margin-bottom:1.5rem;
+}
+.wrapper .container .top-image .image-content .content-container .booknow-button {
+  display:block;
+  margin-top:1rem;
+}
+/* The pills were <button>s in the original, which do not inherit the body's letter-spacing (.01em); as spans they
+   would, and "Book Now" would grow by ~1px. */
+.wrapper .container .top-image .image-content .content-container .booknow-button .button {
+  letter-spacing:normal;
+}
+.wrapper .container .services-content {
+  margin-top:2.5rem;
+  min-height:400px;
+}
+.wrapper .container .services-content .service-content {
+  font-size:18px;
+  font-stretch:normal;
+  font-style:normal;
+  font-weight:400;
+  letter-spacing:normal;
+  line-height:1.33;
+  margin-top:1rem;
+  padding-bottom:2.5rem;
+}
+.wrapper .container .services-content .service-content ::ng-deep ul {
+  list-style:disc!important;
+  margin-left:24px!important;
+}
+.wrapper .container .content-services-wrapper {
+  margin-bottom:1.5rem;
+}
+::-webkit-scrollbar {
+  background:transparent;
+  display:none;
+  width:0;
+}
+.service-image {
+  border-radius:.5rem;
+  height:100%;
+  -o-object-fit:cover;
+  object-fit:cover;
+  -o-object-position:top center;
+  object-position:top center;
+  width:100%;
+}
+@media screen and (max-width:1023px) {
+  .wrapper .container {
+    padding-bottom:0;
+  }
+  .wrapper .container .top-image {
+    height:400px;
+  }
+  .wrapper .container .top-image .image-content {
+    border-radius:0!important;
+    height:100%!important;
+    top:0!important;
+    width:100%;
+  }
+  .wrapper .container .top-image .image-content .content-container {
+    bottom:1.5rem!important;
+    padding:0 1.5rem!important;
+  }
+  .wrapper .container .top-image .image-content .content-container ::ng-deep > :nth-child(3) {
+    margin-bottom:.25rem;
+  }
+  .wrapper .container .services-content {
+    margin-top:.5rem;
+    padding:0 1.5rem;
+  }
+  .breadcrumb {
+    margin-top:1.5rem;
+    padding-left:1.5rem;
+  }
+  .breadcrumb .breadcrumb-item {
+    display:flex;
+    justify-content:center;
+    white-space:nowrap;
+  }
+  /* only the page's own (mobile) breadcrumb image carried this scope; the desktop one is a child component */
+  .breadcrumb.is-hidden-desktop .breadcrumb-item img {
+    height:1rem;
+    width:1rem;
+  }
+}
+
+/* ported from Nuxt style block 2de4c57ccf -- scope 8687de43 = the desktop breadcrumb component only, hence
+   the .is-hidden-mobile prefix (the mobile breadcrumb is rendered by the page itself and has none of these) */
+.breadcrumb.is-hidden-mobile .breadcrumb-item {
+  padding-bottom:1rem;
+  padding-top:1rem;
+}
+.breadcrumb.is-hidden-mobile .breadcrumb-item .separator {
+  height:1rem;
+  width:2rem;
+}
+.breadcrumb.is-hidden-mobile .breadcrumb-item.underline {
+  text-decoration:underline;
+}
+@media screen and (max-width:1023px) {
+  .breadcrumb.is-hidden-mobile .breadcrumb-item a p {
+    font-size:.625rem;
+  }
+}
+
+/* ported from Nuxt style block 3e5ceeb7e0 */
+.body-text-item {
+  display:inline-block;
+  font-size:1rem;
+  font-stretch:normal;
+  font-style:normal;
+  font-weight:400;
+  letter-spacing:normal;
+  line-height:1.5rem;
+}
+.body-text-item.has-text-smaller {
+  font-size:15px;
+  letter-spacing:-.1px;
+}
+.body-text-item.full-width {
+  width:100%;
+}
+.body-text-item.share-text {
+  margin-bottom:1.6rem;
+  margin-top:.5rem;
+}
+.body-text-item.has-margin-top {
+  margin-top:.5rem;
+}
+.body-text-item.bold {
+  font-weight:700;
+}
+.body-text-item.en {
+  direction:ltr;
+}
+
+/* ported from Nuxt style block 48aa21763a (d1702238, "other services"): the original only rendered a loading
+   skeleton here (cards came from the live API); the service cards below keep the skeleton's geometry. */
+.content-services-wrapper .content-services-list {
+  margin:0 -12px;
+  position:relative;
+}
+.content-services-wrapper .content-services-list .service-card {
+  height:160px;
+  margin:8px 12px;
+  width:208px;
+}
+@media screen and (max-width:780px) {
+  .content-services-wrapper {
+    padding:0 1.5rem;
+  }
+  .content-services-wrapper .content-services-list {
+    margin:0 -24px;
+  }
+  .content-services-wrapper .content-services-list .service-card {
+    height:105px;
+    margin:8px 6px;
+    width:140px;
+  }
+}
+
+/* Service cards (reconstruction of the API-driven cards) */
+.service-cards-scroller {
+  overflow-x:auto;
+  overscroll-behavior-x:contain;
+  scroll-snap-type:x proximity;
+  scrollbar-width:none;
+}
+.service-cards {
+  width:max-content;
+}
+.service-card {
+  background-color:#f2f2f2;
+  border-radius:.5rem;
+  display:block;
+  flex:0 0 auto;
+  overflow:hidden;
+  position:relative;
+  scroll-margin-left:12px;
+  scroll-snap-align:start;
+}
+.service-card img {
+  display:block;
+  height:100%;
+  object-fit:cover;
+  transition:transform .3s ease;
+  width:100%;
+}
+.service-card:hover img {
+  transform:scale(1.05);
+}
+.service-card-title {
+  background-image:linear-gradient(180deg,#0000,#000000b3);
+  bottom:0;
+  color:#fff;
+  font-size:1rem;
+  font-weight:700;
+  left:0;
+  line-height:1.25rem;
+  padding:2rem .75rem .75rem;
+  position:absolute;
+  right:0;
+}
+.service-cards-arrow {
+  align-items:center;
+  background-color:#fff;
+  border:0;
+  border-radius:50%;
+  box-shadow:0 2px 8px #00000029;
+  cursor:pointer;
+  display:none;
+  height:40px;
+  justify-content:center;
+  margin-top:-20px;
+  padding:0;
+  position:absolute;
+  top:50%;
+  width:40px;
+  z-index:1;
+}
+.service-cards-arrow.prev {
+  left:-8px;
+}
+.service-cards-arrow.next {
+  right:-8px;
+}
+/* The template renders an arrow only while the row can scroll that way. Show it to mouse users at every width
+   (below ~920px the 4 cards overflow and the scroller hides its scrollbar), and from 1024px up for any pointer as
+   before. Touch screens below 1024px keep swiping the row without arrows. */
+@media screen and (min-width:1024px), (hover:hover) and (pointer:fine) {
+  .service-cards-arrow {
+    display:flex;
+  }
+}
+.service-cards-arrow svg {
+  fill:none;
+  stroke:#000000de;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width:2;
+}
+@media screen and (max-width:780px) {
+  .service-card {
+    scroll-margin-left:22px;
+  }
+  .service-card-title {
+    font-size:.8125rem;
+    line-height:1rem;
+    padding:1.5rem .5rem .5rem;
+  }
+}
+/* Between 781px and 1023px the original list (margin 0 -12px, no wrapper padding) stuck out 12px on the right and
+   made the whole page scroll sideways. Clip it, and keep the arrows 8px inside the visible part of the row: the
+   list overhangs the page by 12px here, and by nothing at 780px and below (wrapper padding = negative margin). */
+@media screen and (max-width:1023px) {
+  .content-services-wrapper {
+    overflow-x:clip;
+  }
+  .service-cards-arrow.prev {
+    left:20px;
+  }
+  .service-cards-arrow.next {
+    right:20px;
+  }
+}
+@media screen and (max-width:780px) {
+  .service-cards-arrow.prev {
+    left:8px;
+  }
+  .service-cards-arrow.next {
+    right:8px;
+  }
+}

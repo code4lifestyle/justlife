@@ -1,0 +1,39 @@
+/* The host stands in for the original page root: the only in-flow child of the layout's .main-wrapper
+   (flex column; the navbar is fixed, app-header is display:contents, router-outlet display:none). */
+:host {
+  display:block;
+}
+
+/* ported from Nuxt style block 50bfc5f2db */
+.content {
+  font-size:1rem;
+  line-height:1.5rem;
+  padding:2rem;
+}
+@media screen and (max-width:1023px) {
+  .content {
+    padding:1rem 1.5rem;
+  }
+}
+
+/* ported from Nuxt style block 793091b715: an unscoped <style> element inside the privacy policy
+   content (only the privacy pages contain tables). */
+.content ::ng-deep table {
+  width:100%;
+  border-collapse:collapse;
+  font-size:0.9rem;
+  margin:1rem 0;
+}
+.content ::ng-deep th,
+.content ::ng-deep td {
+  padding:10px 14px;
+  text-align:left;
+  border:1px solid #e0e0e0;
+}
+.content ::ng-deep thead th {
+  background-color:#f5f5f5;
+  font-weight:600;
+}
+.content ::ng-deep tbody tr:nth-child(even) {
+  background-color:#fafafa;
+}

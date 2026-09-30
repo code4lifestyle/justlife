@@ -1,0 +1,80 @@
+<div class="w-slider-mask" #mask [id]="maskId">
+  @for (card of slider().cards; track $index) {
+    <div
+      class="testimonial-slide-wrapper w-slide"
+      #slide
+      role="group"
+      [attr.aria-label]="$index + 1 + ' of ' + slider().cards.length"
+      [attr.aria-hidden]="isShown($index) ? null : 'true'"
+      [style.margin-right]="$last ? '0px' : null"
+    >
+      <div class="testimonial-card">
+        <div class="testimonial-info">
+          <img
+            [src]="card.icon.src"
+            loading="lazy"
+            [attr.width]="card.icon.width"
+            [attr.height]="card.icon.height"
+            [alt]="card.icon.alt"
+            class="testimonial-image"
+          />
+          <div>
+            <div class="tagline2" [innerHTML]="card.titleHtml | safeHtml"></div>
+            <div class="tagline">{{ card.text }}</div>
+          </div>
+        </div>
+        <a
+          [appLink]="card.cta.href"
+          class="button_outline_02-copy w-button"
+          [attr.tabindex]="isShown($index) ? null : -1"
+          >{{ card.cta.text }}</a
+        >
+      </div>
+    </div>
+  }
+  <div [attr.aria-live]="live()" aria-atomic="true" class="w-slider-aria-label">
+    {{ liveText() }}
+  </div>
+</div>
+<div
+  class="testimonial-slider-left w-slider-arrow-left"
+  role="button"
+  tabindex="0"
+  [attr.aria-controls]="maskId"
+  aria-label="previous slide"
+  [style.display]="hideLeft() ? 'none' : null"
+  (click)="prev()"
+  (keydown.enter)="onArrowKey($event, -1)"
+  (keydown.space)="onArrowKey($event, -1)"
+>
+  <div class="arrow-wrapper">
+    <img
+      [src]="slider().prevArrow.src"
+      loading="lazy"
+      [alt]="slider().prevArrow.alt"
+      class="slider-arrow-embed"
+    />
+  </div>
+</div>
+<div
+  class="testimonial-slider-right w-slider-arrow-right"
+  #right
+  role="button"
+  tabindex="0"
+  [attr.aria-controls]="maskId"
+  aria-label="next slide"
+  [style.display]="hideRight() ? 'none' : null"
+  (click)="next()"
+  (keydown.enter)="onArrowKey($event, 1)"
+  (keydown.space)="onArrowKey($event, 1)"
+>
+  <div class="arrow-wrapper">
+    <img
+      [src]="slider().nextArrow.src"
+      loading="lazy"
+      [alt]="slider().nextArrow.alt"
+      class="slider-arrow-embed"
+    />
+  </div>
+</div>
+<div class="testimonial-slide-nav w-slider-nav w-round"></div>

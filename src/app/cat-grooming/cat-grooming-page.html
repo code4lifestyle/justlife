@@ -1,0 +1,214 @@
+@let c = content();
+
+<div class="navbar-logo-center">
+  <div role="banner" class="navbar-logo-center-container shadow-three w-nav">
+    <div class="w-layout-blockcontainer container-5 w-container">
+      <a routerLink="/en-AE" class="link-2">{{ c.navbar.homeText }}</a>
+      <a routerLink="/cat-grooming" class="link-3"
+        ><strong>{{ c.navbar.currentText }}</strong></a
+      >
+    </div>
+    <div class="w-layout-blockcontainer container-6 w-container">
+      <img [src]="c.navbar.logo.src" loading="eager" [alt]="c.navbar.logo.alt" class="image" />
+    </div>
+  </div>
+</div>
+
+<section class="hero-without-image">
+  <div class="container-7">
+    <div class="hero-wrapper-two">
+      <h1 class="heading-8">{{ c.hero.title }}</h1>
+      <div class="w-layout-blockcontainer hero_cta_container w-container">
+        <p class="paragraph_regular">{{ c.hero.lead }}</p>
+        <a [appLink]="c.hero.cta.href" class="button_outline_cta w-button">{{ c.hero.cta.text }}</a>
+        <p class="paragraph_bold">{{ c.hero.ctaText }}</p>
+      </div>
+      <div class="w-layout-blockcontainer hero_cta_container_2 w-container">
+        <p class="paragraph_regular">{{ c.hero.tagline }}</p>
+      </div>
+      <img
+        [src]="c.hero.image.src"
+        fetchpriority="high"
+        loading="eager"
+        [attr.width]="c.hero.image.width"
+        [attr.height]="c.hero.image.height"
+        [alt]="c.hero.image.alt"
+        class="hero-image shadow-two"
+      />
+    </div>
+  </div>
+</section>
+
+<section class="hero-stack">
+  <div class="container-3">
+    <div class="content_01">
+      <h2 class="sub_headline" [innerHTML]="c.intro.titleHtml | safeHtml"></h2>
+      <p class="paragraph_content" [innerHTML]="c.intro.textHtml | safeHtml"></p>
+    </div>
+
+    <div class="content_04">
+      <div class="hero-split">
+        <h2 class="sub_headline02">
+          <strong>{{ c.feature.title }}</strong>
+        </h2>
+        <p class="paragraph_content_02">{{ c.feature.text }}</p>
+        <a [appLink]="c.feature.cta.href" class="button_outline_02 w-button">{{
+          c.feature.cta.text
+        }}</a>
+      </div>
+      <div class="hero-split">
+        <img
+          [src]="c.feature.image.src"
+          fetchpriority="high"
+          loading="eager"
+          [attr.width]="c.feature.image.width"
+          [attr.height]="c.feature.image.height"
+          [alt]="c.feature.image.alt"
+          class="shadow-two"
+        />
+      </div>
+    </div>
+
+    <div class="content_05-copy">
+      <h2 class="sub_headline"><strong [innerHTML]="c.services.titleHtml | safeHtml"></strong></h2>
+      <p class="paragraph_content">{{ c.services.intro }}</p>
+    </div>
+    @for (item of c.services.items; track $index) {
+      <div class="content_05">
+        <h3 class="sub_headline_03">
+          <strong [class]="item.boldClass">{{ item.title }}</strong>
+        </h3>
+        <p class="paragraph_content" [innerHTML]="item.textHtml | safeHtml"></p>
+      </div>
+    }
+
+    <div class="line_seperator">
+      <img
+        [src]="c.separator.src"
+        loading="lazy"
+        [attr.width]="c.separator.width"
+        [alt]="c.separator.alt"
+        class="image-29"
+      />
+    </div>
+
+    <div class="content_05">
+      <h2 class="sub_headline"><strong [innerHTML]="c.whyChoose.titleHtml | safeHtml"></strong></h2>
+      <p class="paragraph_content">{{ c.whyChoose.intro }}</p>
+    </div>
+    @for (item of c.whyChoose.items; track $index) {
+      <div class="content_05">
+        <h3 class="sub_headline_03">
+          <strong [class]="item.boldClass">{{ item.title }}</strong>
+        </h3>
+        <p class="paragraph_content" [innerHTML]="item.textHtml | safeHtml"></p>
+      </div>
+    }
+
+    <div class="line_seperator">
+      <img
+        [src]="c.separator.src"
+        loading="lazy"
+        [attr.width]="c.separator.width"
+        [alt]="c.separator.alt"
+        class="image-29"
+      />
+    </div>
+
+    <div class="content_05">
+      <h2 class="sub_headline"><strong [innerHTML]="c.booking.titleHtml | safeHtml"></strong></h2>
+      <p class="paragraph_content">{{ c.booking.intro }}</p>
+    </div>
+    <div class="content_05-copy">
+      @for (step of c.booking.stepsHtml; track $index) {
+        <p class="paragraph_content" appContentLinks [innerHTML]="step | safeHtml"></p>
+      }
+    </div>
+
+    <div class="content_blue-seperator">
+      <img [src]="c.faqDivider.src" loading="lazy" [alt]="c.faqDivider.alt" class="image-3" />
+    </div>
+    <div class="content_03">
+      <h2 class="sub_headline_04">{{ c.faq.title }}</h2>
+      <div class="accordion-wrapper-2">
+        @for (item of c.faq.items; track $index) {
+          <div class="accordion-item-2" [appWfAccordionItem]="item" [icon]="c.faq.icon"></div>
+        }
+      </div>
+    </div>
+  </div>
+</section>
+
+@if (c.otherServices; as other) {
+  <section class="testimonial-slider-small">
+    <div class="container-4">
+      <h3 class="sub_headline_03">
+        <strong [class]="other.boldClass">{{ other.title }}</strong>
+      </h3>
+      <p class="centered-subheading">{{ other.subtitle }}</p>
+      <div class="testimonial-slider w-slider" [appWfSlider]="other"></div>
+    </div>
+  </section>
+}
+
+<section class="hero-heading-left">
+  <div class="footer_container">
+    <div class="hero-split">
+      <a [appLink]="c.app.cta.href" class="button_app-download w-button">{{ c.app.cta.text }}</a>
+      <h2 class="sub_headline_07" [innerHTML]="c.app.titleHtml | safeHtml"></h2>
+      <p class="margin-bottom-24px-2">{{ c.app.text }}</p>
+    </div>
+    <div class="hero-split">
+      <img
+        [src]="c.app.image.src"
+        loading="lazy"
+        [attr.sizes]="c.app.image.sizes"
+        [attr.srcset]="c.app.image.srcset"
+        [alt]="c.app.image.alt"
+        class="shadow-two-copy"
+      />
+    </div>
+  </div>
+</section>
+
+<section class="footer-light">
+  <div class="content_links">
+    <div class="footer-wrapper-two">
+      <a routerLink="/en-AE" class="footer-brand w-inline-block">
+        <img
+          [src]="c.footer.logo.src"
+          loading="eager"
+          [attr.width]="c.footer.logo.width"
+          [attr.height]="c.footer.logo.height"
+          [alt]="c.footer.logo.alt"
+          class="image-28"
+        />
+      </a>
+      @for (column of c.footer.columns; track $index) {
+        <div class="footer-block-two">
+          @for (link of column; track link.href) {
+            <a [appLink]="link.href" class="footer-link-two" [innerHTML]="link.html | safeHtml"></a>
+          }
+        </div>
+      }
+    </div>
+    <div class="footer-divider-two"></div>
+    <div class="footer-bottom">
+      <div class="footer-copyright">{{ c.footer.copyright }}</div>
+      <div class="footer-social-block-two">
+        @for (social of c.footer.social; track social.href) {
+          <a [appLink]="social.href" class="footer-social-link w-inline-block">
+            <img
+              [src]="social.image.src"
+              loading="lazy"
+              [attr.width]="social.image.width"
+              [attr.height]="social.image.height"
+              [alt]="social.image.alt"
+              [class]="social.imageClass"
+            />
+          </a>
+        }
+      </div>
+    </div>
+  </div>
+</section>

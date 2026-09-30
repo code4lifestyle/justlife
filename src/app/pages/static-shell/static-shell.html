@@ -1,0 +1,34 @@
+<div [class]="wrapperClass()">
+  <div [class]="contentClass()">
+    <span></span>
+    <div [class]="breadcrumbClass()">
+      <!-- Desktop and touch each show one of the two crumb links; hiding the <a> itself (not only its text)
+           keeps the hidden copy out of the Tab order, where it would be a link with no name. -->
+      <a class="is-hidden-touch" [appLink]="crumb().href">
+        <p
+          class="is-uppercase overline c-capitalize has-text-black38 has-text-centered is-hidden-touch has-margin-bottom"
+        >
+          {{ crumb().text }}
+        </p>
+      </a>
+      <h1
+        class="h1-text-item breadcrumb-title h3-text-item has-text-black87 has-margin c-h-m c-text-text-primary c-m-16 c-only-first-letter-caps"
+      >
+        {{ title() }}
+      </h1>
+      <a class="is-hidden-desktop" [appLink]="crumb().href">
+        <p
+          class="is-uppercase overline c-capitalize has-text-black38 has-margin is-hidden-desktop c-text-text-tertiary c-bl-s c-ml-16 c-mb-8 has-margin-bottom"
+        >
+          {{ crumb().text }}
+        </p>
+      </a>
+    </div>
+    <div [class]="containerClass()">
+      <div class="slot-container">
+        <ng-content />
+      </div>
+    </div>
+    <ng-content select="[staticShellAfter]" />
+  </div>
+</div>

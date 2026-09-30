@@ -1,0 +1,67 @@
+<div id="homepage-page-container">
+  <div class="bg-gray-2 g-flow-root">
+    @if (banner(); as banner) {
+      <a target="_self" class="BannerSection_bannerContainer___wy59" [appLink]="banner.href">
+        <div class="BannerSection_bannerImageWrapper__nw8OA">
+          <img
+            alt="banner-image"
+            fetchpriority="high"
+            loading="eager"
+            width="580"
+            height="380"
+            decoding="async"
+            class="BannerSection_bannerImage__uVNVP"
+            style="color: transparent; aspect-ratio: 1.5263157894736843"
+            [src]="banner.image"
+          />
+        </div>
+        <div class="BannerSection_bannerTextWrapper__eDJ1I">
+          <h3 class="BannerSection_bannerTitle__RaeV1 text-head-1">{{ banner.title }}</h3>
+        </div>
+      </a>
+    }
+
+    @if (featured().length) {
+      <div appFeaturedSection [slugs]="featured()"></div>
+    }
+
+    @if (trending().length) {
+      <div class="TrendingSection_trendingContainer__dP1GQ">
+        <div class="TrendingSection_trendingWrapper__PBvqT">
+          <h2 class="">Trending Stories</h2>
+          <div class="TrendingSection_trendingCardWrapper__9JjvE">
+            @for (slug of trending(); track $index) {
+              <a appBlogCard [slug]="slug" size="small"></a>
+            }
+          </div>
+        </div>
+      </div>
+    }
+
+    @if (grid().length) {
+      <div class="FeaturedSection_featuredContainer__8U5Xt">
+        <div id="featured-blogcard-wrappper" class="FeaturedSection_blogCardWrapper__mrozQ">
+          @for (slug of grid(); track slug; let i = $index) {
+            <div [id]="'featured-blogcard-' + i">
+              <a appBlogCard [slug]="slug" size="medium"></a>
+            </div>
+          }
+        </div>
+        <!-- With 7 pages or fewer the original Pagination lists every page (so a single page shows one
+             selected "1") and has no arrow buttons. -->
+        <div
+          appBlogPagination
+          [current]="current()"
+          [total]="total()"
+          wrapperId="featured-blogcard-wrappper"
+        ></div>
+      </div>
+    }
+
+    @if (suggestions().length) {
+      <div appSuggestionSection [slugs]="suggestions()"></div>
+    }
+
+    <div appMobileAppSection></div>
+  </div>
+</div>

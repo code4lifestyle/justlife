@@ -1,0 +1,73 @@
+{
+ "meta": {
+  "title": "Contact Us",
+  "description": "Justlife DMCC",
+  "robots": "noindex, nofollow",
+  "canonical": "https://www.justlife.com/en-SA/contact-us",
+  "ogTitle": "justlife"
+ },
+ "shell": {
+  "locale": "en-SA",
+  "wrapperClass": "en lang-contact-us app-layout main-wrapper",
+  "navbarClass": "navbar visitor",
+  "footer": {
+   "desktopOnly": false,
+   "servicesTitle": null,
+   "serviceAreas": null
+  }
+ },
+ "layout": "hero",
+ "hero": {
+  "src": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/home/hero-v1.webp?f=webp",
+  "alt": "justlife-contact-image"
+ },
+ "blocks": [
+  {
+   "kind": "title",
+   "tag": "h3",
+   "class": "custom-title c-b-m-emp c-text-text-primary mt_x10 _tc",
+   "text": "Contact Us"
+  },
+  {
+   "kind": "title",
+   "tag": "h4",
+   "class": "custom-title c-b-m-emp c-text-text-primary mt_x4",
+   "text": "Get in Touch with Us"
+  },
+  {
+   "kind": "text",
+   "class": "body-text lg dark mt_x2",
+   "html": "We're here to help! If you have any questions, or comments, or just want to say hello, our team is ready to listen! Reach out to us through any of the methods below, and we'll make sure to get back to you as soon as possible."
+  },
+  {
+   "kind": "title",
+   "tag": "h4",
+   "class": "custom-title c-b-m-emp c-text-text-primary mt_x4",
+   "text": "Email Us:"
+  },
+  {
+   "kind": "text",
+   "class": "body-text lg dark mt_x2",
+   "html": "Drop us a line at <b>wecare@justlife.com</b>, and we'll get back to you within one business day."
+  },
+  {
+   "kind": "title",
+   "tag": "h4",
+   "class": "custom-title c-b-m-emp c-text-text-primary mt_x4",
+   "text": "Social Media:"
+  },
+  {
+   "kind": "text",
+   "class": "body-text lg dark mt_x2",
+   "html": "Connect with us on our social channels for the latest updates, tips, and offers."
+  },
+  {
+   "kind": "link",
+   "class": "f-link18",
+   "textClass": "body-text lg primary",
+   "text": "https://www.instagram.com/justlifeksa/",
+   "href": "https://www.instagram.com/justlifeksa/",
+   "newTab": true
+  }
+ ]
+}

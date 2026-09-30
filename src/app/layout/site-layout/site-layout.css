@@ -1,0 +1,49 @@
+/*
+ * In the original, div.main-wrapper's only in-flow children were the (fixed) navbar and the page root.
+ * Keep it that way: the header host adds no box and the router-outlet marker takes no flex slot.
+ */
+app-header {
+  display: contents;
+}
+router-outlet {
+  display: none;
+}
+
+/* ported from Nuxt style block 997252059d; rules for wrapper classes that no page uses are left out */
+.main-wrapper {
+  background-color:#fafafa;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  padding-top:5rem;
+  position:relative;
+}
+.main-wrapper.home-wrapper {
+  background-color:#fff;
+}
+.main-wrapper.en {
+  left:0;
+}
+@media screen and (min-width:781px) {
+  .main-container {
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+  }
+  .main-wrapper {
+    flex:1;
+  }
+}
+@media screen and (max-width:780px) {
+  .main-wrapper {
+    background:#fff;
+    min-height:100vh;
+    padding-top:3rem;
+  }
+  .main-wrapper.home-wrapper.lg-navbar {
+    padding-top:152px;
+  }
+  .main-wrapper.funnel-page-wrapper {
+    padding-top:0;
+  }
+}

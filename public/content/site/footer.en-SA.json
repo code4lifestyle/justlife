@@ -1,0 +1,95 @@
+{
+ "services": [],
+ "cities": [
+  {
+   "title": "United Arab Emirates",
+   "links": [
+    {
+     "text": "Dubai",
+     "href": "/en-AE/dubai"
+    },
+    {
+     "text": "Abu Dhabi",
+     "href": "/en-AE/abu-dhabi"
+    },
+    {
+     "text": "Sharjah",
+     "href": "/en-AE/sharjah"
+    },
+    {
+     "text": "Ajman",
+     "href": "/en-AE/ajman"
+    }
+   ]
+  },
+  {
+   "title": "Saudi Arabia",
+   "links": [
+    {
+     "text": "Jeddah",
+     "href": "/en-SA/jeddah"
+    },
+    {
+     "text": "Riyadh",
+     "href": "/en-SA/riyadh"
+    }
+   ]
+  }
+ ],
+ "ksaDocs": [
+  {
+   "href": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/docs/Certificate.pdf",
+   "img": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/docs/ministry_of_commerce.webp?f=webp",
+   "alt": "ministry_of_commerce"
+  },
+  {
+   "href": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/docs/Quatro_KSA.pdf",
+   "img": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/docs/vat.webp?f=webp",
+   "alt": "ksa vat"
+  }
+ ],
+ "appIcons": [
+  {
+   "href": "https://cutt.ly/JMApp-Website",
+   "img": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/home/appstore.png?f=webp",
+   "alt": "Download iOS App"
+  },
+  {
+   "href": "https://cutt.ly/JMApp-Website",
+   "img": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/home/playstore.png?f=webp",
+   "alt": "Download Android App"
+  }
+ ],
+ "links": [
+  {
+   "text": "Contact Us",
+   "href": "/en-SA/contact-us"
+  },
+  {
+   "text": "F.A.Q",
+   "href": "/en-SA/faq"
+  },
+  {
+   "text": "Terms",
+   "href": "/en-SA/terms"
+  },
+  {
+   "text": "Privacy",
+   "href": "/en-SA/privacy"
+  },
+  {
+   "text": "Sitemap",
+   "href": "/en-SA/sitemap",
+   "id": "sitemap-link"
+  },
+  {
+   "text": "Blog",
+   "href": "/blog/en-AE"
+  },
+  {
+   "text": "Career",
+   "href": "http://career.justlife.com/",
+   "newTab": true
+  }
+ ]
+}

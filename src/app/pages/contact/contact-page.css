@@ -1,0 +1,46 @@
+/* The host stands in for the original page root: the only in-flow child of the layout's .main-wrapper
+   (flex column; the navbar is fixed, app-header is display:contents, router-outlet display:none). */
+:host {
+  display:block;
+}
+
+/* ported from Nuxt style block 50bfc5f2db */
+.content {
+  font-size:1rem;
+  line-height:1.5rem;
+  padding:2rem;
+}
+@media screen and (max-width:1023px) {
+  .content {
+    padding:1rem 1.5rem;
+  }
+}
+
+/* ported from Nuxt style block eb8c5b0d0d */
+.contact-hero {
+  height:400px;
+  -o-object-fit:cover;
+  object-fit:cover;
+  -o-object-position:center bottom;
+  object-position:center bottom;
+  width:100%;
+}
+.contact-container {
+  margin:0 auto;
+  max-width:748px;
+}
+@media screen and (min-width:1800px) {
+  .contact-hero {
+    height:600px;
+  }
+}
+@media screen and (min-width:1440px) {
+  .contact-hero {
+    height:500px;
+  }
+}
+@media screen and (max-width:780px) {
+  .contact-hero {
+    height:220px;
+  }
+}

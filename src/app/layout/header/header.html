@@ -1,0 +1,292 @@
+<nav id="main-navbar" [class]="navbarClass()">
+  <div class="en navbar-inside">
+    <div class="navbar-left">
+      <a
+        [routerLink]="home()"
+        routerLinkActive=""
+        [routerLinkActiveOptions]="{ exact: true }"
+        ariaCurrentWhenActive="page"
+        aria-label="Justlife"
+        class="logo"
+        id="desktop-justlife-logo"
+      >
+        <img alt="Justlife" class="cdn-icon" height="42" width="130" [src]="logo" />
+      </a>
+    </div>
+
+    @if (hasCenter()) {
+      <div class="navbar-center _c _vc sm_column _grow sm_no_grow" [class.sm_bt_x1]="hasSearch()">
+        @if (hasSearch()) {
+          <!-- Location + service search of the city pages. Both needed the live backend: the location
+               search shows the original "nothing found" state, the service search is kept as UI only. -->
+          <div class="location-search-wrapper _fs _grow sm_w-100 sm_no_grow">
+            <div
+              class="location-container navbar-section sm_px_x4 sm_w-100 _grow _vc sm_w-100 mw_100"
+            >
+              <div class="has-bg px_x2 _grow lg location-search" id="navbar-location-button">
+                <div class="sm_px_x0 _vc pl_x1">
+                  <div class="pin-wrapper">
+                    <img alt="LocationPin" class="block" [src]="locationPin" />
+                  </div>
+                </div>
+                <div class="pl_x1 _grow location-search-input-wrapper">
+                  <input
+                    #locationInput
+                    autocomplete="nope"
+                    class="location-search-input overflow-hidden"
+                    id="location-input"
+                    name="location-input"
+                    placeholder="Search for area, street name, landmark..."
+                    aria-label="Search for area, street name, landmark"
+                    type="text"
+                    [class.typed]="searchTerm()"
+                    [value]="searchTerm()"
+                    (input)="searchTerm.set(locationInput.value)"
+                    (focus)="searchFocused.set(true)"
+                    (blur)="searchFocused.set(false)"
+                    (keydown.escape)="locationInput.blur()"
+                  />
+                </div>
+                <div class="location-search-right">
+                  <div
+                    class="en location-search-clear p_x1 sm_px_x0"
+                    [style.display]="searchTerm() ? null : 'none'"
+                    (mousedown)="$event.preventDefault()"
+                    (click)="clearSearch(locationInput)"
+                  >
+                    <svg
+                      fill="none"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        clip-rule="evenodd"
+                        d="M12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2ZM17 15.6L15.6 17L12 13.4L8.4 17L7 15.6L10.6 12L7 8.4L8.4 7L12 10.6L15.6 7L17 8.4L13.4 12L17 15.6Z"
+                        fill="black"
+                        fill-opacity="0.38"
+                        fill-rule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    class="locate-me-button _c _vc pb_x05 sm_fe ml_x2 mr_x1"
+                    id="locate-me-button"
+                    (mousedown)="$event.preventDefault()"
+                    (click)="locationInput.focus()"
+                  >
+                    <div class="locate-me-icon">
+                      <img alt="LocateMe" class="block" [src]="locateMe" />
+                    </div>
+                  </div>
+                </div>
+                <div class="with-border search-results" [class.active]="showSearchResults()">
+                  <div class="_tc p_x2">
+                    <img alt="SearchEmptyState" loading="lazy" [src]="searchEmpty" />
+                    <span class="body-text block mt_x4">
+                      We couldn't find anything for '{{ searchTerm() }}'
+                    </span>
+                    <span class="body-text block mt_x2">Please try a different search</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sm_mt_x2 ml_x6 sm_ml_x0 sm_w-100">
+            <div class="home-search-container-wrapper sm_w-100">
+              <div class="home-search-container _vc en">
+                <div class="_c _vc w-100 sm_px_x4 has-background-white">
+                  <div class="b_x1 _c p_x2 home-search-input-container is-relative">
+                    <div class="_vc search-icon-container pointer">
+                      <svg
+                        class="sm_w_x8 sm_h_x8"
+                        fill="none"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        width="24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          clip-rule="evenodd"
+                          d="M20.7255 19.3854L16.3676 14.9324C17.4881 13.6238 18.102 11.9773 18.102 10.2632C18.102 6.25832 14.7855 3 10.7091 3C6.63278 3 3.31628 6.25832 3.31628 10.2632C3.31628 14.268 6.63278 17.5263 10.7091 17.5263C12.2395 17.5263 13.6978 17.0728 14.9446 16.212L19.3356 20.6987C19.5192 20.886 19.766 20.9893 20.0306 20.9893C20.281 20.9893 20.5185 20.8955 20.6988 20.7249C21.082 20.3627 21.0942 19.7621 20.7255 19.3854ZM10.7091 4.89474C13.7222 4.89474 16.1734 7.30295 16.1734 10.2632C16.1734 13.2234 13.7222 15.6316 10.7091 15.6316C7.69607 15.6316 5.24486 13.2234 5.24486 10.2632C5.24486 7.30295 7.69607 4.89474 10.7091 4.89474Z"
+                          fill="#9E9E9E"
+                          fill-rule="evenodd"
+                        />
+                      </svg>
+                    </div>
+                    <input
+                      autocomplete="off"
+                      class="b_x0 ml_x1 home-search-input f-body2 m-f-caption"
+                      id="home-search-input"
+                      placeholder='Search for "Massage"'
+                      aria-label="Search for a service"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        }
+      </div>
+    }
+
+    <div class="navbar-right">
+      <div class="navbar-items">
+        <div
+          #countryWrapper
+          class="country-dropdown-wrapper"
+          (focusout)="onFocusOut($event, countryWrapper, countryOpen)"
+        >
+          <div
+            class="navbar-item"
+            id="navbar-country-item"
+            role="button"
+            tabindex="0"
+            aria-label="Select Country"
+            aria-haspopup="true"
+            [attr.aria-expanded]="countryOpen()"
+            (click)="toggleCountry()"
+            (keydown.enter)="toggleCountry()"
+            (keydown.space)="$event.preventDefault(); toggleCountry()"
+          >
+            <img
+              alt="country-flag"
+              class="country-flag"
+              height="24"
+              width="24"
+              id="change-country"
+              [src]="currentCountry().flag"
+            />
+          </div>
+          <div
+            class="country-modal-wrapper"
+            id="country-dropdown"
+            [style.display]="countryOpen() ? null : 'none'"
+          >
+            <div class="modal-background" (click)="closeDropdowns()"></div>
+            <!-- The original put the title <span> straight into the <ul>: the box is a <div> here. -->
+            <div class="en country-dropdown">
+              <span class="has-text-black87 country-dropdown-title" id="country-dropdown-title">
+                Select Country
+              </span>
+              <ul id="country-dropdown-list" aria-labelledby="country-dropdown-title">
+                @for (country of countries; track country.locale) {
+                  <li>
+                    <a
+                      class="v-centered"
+                      [class.active]="country.locale === locale()"
+                      [id]="country.id"
+                      [routerLink]="countryLinks()[country.locale]"
+                      (click)="closeDropdowns()"
+                    >
+                      <div class="item-left">
+                        <img alt="Country flag" class="en" loading="lazy" [src]="country.flag" />
+                        <span>{{ country.name }}</span>
+                      </div>
+                      <div class="item-right">
+                        <div class="radio-circle" [class.active]="country.locale === locale()">
+                          @if (country.locale === locale()) {
+                            <div class="active-circle"></div>
+                          }
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                }
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div
+          #userWrapper
+          class="user-dropdown-wrapper ml_x3"
+          (focusout)="onFocusOut($event, userWrapper, userOpen)"
+        >
+          <div
+            class="en navbar-item v-centered last-item active"
+            id="open-user-dropdown-button"
+            role="button"
+            tabindex="0"
+            aria-label="Menu"
+            aria-haspopup="true"
+            [attr.aria-expanded]="userOpen()"
+            (click)="toggleUser()"
+            (keydown.enter)="toggleUser()"
+            (keydown.space)="$event.preventDefault(); toggleUser()"
+          >
+            <div class="en navbar-user-item v-centered">
+              <div class="navbar-user-icon v-centered">
+                <img alt="person-icon" class="cdn-icon" height="24" width="24" [src]="personIcon" />
+              </div>
+            </div>
+            <div class="hamburger-icon" id="hamburger-icon-button">
+              <img
+                alt="hamburger-icon"
+                class="cdn-icon"
+                height="20"
+                width="22"
+                [src]="hamburgerIcon"
+              />
+            </div>
+          </div>
+          <div
+            class="en user-dropdown"
+            id="user-dropdown"
+            [style.display]="userOpen() ? null : 'none'"
+          >
+            <div class="user-dropdown-visitor">
+              <button
+                type="button"
+                class="button is-rounded is-uppercase has-text-weight-bold is-fullwidth is-secondary login-button"
+                id="login-button"
+                (click)="openApp()"
+              >
+                Sign up or Log in
+              </button>
+              <div class="user-dropdown-items">
+                <div class="user-dropdown-item">
+                  <a id="dropdown-help" [routerLink]="helpLink()" (click)="closeDropdowns()">
+                    <img
+                      alt="question-mark-outlined-icon"
+                      class="question-mark-icon-custom"
+                      loading="lazy"
+                      [src]="helpIcon"
+                    />
+                    <span class="has-text-black87 en">Help</span>
+                    <svg
+                      class="right-icon en"
+                      fill="none"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        clip-rule="evenodd"
+                        d="M8.93869 4.16699L7.58984 5.5281L12.0218 10.0003L7.58984 14.4725L8.93869 15.8337L14.7195 10.0003L8.93869 4.16699Z"
+                        fill="black"
+                        fill-opacity="0.87"
+                        fill-rule="evenodd"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="app-icons">
+              <a class="en" id="download-play-store" target="_blank" rel="noopener" [href]="appUrl">
+                <img alt="Download Android App" loading="lazy" [src]="androidBadge" />
+              </a>
+              <a class="en" id="download-app-store" target="_blank" rel="noopener" [href]="appUrl">
+                <img alt="Download iOS App" loading="lazy" [src]="iosBadge" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>

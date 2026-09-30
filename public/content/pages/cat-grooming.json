@@ -1,0 +1,322 @@
+{
+ "meta": {
+  "title": "Cat Grooming Service and Mobile Cat Grooming",
+  "description": "With our extensive and convenient mobile grooming solutions and skilled groomers, we are dedicated to providing exceptional care to your beloved cats.",
+  "canonical": "https://www.justlife.com/cat-grooming",
+  "ogTitle": "Cat Grooming Service and Mobile Cat Grooming",
+  "ogDescription": "With our extensive and convenient mobile grooming solutions and skilled groomers, we are dedicated to providing exceptional care to your beloved cats."
+ },
+ "extraMeta": [
+  {
+   "property": "og:type",
+   "content": "website"
+  },
+  {
+   "name": "twitter:card",
+   "content": "summary_large_image"
+  },
+  {
+   "property": "twitter:title",
+   "content": "Cat Grooming Service and Mobile Cat Grooming"
+  },
+  {
+   "property": "twitter:description",
+   "content": "With our extensive and convenient mobile grooming solutions and skilled groomers, we are dedicated to providing exceptional care to your beloved cats."
+  }
+ ],
+ "fontsHref": "https://fonts.googleapis.com/css?family=Montserrat:200,400,500,600,700,800,900%7CPoppins:200,300,400,500,600,700,800",
+ "navbar": {
+  "homeText": "Home > ",
+  "currentText": "Cat Grooming",
+  "logo": {
+   "src": "https://uploads-ssl.webflow.com/6527d4434ce0218b7ffa0b47/6527d4434ce0218b7ffa0b4c_logo_justlife.webp",
+   "alt": "Justlife Logo"
+  }
+ },
+ "hero": {
+  "title": "Cat Grooming Service",
+  "lead": "Now",
+  "cta": {
+   "text": "book",
+   "href": "https://cutt.ly/JMApp-Website"
+  },
+  "ctaText": "Cat Grooming Service at Home",
+  "tagline": "for your lovely friends in 60 seconds.",
+  "image": {
+   "src": "https://uploads-ssl.webflow.com/6527d4434ce0218b7ffa0b47/6527db576bba46c47badda99_hero-img-cat.webp",
+   "alt": "cat grooming service",
+   "width": 448,
+   "height": 448
+  }
+ },
+ "intro": {
+  "titleHtml": "Cat Grooming in the UAE: <br><strong>Professional Cat Grooming Services at Your Doorstep</strong>",
+  "textHtml": "Welcome to Justlife. Our professional pet groomers in the UAE have a deep understanding of cats and are skilled in handling cats of all sizes and breeds.<br><br>With our extensive range of services, convenient mobile grooming solutions, experienced and skilled groomers, and unwavering commitment to pet welfare, we are dedicated to providing exceptional care to your beloved cats."
+ },
+ "feature": {
+  "title": "What Is a Cat Grooming Service?",
+  "text": "A cat grooming service extends beyond basic cleaning. It includes tasks like shampooing, cat hair trimming, ear and eye cleaning, cat nail clipping, etc. These tasks are done to improve the appearance and well-being of your adored friends.",
+  "cta": {
+   "text": "Book now",
+   "href": "https://cutt.ly/JMApp-Website"
+  },
+  "image": {
+   "src": "https://uploads-ssl.webflow.com/6527d4434ce0218b7ffa0b47/65293fcd7055ebfe18a5ee70_content_image.webp",
+   "alt": "cat hair cut",
+   "width": 374,
+   "height": 240
+  }
+ },
+ "services": {
+  "titleHtml": "Services Included <br>in Cat Grooming",
+  "intro": "Justlife provides a comprehensive range of pet grooming services customized to cater to the unique requirements of your beloved pet. Here is a list of the services integrated into our mobile cat grooming service.",
+  "items": [
+   {
+    "title": "Bathing and Shampooing",
+    "boldClass": "bold-text-12",
+    "textHtml": "Our expert groomers use gentle, cat-friendly shampoos and conditioners to provide your cats with a luxurious bathing experience. We make sure to thoroughly clean their coats so they smell fresh and look their best."
+   },
+   {
+    "title": "Blow Dry",
+    "boldClass": "bold-text-11",
+    "textHtml": "It is a technique used to thoroughly dry the pet's fur and prevent dampness that can lead to skin irritations. This not only keeps them clean and fluffy but also avoids any skin troubles from being too wet."
+   },
+   {
+    "title": "Hair Brushing",
+    "boldClass": "bold-text-10",
+    "textHtml": "Regular brushing is essential to prevent matting, reduce shedding, and keep your cat's coat healthy. Frequent brushing not only ensures a tidy appearance but also contributes to the health of the skin and coat.<br><br>No matter if your furry friend has long or short fur, regular hair brushing is key to keeping their coat tangle-free and managing shedding effectively."
+   },
+   {
+    "title": "Cat Nail Clipping and Grinding (Pawdicure)",
+    "boldClass": "bold-text-9",
+    "textHtml": "Our grooming service covers nail trimming and grinding (pawdicure) to prevent nails from growing too long and reduce the chance of scratching or other paw-related problems."
+   },
+   {
+    "title": "Ear and Eye Cleaning",
+    "boldClass": "bold-text-15",
+    "textHtml": "Proper hygiene for your cat's eyes and ears is essential. Our groomers gently clean and maintain these areas, reducing the risk of infections and ensuring your cat's comfort."
+   },
+   {
+    "title": "Additional Services",
+    "boldClass": "bold-text-13",
+    "textHtml": "In addition, we also offer specialized services such as anal gland cleaning, trimming of face hair, tail, lower belly, etc. all aimed at improving your pets' appearance and well-being."
+   }
+  ]
+ },
+ "separator": {
+  "src": "https://uploads-ssl.webflow.com/6527d4434ce0218b7ffa0b47/6527d4434ce0218b7ffa0b5c_line_02.webp",
+  "alt": "line separator",
+  "width": 500
+ },
+ "whyChoose": {
+  "titleHtml": "Why Choose Justlife for Cat Grooming in the UAE?",
+  "intro": "There are several reasons why Justlife stands out as one of the best cat grooming UAE services.",
+  "items": [
+   {
+    "title": "Same-day Availability",
+    "boldClass": "bold-text-14",
+    "textHtml": "We know that sometimes your pet's grooming needs can pop up unexpectedly. That's why Justlife offers same-day availability for pet grooming services in the UAE.<br><br>Whether you have a sudden event or just want a convenient, speedy grooming appointment, you can count on Justlife to be there for you and your pet."
+   },
+   {
+    "title": "Convenient Mobile Grooming",
+    "boldClass": "bold-text-17",
+    "textHtml": "Say goodbye to stressful trips or waiting in queues at the cat salon. With our mobile cat grooming home service, we bring the salon to your doorstep. Our groomers arrive fully equipped in our <strong>mobile vans</strong>, saving you time and making the grooming experience more convenient for both you and your cats."
+   },
+   {
+    "title": "Experienced and Skilled Groomers (For Extra Safety)",
+    "boldClass": "bold-text-4",
+    "textHtml": "Our professional cat groomers have extensive experience and expertise in handling cats of all breeds and temperaments. They are trained to provide exceptional care while ensuring your cats feel comfortable and safe throughout the grooming process."
+   },
+   {
+    "title": "Personalized Attention",
+    "boldClass": "bold-text-16",
+    "textHtml": "At Justlife, we understand that each cat is unique. That is why we tailor our grooming services as per your cat's individual needs, ensuring they receive the pampering and care they deserve."
+   },
+   {
+    "title": "Commitment to Cat Welfare",
+    "boldClass": "bold-text-18",
+    "textHtml": "We are passionate about the well-being of your cats. Our dedicated groomers place their utmost focus on prioritizing the comfort, safety, and overall happiness of your feline friends. They strictly adhere to the highest standards of care and hygiene and utilizing top-quality products and equipment."
+   }
+  ]
+ },
+ "booking": {
+  "titleHtml": "How Do I Book a Cat Grooming Service in the UAE?",
+  "intro": "Booking a pet grooming service with Justlife is easy and convenient.",
+  "stepsHtml": [
+   "1. <br>\nVisit our Website or <a href=\"https://cutt.ly/JMApp-Website\">Download and open our App</a> and navigate to the ‘Pet Care at Home’ section.",
+   "2. <br>Choose Your Grooming Package: Select the grooming package that best suits your cat's needs and your preferences.",
+   "3. <br>Pick a Convenient Appointment Time: Choose a date and time that work for you and your cat.",
+   "4. <br>Provide Specific Instructions: If you have any specific instructions or preferences, feel free to share them with us.",
+   "5. <br>Payment and Confirmation: Make the payment and get the booking confirmation. Once your booking is confirmed, our groomers will be on their way to pamper your cat."
+  ]
+ },
+ "faqDivider": {
+  "src": "https://uploads-ssl.webflow.com/6527d4434ce0218b7ffa0b47/6527d4434ce0218b7ffa0b58_blue_bg.webp",
+  "alt": "section separator"
+ },
+ "faq": {
+  "title": "Frequently Asked Questions",
+  "icon": {
+   "src": "https://uploads-ssl.webflow.com/6527d4434ce0218b7ffa0b47/6527d4434ce0218b7ffa0b5a_chevron-updown.png",
+   "alt": "",
+   "width": 22
+  },
+  "items": [
+   {
+    "question": "How often should I groom my cat?",
+    "answerHtml": "The frequency of grooming depends on your cat's hair type, breed, and specific needs. We recommend regular grooming every four to eight weeks to maintain your pet's coat and overall hygiene."
+   },
+   {
+    "question": "Are your groomers trained to handle anxious cats?",
+    "answerHtml": "Yes, our groomers are experienced in handling cats with anxiety or reluctance. They are trained to provide a calm and stress-free environment to ensure your cat feels comfortable during the grooming process."
+   },
+   {
+    "question": "Do you have to muzzle the pet?",
+    "answerHtml": "No, we don’t use any muzzles on pets."
+   },
+   {
+    "question": "How much does a cat grooming service cost?",
+    "answerHtml": "Our pet grooming services in the UAE are competitively priced, with packages to suit various budgets. You can check out our cat grooming prices here."
+   },
+   {
+    "question": "How do I pay?",
+    "answerHtml": "Payments can be made via credit card, Google Pay (for Android and website users), or cash."
+   },
+   {
+    "question": "Do you offer cat grooming at-home packages?",
+    "answerHtml": "Yes, we do offer packages. You can check out our ‘Pet Care at Home’ section in our app for more details on our packages."
+   },
+   {
+    "question": "Can I book your mobile pet grooming service for a specific time slot?",
+    "answerHtml": "Yes, when booking your service, you can select a preferred date and time that suits your schedule. We offer flexible scheduling options, including same-day availability."
+   },
+   {
+    "question": "Can I book your grooming service on Sundays?",
+    "answerHtml": "Yes, our <strong>mobile pet grooming vans </strong>can come to you 7 days a week, including Sundays."
+   },
+   {
+    "question": "Is it mandatory for cats to be vaccinated?",
+    "answerHtml": "Yes, cats need to be fully vaccinated and correctly handled to the grooming<strong> </strong>van."
+   }
+  ]
+ },
+ "otherServices": {
+  "title": "What other services can we help you with?",
+  "boldClass": "bold-text-17",
+  "subtitle": "Everything you need",
+  "cards": [
+   {
+    "icon": {
+     "src": "https://uploads-ssl.webflow.com/6527d4434ce0218b7ffa0b47/652936bfa6e7dac178cf23dc_icon_womens-salon.webp",
+     "alt": "Women's Salon Avatar",
+     "width": 100,
+     "height": 100
+    },
+    "titleHtml": "Women's<br>Salon",
+    "text": "Book beauty services at the comfort of your home",
+    "cta": {
+     "text": "Book now",
+     "href": "/en-AE/beauty-for-her/checkout/flex"
+    }
+   },
+   {
+    "icon": {
+     "src": "https://uploads-ssl.webflow.com/6527d4434ce0218b7ffa0b47/652936c05edfd42a7b58f207_icon_womens-spa.webp",
+     "alt": "Women's Spa Avatar",
+     "width": 100,
+     "height": 100
+    },
+    "titleHtml": "Women's<br>Spa",
+    "text": "Indulgent luxury for mind, body, and soul!",
+    "cta": {
+     "text": "Book now",
+     "href": "/en-AE/spa-treatments/checkout/flex"
+    }
+   }
+  ],
+  "prevArrow": {
+   "src": "https://uploads-ssl.webflow.com/62434fa732124a0fb112aab4/62434fa732124a0e4912aadb_Chevron%20right-1.svg",
+   "alt": ""
+  },
+  "nextArrow": {
+   "src": "https://uploads-ssl.webflow.com/62434fa732124a0fb112aab4/62434fa732124a7ce212aacc_Chevron%20right.svg",
+   "alt": ""
+  },
+  "duration": 500,
+  "infinite": true,
+  "hideArrows": true
+ },
+ "app": {
+  "cta": {
+   "text": "Download our Super-app!",
+   "href": "https://cutt.ly/JMApp-Website"
+  },
+  "titleHtml": "Manage all to-do's<br>with a single tap!",
+  "text": "Book and manage your appointments, view your professional’s profile and ratings, get the latest offers, and much more.",
+  "image": {
+   "src": "assets/cat-grooming/images/phone_app.webp",
+   "alt": "",
+   "srcset": "assets/cat-grooming/images/phone_app-p-500.webp 500w, assets/cat-grooming/images/phone_app-p-800.webp 800w, assets/cat-grooming/images/phone_app.webp 848w",
+   "sizes": "(max-width: 479px) 300px, (max-width: 767px) 450px, (max-width: 991px) 550px, (max-width: 1439px) 450px, 420px"
+  }
+ },
+ "footer": {
+  "logo": {
+   "src": "https://uploads-ssl.webflow.com/6527d4434ce0218b7ffa0b47/6527d4434ce0218b7ffa0b57_logo_justlife_white.webp",
+   "alt": "Justlife Logo",
+   "width": 130,
+   "height": 40
+  },
+  "columns": [
+   [
+    {
+     "html": "Women''s Salon",
+     "href": "/en-AE/salon-services-at-home"
+    },
+    {
+     "html": "Women''s Spa",
+     "href": "/en-AE/spa-and-massage-service-at-home"
+    }
+   ],
+   [
+    {
+     "html": "Home Cleaning<br>‍",
+     "href": "/en-AE/house-cleaning"
+    }
+   ]
+  ],
+  "copyright": "© 2023 Justlife. All rights reserved",
+  "social": [
+   {
+    "href": "https://www.facebook.com/justlifeuae",
+    "image": {
+     "src": "https://uploads-ssl.webflow.com/6527d4434ce0218b7ffa0b47/65293e2e7aa1b9ccce837949_social_fb.webp",
+     "alt": "Justlife Facebook",
+     "width": 40,
+     "height": 40
+    },
+    "imageClass": "image-7"
+   },
+   {
+    "href": "https://www.instagram.com/justlifeuae",
+    "image": {
+     "src": "https://uploads-ssl.webflow.com/6527d4434ce0218b7ffa0b47/65293e2eedb9c49b8bca6270_social_ig.webp",
+     "alt": "Justlife Instagram",
+     "width": 40,
+     "height": 40
+    },
+    "imageClass": "image-8"
+   },
+   {
+    "href": "https://www.twitter.com/justlifeuae",
+    "image": {
+     "src": "https://uploads-ssl.webflow.com/6527d4434ce0218b7ffa0b47/65293e2e1195e1bc16936c78_social_x.webp",
+     "alt": "Justlife X",
+     "width": 40,
+     "height": 40
+    },
+    "imageClass": "image-27"
+   }
+  ]
+ }
+}

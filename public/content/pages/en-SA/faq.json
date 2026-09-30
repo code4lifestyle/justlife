@@ -1,0 +1,209 @@
+{
+ "meta": {
+  "title": "FAQ | KSA",
+  "description": "Learn everything you need about Justlife UAE. Part time maids service is a more affordable way of having your home cleaned. Enjoy Justlife Experience.",
+  "robots": "index, follow",
+  "canonical": "https://www.justlife.com/en-SA/faq",
+  "ogTitle": "FAQ | KSA",
+  "ogDescription": "Home Services in SA | Justlife SA",
+  "ogImage": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/rounded1.png",
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "How many hours should I book?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>A: In Saudi Arabia, the minimum hours spent should be 4 hours.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Do you have a cancellation policy?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p><strong>Yes, you can cancel your booking. Please find our rescheduling and cancellation policy below:</strong></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<ul>\r\n\t<li>\r\n\t<p><strong>Up to 15 minutes after placing the order</strong>: Free of charge.</p>\r\n\t</li>\r\n\t<li>\r\n\t<p><strong>6+ hours before the appointment</strong>: Free of charge.</p>\r\n\t</li>\r\n\t<li>\r\n\t<p><strong>2-6 hours before the appointment</strong>: 50% cancellation fee and 25% rescheduling fee.</p>\r\n\t</li>\r\n\t<li>\r\n\t<p><strong>Less than 2 hours before the appointment</strong>: 100% cancellation fee. Rescheduling incurs a 50% fee.</p>\r\n\t</li>\r\n\t<li>\r\n\t<p><strong>Missed appointments</strong>: 100% cancellation fee and 50% rescheduling fee.</p>\r\n\t</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>​<strong>For Recurring Bookings</strong>:</p>\r\n\r\n<ul>\r\n\t<li>If none of the appointments have been completed, the above policy applies.</li>\r\n\t<li>If one or more appointments have been completed, the package is non-cancellable and non-refundable.</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Can I book the same cleaning professional more than once?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>Ofcourse! We provide you with your favorite professional&rsquo;s schedule, and we also recommend that you book a package which guarantees a booking with the same profeesional everytime.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Do you serve single men?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>In Saudi Arabia we only serve family houses, where there is a female over the age of 18 available</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Do you supply your own cleaning materials?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>Yes we do, you can request including cleaning materials with an additional fee of SAR 10 per hour, per cleaner.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What materials do I need to provide?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>If you choose to prefer providing materials yourself, we recommend you to have these in your house:</p>\r\n\r\n<ul>\r\n\t<li>Vacuum cleaner</li>\r\n\t<li>Mop</li>\r\n\t<li>Multi-purpose Cleaning Spray</li>\r\n\t<li>General Purpose Polish</li>\r\n\t<li>Floor Cleaner</li>\r\n\t<li>Bleach</li>\r\n\t<li>Limescale Remover</li>\r\n\t<li>Micro Fibre Cloths</li>\r\n\t<li>Furniture Polish</li>\r\n\t<li>Sponges</li>\r\n</ul>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Who are our home cleaning service providers?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>We partner with trusted organizations including Mueen Human Resources, Esad for Human Resources and Management, JawaHR Human Resources, and Al Falak Human Resources Company. All our partnerships are fully licensed and legally approved by the relevant authorities.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is Justlife.sa?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>Justlife.sa is the first &amp; leading online marketplace that connects professional maids with people looking for cleaning services.</p>\r\n\r\n<p>&nbsp;</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How do I pay?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>&nbsp;We accept payments via Credit Cards.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is the price?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>A: To know more about our prices per hour:</p>\r\n\r\n<p>1- Choose your service details&nbsp;&nbsp;</p>\r\n\r\n<p>2- Select date and time&nbsp;</p>\r\n\r\n<p>3- Enter your location</p>\r\n\r\n<p>And then you can check the prices per session.&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>All prices include Tax</p>\r\n\r\n<p>&nbsp;</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How will I receive my refund?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>Upon the cancellation of any service, you will have two options:</p>\r\n\r\n<ul>\r\n\t<li>Get a refund directly to your bank account within 7 to 14 business days depending on the bank policy.</li>\r\n\t<li>Get a refund as a Justlife credit which will reflect on the spot right after the cancellation. Credit will be valid for 60 days from the date of the cancellation.</li>\r\n</ul>\r\n\r\n<p>As Justlife we authorize the booking amount from your bank and only charge it after the session is completed. This applies to all appointments that are future dated less than 7 days from the moment of appointment creation time.&nbsp; If the booking is canceled before the appointment start time, the authorization will be voided and there won&#39;t be any charges to your account (unless cancellation is subject to penalty, if yes, those penalties will be applied). This process takes much shorter than the usual refund process and usually takes 1-5 business days which might change as per your bank policy.</p>\r\n\r\n<p>If your appointment is created as a future date for more than 7 days, we are capturing the amount when the appointment is created as the authorization process can only be done for 7 days. For completed appointments or appointments that are future dated for more than 7 days from the moment of appointment creation time. We will be charging your card, and the refund process (if applicable) might take 7-14 business days as per your bank policy. You can reach out to your bank for more precise information.</p>"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "shell": {
+  "locale": "en-SA",
+  "wrapperClass": "en lang-faq app-layout main-wrapper",
+  "navbarClass": "navbar visitor",
+  "footer": {
+   "desktopOnly": false,
+   "servicesTitle": null,
+   "serviceAreas": null
+  }
+ },
+ "title": "Frequently asked questions",
+ "crumb": {
+  "text": "Home",
+  "href": "/en-SA"
+ },
+ "categories": [
+  {
+   "name": "Booking",
+   "items": [
+    {
+     "question": "How many hours should I book?",
+     "answer": "<p>A: In Saudi Arabia, the minimum hours spent should be 4 hours.</p>"
+    },
+    {
+     "question": "Do you have a cancellation policy?",
+     "answer": "<p><strong>Yes, you can cancel your booking. Please find our rescheduling and cancellation policy below:</strong></p>\n<p> </p>\n<ul>\n<li>\n<p><strong>Up to 15 minutes after placing the order</strong>: Free of charge.</p>\n</li>\n<li>\n<p><strong>6+ hours before the appointment</strong>: Free of charge.</p>\n</li>\n<li>\n<p><strong>2-6 hours before the appointment</strong>: 50% cancellation fee and 25% rescheduling fee.</p>\n</li>\n<li>\n<p><strong>Less than 2 hours before the appointment</strong>: 100% cancellation fee. Rescheduling incurs a 50% fee.</p>\n</li>\n<li>\n<p><strong>Missed appointments</strong>: 100% cancellation fee and 50% rescheduling fee.</p>\n</li>\n</ul>\n<p> </p>\n<p>​<strong>For Recurring Bookings</strong>:</p>\n<ul>\n<li>If none of the appointments have been completed, the above policy applies.</li>\n<li>If one or more appointments have been completed, the package is non-cancellable and non-refundable.</li>\n</ul>\n<p> </p>\n<p> </p>\n<p> </p>"
+    }
+   ]
+  },
+  {
+   "name": "Cleaning",
+   "items": [
+    {
+     "question": "Can I book the same cleaning professional more than once?",
+     "answer": "<p>Ofcourse! We provide you with your favorite professional’s schedule, and we also recommend that you book a package which guarantees a booking with the same profeesional everytime.</p>"
+    },
+    {
+     "question": "Do you serve single men?",
+     "answer": "<p>In Saudi Arabia we only serve family houses, where there is a female over the age of 18 available</p>"
+    },
+    {
+     "question": "Do you supply your own cleaning materials?",
+     "answer": "<p>Yes we do, you can request including cleaning materials with an additional fee of SAR 10 per hour, per cleaner.</p>"
+    },
+    {
+     "question": "What materials do I need to provide?",
+     "answer": "<p>If you choose to prefer providing materials yourself, we recommend you to have these in your house:</p>\n<ul>\n<li>Vacuum cleaner</li>\n<li>Mop</li>\n<li>Multi-purpose Cleaning Spray</li>\n<li>General Purpose Polish</li>\n<li>Floor Cleaner</li>\n<li>Bleach</li>\n<li>Limescale Remover</li>\n<li>Micro Fibre Cloths</li>\n<li>Furniture Polish</li>\n<li>Sponges</li>\n</ul>"
+    }
+   ]
+  },
+  {
+   "name": "General",
+   "items": [
+    {
+     "question": "Who are our home cleaning service providers?",
+     "answer": "<p>We partner with trusted organizations including Mueen Human Resources, Esad for Human Resources and Management, JawaHR Human Resources, and Al Falak Human Resources Company. All our partnerships are fully licensed and legally approved by the relevant authorities.</p>"
+    },
+    {
+     "question": "What is Justlife.sa?",
+     "answer": "<p>Justlife.sa is the first &amp; leading online marketplace that connects professional maids with people looking for cleaning services.</p>\n<p> </p>"
+    }
+   ]
+  },
+  {
+   "name": "Payment",
+   "items": [
+    {
+     "question": "How do I pay?",
+     "answer": "<p> We accept payments via Credit Cards.</p>"
+    },
+    {
+     "question": "What is the price?",
+     "answer": "<p>A: To know more about our prices per hour:</p>\n<p>1- Choose your service details  </p>\n<p>2- Select date and time </p>\n<p>3- Enter your location</p>\n<p>And then you can check the prices per session. </p>\n<p> </p>\n<p>All prices include Tax</p>\n<p> </p>"
+    },
+    {
+     "question": "How will I receive my refund?",
+     "answer": "<p>Upon the cancellation of any service, you will have two options:</p>\n<ul>\n<li>Get a refund directly to your bank account within 7 to 14 business days depending on the bank policy.</li>\n<li>Get a refund as a Justlife credit which will reflect on the spot right after the cancellation. Credit will be valid for 60 days from the date of the cancellation.</li>\n</ul>\n<p>As Justlife we authorize the booking amount from your bank and only charge it after the session is completed. This applies to all appointments that are future dated less than 7 days from the moment of appointment creation time.  If the booking is canceled before the appointment start time, the authorization will be voided and there won't be any charges to your account (unless cancellation is subject to penalty, if yes, those penalties will be applied). This process takes much shorter than the usual refund process and usually takes 1-5 business days which might change as per your bank policy.</p>\n<p>If your appointment is created as a future date for more than 7 days, we are capturing the amount when the appointment is created as the authorization process can only be done for 7 days. For completed appointments or appointments that are future dated for more than 7 days from the moment of appointment creation time. We will be charging your card, and the refund process (if applicable) might take 7-14 business days as per your bank policy. You can reach out to your bank for more precise information.</p>"
+    }
+   ]
+  }
+ ],
+ "appDownloader": {
+  "badge": "Download our Super app!",
+  "title": "Manage all to-dos with a single tap!",
+  "subtitle": "Book and manage your appointments, view your professional’s profile and ratings, get the latest offers, and much more.",
+  "apps": [
+   {
+    "href": "https://cutt.ly/JMApp-Website",
+    "img": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/home/appstore.png?f=webp",
+    "alt": "Download iOS App"
+   },
+   {
+    "href": "https://cutt.ly/JMApp-Website",
+    "img": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/home/playstore.png?f=webp",
+    "alt": "Download Android App"
+   }
+  ],
+  "image": {
+   "src": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/home/apps.webp?f=webp",
+   "alt": "Footer app"
+  }
+ }
+}

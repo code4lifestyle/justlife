@@ -1,0 +1,164 @@
+{
+ "meta": {
+  "title": "Justlife Home Services – Cleaning, Beauty, Spa, Handyman & More",
+  "description": "Top-rated home services in the UAE, delivered to your door. Cleaning, Beauty, Spa, Handyman & Repairs & more.",
+  "keywords": "maids in uae,maid services in uae,cleaning services in uae,cleaning companies in uae",
+  "robots": "index,follow",
+  "canonical": "https://www.justlife.com/en-AE",
+  "ogTitle": "Justlife Home Services – Cleaning, Beauty, Spa, Handyman & More",
+  "ogDescription": "Top-rated home services in the UAE, delivered to your door. Cleaning, Beauty, Spa, Handyman & Repairs & more.",
+  "ogImage": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/rounded1.png",
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Justlife",
+    "description": "Book House Cleaning, Salon & Spa at home with highest ranking home services app.",
+    "applicationCategory": "House & Home",
+    "author": {
+     "name": "Justlife",
+     "@type": "Organization",
+     "url": "https://www.justlife.com"
+    },
+    "url": "https://www.justlife.com",
+    "hasPart": [
+     {
+      "name": "Justlife (Home Services)",
+      "applicationCategory": "House & Home",
+      "@type": "MobileApplication",
+      "operatingSystem": "iOS",
+      "downloadUrl": "https://apps.apple.com/ae/app/justlife-home-services/id1107705982",
+      "aggregateRating": {
+       "@type": "AggregateRating",
+       "ratingValue": 4.6,
+       "ratingCount": 32846
+      },
+      "offers": [
+       {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "AED",
+        "url": "https://apps.apple.com/ae/app/justlife-home-services/id1107705982"
+       }
+      ]
+     },
+     {
+      "name": "Justlife (Home Services)",
+      "applicationCategory": "House & Home",
+      "@type": "MobileApplication",
+      "operatingSystem": "Android",
+      "downloadUrl": "https://play.google.com/store/apps/details?id=com.mobile.justmop",
+      "aggregateRating": {
+       "@type": "AggregateRating",
+       "ratingValue": 4.6,
+       "ratingCount": 15816
+      },
+      "offers": [
+       {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "AED",
+        "url": "https://play.google.com/store/apps/details?id=com.mobile.justmop"
+       }
+      ]
+     }
+    ],
+    "review": [],
+    "operatingSystem": "Android, iOS",
+    "offers": [
+     {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "AED",
+      "url": "https://play.google.com/store/apps/details?id=com.mobile.justmop"
+     },
+     {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "AED",
+      "url": "https://apps.apple.com/ae/app/justlife-home-services/id1107705982"
+     }
+    ],
+    "aggregateRating": {
+     "@type": "AggregateRating",
+     "ratingValue": 4.6,
+     "reviewCount": 48662
+    },
+    "isAccessibleForFree": true
+   }
+  ]
+ },
+ "shell": {
+  "locale": "en-AE",
+  "wrapperClass": "home-wrapper en lang app-layout main-wrapper",
+  "navbarClass": "navbar visitor is-home",
+  "footer": {
+   "desktopOnly": false,
+   "servicesTitle": "Service Areas",
+   "serviceAreas": null
+  }
+ },
+ "kind": "home",
+ "hero": {
+  "title": "#1 Super app for all home services",
+  "image": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/home/hero-v1.webp?f=webp",
+  "imageAlt": "justlife-hero-image",
+  "search": {
+   "label": "Where would you like to receive your service?",
+   "placeholder": "Search for area, street name, landmark...",
+   "locateMe": "Set my location",
+   "pinIcon": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/LocationPin.svg",
+   "locateIcon": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/LocateMe.svg",
+   "emptyIcon": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/SearchEmptyState.svg",
+   "emptyTitle": "We couldn't find anything for",
+   "emptyHint": "Please try a different search"
+  }
+ },
+ "categories": {
+  "title": "Leave your to-do list to us!",
+  "subtitle": "Check out some of our top home services:",
+  "items": [
+   {
+    "text": "Home Cleaning",
+    "href": "/en-AE/house-cleaning",
+    "icon": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/svgs/home-cleaning.svg",
+    "alt": "home-cleaning-icon",
+    "width": 55,
+    "height": 57
+   },
+   {
+    "text": "Women’s Salon",
+    "href": "/en-AE/salon-services-at-home",
+    "icon": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/svgs/women-salon.svg",
+    "alt": "women-salon-icon",
+    "width": 38,
+    "height": 52
+   },
+   {
+    "text": "Women’s Spa",
+    "href": "/en-AE/spa-and-massage-service-at-home",
+    "icon": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/svgs/women-spa.svg",
+    "alt": "women-spa-icon",
+    "width": 50,
+    "height": 50
+   },
+   {
+    "text": "A/C Cleaning",
+    "href": "/en-AE/ac-cleaning",
+    "icon": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/svgs/ac-cleaning.svg",
+    "alt": "ac-cleaning-icon",
+    "width": 49,
+    "height": 48
+   },
+   {
+    "text": "Pest Control",
+    "href": "/en-AE/pest-control",
+    "icon": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/svgs/pest-control.svg",
+    "alt": "pest-control-icon",
+    "width": 58,
+    "height": 50
+   }
+  ]
+ },
+ "city": null
+}

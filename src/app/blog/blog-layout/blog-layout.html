@@ -1,0 +1,104 @@
+<!-- `__className_04fd86` is the Next.js font class (Poppins) that the blog set on <html>. -->
+<div class="__className_04fd86" [style.visibility]="ready() ? null : 'hidden'">
+  @if (data.layout(); as layout) {
+    <div class="Header_headerContainer__RZem_">
+      <div class="Header_headerWrapper__xLzp9">
+        <a target="_self" class="Header_logoWrapper__8YDWS" [routerLink]="home">
+          <img
+            alt="logo"
+            loading="eager"
+            width="170"
+            height="24"
+            decoding="async"
+            class="Header_logoImage__wL82F"
+            style="color: transparent; aspect-ratio: 7.083333333333333"
+            [src]="layout.header.logo"
+          />
+          <p class="Header_brandName__Mwg9r">{{ layout.header.brand }}</p>
+        </a>
+      </div>
+    </div>
+  }
+
+  <router-outlet />
+
+  @if (data.layout()?.footer; as footer) {
+    <div class="Footer_footerContainer__t8QY0">
+      <div class="Footer_footerWrapper__LB7u5">
+        <div class="Footer_servicesContainer__wgnwn">
+          <h3 class="Footer_serviceTitle__YmjVI text-head-2">{{ footer.servicesTitle }}</h3>
+          <div class="Footer_servicesWrapper__VN6_P">
+            @for (service of footer.services; track $index) {
+              <a
+                class="Chip_chipContainer__KMeax Chip_default__xuX8i"
+                [appLink]="service.href"
+                [newTab]="service.newTab"
+                ><p class="text-subtitle-1 text-white g-inline-block">{{ service.text }}</p></a
+              >
+            }
+          </div>
+        </div>
+        <div class="Footer_countriesContainer__q_yKe">
+          @for (country of footer.countries; track $index) {
+            <div>
+              <h3 class="Footer_countryTitle__6pdfV">{{ country.title }}</h3>
+              <div class="Footer_cityContainer__sroHt">
+                @for (city of country.cities; track $index) {
+                  <a
+                    class="Chip_chipContainer__KMeax Chip_default__xuX8i"
+                    [appLink]="city.href"
+                    [newTab]="city.newTab"
+                    ><p class="text-subtitle-1 text-white g-inline-block">{{ city.text }}</p></a
+                  >
+                }
+              </div>
+            </div>
+          }
+        </div>
+        <div class="Footer_linksContainer__39_k2">
+          <div class="Footer_footerAppButtonWrapper__CV3BO">
+            @for (button of footer.appButtons; track $index) {
+              <a
+                class="AppButton_appButtonContainer__YCSHM"
+                [class.Footer_appDownloadButton__QnHoQ]="button.highlight"
+                [appLink]="button.href"
+                [newTab]="button.newTab"
+                ><img
+                  class="AppButton_appButtonImage__25CTf"
+                  loading="lazy"
+                  decoding="async"
+                  style="color: transparent"
+                  [alt]="button.alt"
+                  [attr.width]="button.width"
+                  [attr.height]="button.height"
+                  [style.aspect-ratio]="button.width / button.height"
+                  [src]="button.img"
+              /></a>
+            }
+          </div>
+          <div class="Footer_socialLinkWrapper__SkZaF">
+            @for (social of footer.social; track $index) {
+              <a class="Footer_socialLink__st5GG" [appLink]="social.href" [newTab]="social.newTab"
+                ><img
+                  loading="lazy"
+                  width="32"
+                  height="32"
+                  decoding="async"
+                  style="color: transparent; aspect-ratio: 1"
+                  [alt]="social.href"
+                  [src]="social.img"
+              /></a>
+            }
+          </div>
+          <div class="Footer_footerLinkWrapper__7gcn6">
+            @for (link of footer.links; track $index) {
+              <a class="Footer_footerLink__etu0M" [appLink]="link.href" [newTab]="link.newTab">{{
+                link.text
+              }}</a>
+            }
+          </div>
+        </div>
+      </div>
+    </div>
+  }
+</div>

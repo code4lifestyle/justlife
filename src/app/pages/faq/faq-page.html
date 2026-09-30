@@ -1,0 +1,149 @@
+@let c = content();
+@let ids = slugs();
+<app-static-shell
+  [title]="c.title"
+  [crumb]="c.crumb"
+  wrapperClass="layout-wrapper c-bg-background-secondary full-height c-min-height-100 pb_x0"
+  contentClass="full-size _column c-min-height-100 full-height content-wrapper"
+>
+  <div class="_relative c-mt-8 bb_x1 _c">
+    <!-- The whole arrow area takes mouse clicks; the round icon is the keyboard button (the CSS hides the
+         icon, and so takes it out of the Tab order, on phones, where the row scrolls by swiping). -->
+    <div
+      class="en clickable-area left"
+      style="left: 0"
+      [style.display]="canScrollLeft() ? null : 'none'"
+      (click)="scrollTabs(-1)"
+    >
+      <div
+        #leftArrow
+        class="reverse-y arrow-icon en"
+        role="button"
+        tabindex="0"
+        aria-label="Scroll categories left"
+        aria-controls="faq-categories"
+        (keydown.enter)="onArrowKey($event, -1)"
+        (keydown.space)="onArrowKey($event, -1)"
+      >
+        <svg
+          aria-hidden="true"
+          class="block"
+          fill="none"
+          height="18"
+          viewBox="0 0 11 18"
+          width="11"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M10.1108 8.26351C10.5177 8.67041 10.5177 9.33122 10.1108 9.73812L3.86084 15.9881C3.45394 16.395 2.79313 16.395 2.38623 15.9881C1.97933 15.5812 1.97933 14.9204 2.38623 14.5135L7.90055 8.99919L2.38949 3.48486C1.98258 3.07796 1.98258 2.41715 2.38949 2.01025C2.79639 1.60335 3.45719 1.60335 3.86409 2.01025L10.1141 8.26025L10.1108 8.26351Z"
+            fill="#212121"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      #slider
+      class="slider-content _flex overflow-hidden"
+      id="faq-categories"
+      (scroll)="updateArrows()"
+    >
+      <ul class="_row" role="tablist" aria-label="FAQ categories">
+        @for (category of c.categories; track category.name; let i = $index) {
+          <li
+            #tab
+            [id]="'faq-tab-' + ids[i]"
+            [class]="tabClass(i)"
+            role="tab"
+            [attr.tabindex]="i === selected() ? 0 : -1"
+            [attr.aria-selected]="i === selected()"
+            [attr.aria-controls]="'faq-panel-' + ids[i]"
+            (click)="select(i)"
+            (keydown)="onTabKey($event, i)"
+          >
+            {{ category.name }}
+          </li>
+        }
+      </ul>
+    </div>
+    <div
+      class="en clickable-area right"
+      style="right: 0"
+      [style.display]="canScrollRight() ? null : 'none'"
+      (click)="scrollTabs(1)"
+    >
+      <div
+        #rightArrow
+        class="arrow-icon en"
+        role="button"
+        tabindex="0"
+        aria-label="Scroll categories right"
+        aria-controls="faq-categories"
+        (keydown.enter)="onArrowKey($event, 1)"
+        (keydown.space)="onArrowKey($event, 1)"
+      >
+        <svg
+          aria-hidden="true"
+          class="block"
+          fill="none"
+          height="18"
+          viewBox="0 0 11 18"
+          width="11"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M10.1108 8.26351C10.5177 8.67041 10.5177 9.33122 10.1108 9.73812L3.86084 15.9881C3.45394 16.395 2.79313 16.395 2.38623 15.9881C1.97933 15.5812 1.97933 14.9204 2.38623 14.5135L7.90055 8.99919L2.38949 3.48486C1.98258 3.07796 1.98258 2.41715 2.38949 2.01025C2.79639 1.60335 3.45719 1.60335 3.86409 2.01025L10.1141 8.26025L10.1108 8.26351Z"
+            fill="#212121"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+  @for (category of c.categories; track category.name; let ci = $index) {
+    <div
+      [id]="'faq-panel-' + ids[ci]"
+      role="tabpanel"
+      [attr.aria-labelledby]="'faq-tab-' + ids[ci]"
+      [style.display]="ci === selected() ? null : 'none'"
+    >
+      @for (item of category.items; track $index; let qi = $index) {
+        @let answerId = 'faq-answer-' + ids[ci] + '-' + qi;
+        <article class="accordion accordion-selector" [class.toggle]="isOpen(ci, qi)">
+          <div
+            class="accordion-header"
+            role="button"
+            tabindex="0"
+            [attr.aria-expanded]="isOpen(ci, qi)"
+            [attr.aria-controls]="answerId"
+            (click)="toggle(ci, qi)"
+            (keydown.enter)="onHeaderKey($event, ci, qi)"
+            (keydown.space)="onHeaderKey($event, ci, qi)"
+          >
+            <svg
+              aria-hidden="true"
+              class="en plus disable-click"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect class="vertical-line" fill="#8CA0B3" height="24" width="3" x="10" />
+              <rect class="horizontal-line" fill="#8CA0B3" height="3" width="24" y="10" />
+            </svg>
+            <p class="en disable-click">{{ item.question }}</p>
+          </div>
+          <!-- Closed answers are inert: their links are out of the Tab order while collapsed. -->
+          <div class="accordion-body" [id]="answerId" [attr.inert]="isOpen(ci, qi) ? null : ''">
+            <div class="accordion-clip">
+              <div
+                class="has-text-black60 accordion-content"
+                appContentLinks
+                [innerHTML]="item.answer | safeHtml"
+              ></div>
+            </div>
+          </div>
+        </article>
+      }
+    </div>
+  }
+  <div staticShellAfter [appAppDownloader]="c.appDownloader"></div>
+</app-static-shell>

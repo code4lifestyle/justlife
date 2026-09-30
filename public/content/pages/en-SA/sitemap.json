@@ -1,0 +1,51 @@
+{
+ "meta": {
+  "title": "Sitemap - EN (SA)",
+  "description": "Justlife DMCC",
+  "robots": "index,follow",
+  "canonical": "https://www.justlife.com/en-SA/sitemap",
+  "ogTitle": "justlife"
+ },
+ "shell": {
+  "locale": "en-SA",
+  "wrapperClass": "en lang-sitemap app-layout main-wrapper",
+  "navbarClass": "navbar visitor",
+  "footer": {
+   "desktopOnly": false,
+   "servicesTitle": null,
+   "serviceAreas": null
+  }
+ },
+ "title": "Sitemap",
+ "crumb": {
+  "text": "Home",
+  "href": "/en-SA"
+ },
+ "sections": [
+  {
+   "title": "Blog",
+   "links": [
+    {
+     "text": "#1 Super app for all home services",
+     "href": "/en-SA"
+    },
+    {
+     "text": "Privacy",
+     "href": "/en-SA/privacy"
+    },
+    {
+     "text": "Terms",
+     "href": "/en-SA/terms"
+    },
+    {
+     "text": "FAQ",
+     "href": "/en-SA/faq"
+    },
+    {
+     "text": "Contact Us",
+     "href": "/en-SA/contact-us"
+    }
+   ]
+  }
+ ]
+}

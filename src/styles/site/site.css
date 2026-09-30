@@ -1,0 +1,6 @@
+/* Main site (justlife.com Nuxt app) global styles. Loaded as the "site" style bundle. */
+@import './fonts.css';
+@import './bulma.css';
+@import './design-system.css';
+@import './navbar.css';
+@import './atoms.css';

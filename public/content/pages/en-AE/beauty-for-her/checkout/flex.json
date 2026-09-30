@@ -1,0 +1,30 @@
+{
+ "meta": {
+  "title": "Home Services in UAE - Beauty for Her",
+  "description": "Get the best professional Beauty services in the UAE by top-rated professionals, and enjoy an unforgettable experience.",
+  "robots": "noindex, nofollow",
+  "canonical": "https://www.justlife.com/en-AE/beauty-for-her/checkout/flex",
+  "ogTitle": "Home Services in UAE - Beauty for Her",
+  "ogDescription": "Get the best professional Beauty services in the UAE by top-rated professionals, and enjoy an unforgettable experience."
+ },
+ "shell": {
+  "locale": "en-AE",
+  "wrapperClass": "funnel-page-wrapper en lang-service_type-checkout-flex app-layout main-wrapper",
+  "navbarClass": "navbar visitor hide-on-mobile",
+  "footer": {
+   "desktopOnly": true,
+   "servicesTitle": "Service Areas",
+   "serviceAreas": null
+  }
+ },
+ "checkout": {
+  "serviceName": "Beauty for Her",
+  "image": "https://deax38zvkau9d.cloudfront.net/prod/assets/images/uploads/services/1670927635women-salon-at-home.webp?f=webp&w=1280",
+  "backLink": {
+   "text": "Back to Women's Salon",
+   "href": "/en-AE/salon-services-at-home"
+  },
+  "related": [],
+  "articles": []
+ }
+}

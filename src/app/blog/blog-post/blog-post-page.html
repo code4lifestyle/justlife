@@ -1,0 +1,97 @@
+@let post = content();
+<div id="blogdetail-page-container">
+  <div class="bg-white g-flow-root">
+    <div class="BreadcrumbGroup_breadcrumbGroupContainer__w36yz">
+      <a class="Breadcrumb_breadcrumbItem__D7J_f text-subtitle-1" routerLink="/en-AE">Home</a>
+      <img
+        alt="chevron-right"
+        loading="lazy"
+        width="8"
+        height="12"
+        decoding="async"
+        class="BreadcrumbGroup_breadcrumbIcon__Qxy6t rtl-flip"
+        style="color: transparent; aspect-ratio: 0.6666666666666666"
+        [src]="icons.chevronRight"
+      />
+      <a class="Breadcrumb_breadcrumbItem__D7J_f text-subtitle-1" [routerLink]="blogHome">Blog</a>
+      <img
+        alt="chevron-right"
+        loading="lazy"
+        width="8"
+        height="12"
+        decoding="async"
+        class="BreadcrumbGroup_breadcrumbIcon__Qxy6t rtl-flip"
+        style="color: transparent; aspect-ratio: 0.6666666666666666"
+        [src]="icons.chevronRight"
+      />
+      <a
+        class="Breadcrumb_breadcrumbItem__D7J_f Breadcrumb_disabled__4ca9w text-subtitle-1"
+        [appLink]="selfUrl()"
+        >{{ post.title }}</a
+      >
+    </div>
+
+    <div class="HighlightSection_highlightContainer__lVTle">
+      <div class="HighlightSection_highlightSectionTextSection__Pk59k">
+        <h1 class="HighlightSection_highlightTitle__WwNfj">{{ post.title }}</h1>
+        <p class="HighlightSection_highlightDescription__CwibP">{{ post.description }}</p>
+        <div class="HighlightSection_bookNowContainer__P1EZr">
+          <div appBookNowCard [href]="post.bookNow"></div>
+        </div>
+      </div>
+      <div class="HighlightSection_highlightImageWrapper__j4SaC">
+        <img
+          alt="highlight-img"
+          fetchpriority="high"
+          loading="eager"
+          width="359"
+          height="333"
+          decoding="async"
+          class="HighlightSection_highlightImage__jXtae"
+          style="color: transparent; aspect-ratio: 1.078078078078078"
+          [src]="image()"
+        />
+      </div>
+    </div>
+
+    <div class="BookNowSection_bookNowContainer__Bi7B5">
+      <div appBookNowCard [href]="post.bookNow"></div>
+    </div>
+
+    <div
+      class="ContentSection_contentSectionContainer__7lYFU"
+      appContentLinks
+      [innerHTML]="post.content | safeHtml"
+    ></div>
+
+    @if (featured().length) {
+      <div appFeaturedSection [slugs]="featured()"></div>
+    }
+
+    @if (suggestions().length) {
+      <div appSuggestionSection [slugs]="suggestions()"></div>
+    }
+
+    @if (data.layout()?.map; as map) {
+      <div class="GoogleMapSection_googleMapSectionContainer__GNjwk">
+        <p class="GoogleMapSection_googleMapSectionTitle__SE2Eg text-head-2">{{ map.title }}</p>
+        <div data-ntpc="GoogleMapsEmbed" style="height: 340px">
+          @if (mapSrc(); as src) {
+            <iframe
+              title="Service Areas"
+              frameborder="0"
+              height="340"
+              width="100%"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              style="border-radius: 0.625rem"
+              [src]="src"
+            ></iframe>
+          }
+        </div>
+      </div>
+    }
+
+    <div appMobileAppSection></div>
+  </div>
+</div>

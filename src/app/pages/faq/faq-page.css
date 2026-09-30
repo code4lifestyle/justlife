@@ -1,0 +1,161 @@
+/* The host stands in for the original page root: the only in-flow child of the layout's .main-wrapper
+   (flex column; the navbar is fixed, app-header is display:contents, router-outlet display:none). */
+:host {
+  display:block;
+}
+
+/* ported from Nuxt style block b56a4544e4 */
+.category-title {
+  border-bottom:1px solid transparent;
+  cursor:pointer;
+  flex-shrink:0;
+  min-width:7rem;
+  padding:.75rem;
+  text-align:center;
+  text-transform:uppercase;
+}
+.category-title:hover {
+  border-color:#0009;
+}
+.category-title.is-selected {
+  border-color:#00c3ff;
+}
+
+/* ported from Nuxt style block 3e31b52f69 */
+.slider-content {
+  flex-wrap:nowrap;
+  scroll-behavior:smooth;
+}
+.slider-content::-webkit-scrollbar {
+  display:none;
+}
+.clickable-area {
+  align-items:center;
+  cursor:pointer;
+  display:flex;
+  height:100%;
+  position:absolute;
+  top:0;
+  width:50px;
+  z-index:2;
+}
+.clickable-area .arrow-icon {
+  border-radius:50%;
+  display:flex;
+  justify-content:center;
+  margin:0 10px;
+  padding:6px;
+  width:30px;
+}
+.clickable-area.en.right {
+  justify-content:flex-end;
+}
+.clickable-area.left {
+  background:linear-gradient(270deg,#ffffff03,#ffffffe5 57%,#fff);
+}
+.clickable-area.right {
+  background:linear-gradient(90deg,#ffffff03,#ffffffe5 57%,#fff);
+}
+.clickable-area:hover .arrow-icon {
+  background-color:#f5f5f5;
+}
+@media screen and (max-width:780px) {
+  .slider-content {
+    overflow-x:scroll;
+  }
+  .clickable-area {
+    pointer-events:none;
+  }
+  /* display:none also takes the arrow buttons out of the Tab order: here the row scrolls by swiping and
+     focusing a tab scrolls it into view. */
+  .clickable-area .arrow-icon {
+    display:none;
+  }
+}
+
+/* ported from Nuxt style block 848518da38 */
+.accordion {
+  border-bottom:1px solid rgba(0,0,0,.12);
+}
+.accordion:last-child {
+  border-bottom:none;
+}
+.accordion .accordion-header {
+  cursor:pointer;
+  display:flex;
+  width:100%;
+}
+.accordion .accordion-header .disable-click {
+  backface-visibility:hidden;
+  pointer-events:none;
+}
+.accordion .accordion-header .plus rect {
+  transform:scaleY(1);
+  transform-origin:50% 50%;
+  transition:all .2s;
+}
+.accordion .accordion-header .plus {
+  min-width:1.5rem;
+  transform:scale(-.8);
+}
+.accordion .accordion-header .plus.en {
+  margin:1.5rem 0 1.5rem 1.5rem;
+}
+.accordion .accordion-header p {
+  display:inline-block;
+  font-size:1rem;
+  font-weight:700;
+  margin-bottom:1.5rem;
+  margin-top:1.5rem;
+}
+.accordion .accordion-header p.en {
+  margin-left:1rem;
+}
+/* The original animated max-height from 0 to 50rem, which cut off answers taller than 800px (several
+   on phones). Animating the single grid row from 0fr to 1fr opens every answer to its full height;
+   .accordion-clip (the grid item) clips the answer while the row is smaller than it. */
+.accordion .accordion-body {
+  display:grid;
+  grid-template-rows:0fr;
+  overflow:hidden;
+  transition:grid-template-rows .3s ease;
+}
+.accordion .accordion-body .accordion-clip {
+  min-height:0;
+  overflow:hidden;
+}
+.accordion .accordion-body .accordion-content {
+  font-size:1rem;
+  margin:0 1.5rem 1.5rem 4rem;
+}
+.toggle .accordion-header .plus .vertical-line {
+  transform:scaleY(0);
+}
+.toggle .accordion-body {
+  grid-template-rows:1fr;
+}
+@media screen and (max-width:1023px) {
+  .accordion .accordion-body .accordion-content {
+    margin:0 .75rem 1.5rem 1.5rem;
+  }
+}
+
+/* ported from unscoped Nuxt style block 0b396acb43 (FAQ answers are [innerHTML] content) */
+.accordion-body ::ng-deep ul {
+  list-style:disc!important;
+  margin-left:1.5rem!important;
+}
+.accordion-body ::ng-deep ul ::marker {
+  font-size:.75rem;
+}
+
+/* Keyboard focus on the tabs, the slider arrows and the questions (focusable divs). The ring is drawn
+   inside the element so the slider's overflow cannot clip it; !important beats the global
+   [tabindex="-1"]:focus{outline:none!important}, which matches a tab reached with the arrow keys until
+   it is re-rendered as the selected one. */
+.category-title:focus-visible,
+.clickable-area .arrow-icon:focus-visible,
+.accordion .accordion-header:focus-visible {
+  outline:2px solid #00c3ff!important;
+  outline-offset:-2px;
+}

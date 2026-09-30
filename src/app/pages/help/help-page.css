@@ -1,0 +1,17 @@
+/* The host stands in for the original page root: the only in-flow child of the layout's .main-wrapper
+   (flex column; the navbar is fixed, app-header is display:contents, router-outlet display:none). */
+:host {
+  display:block;
+}
+
+/* ported from Nuxt style block a35d72d96e (without its margin-top:1rem, which spaced the links from the
+   help-center content this card no longer has) */
+/* .min-h-content (on the layout-wrapper) was overridden by the later .layout-wrapper{min-height:100vh}
+   rule in the original page, so it has no effect and is omitted. */
+.support-small-buttons {
+  display:flex;
+  justify-content:center;
+}
+.support-small-buttons .support-small-button {
+  padding:.75rem;
+}

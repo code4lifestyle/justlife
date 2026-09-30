@@ -1,0 +1,26 @@
+@if (rich(); as c) {
+  <app-static-shell [title]="c.title" [crumb]="c.crumb">
+    <div class="content has-text-black87" appContentLinks [innerHTML]="c.html | safeHtml"></div>
+  </app-static-shell>
+} @else if (hero(); as c) {
+  <div class="wrapper">
+    <img [alt]="c.hero.alt" class="contact-hero" fetchpriority="high" [src]="c.hero.src" />
+    <div class="contact-container px_x4 pb_x12">
+      @for (block of c.blocks; track $index) {
+        @if (block.kind === 'title') {
+          @if (block.tag === 'h3') {
+            <h3 [class]="block.class">{{ block.text }}</h3>
+          } @else {
+            <h4 [class]="block.class">{{ block.text }}</h4>
+          }
+        } @else if (block.kind === 'text') {
+          <span [class]="block.class" appContentLinks [innerHTML]="block.html | safeHtml"></span>
+        } @else {
+          <a [class]="block.class" [appLink]="block.href" [newTab]="block.newTab">
+            <span [class]="block.textClass">{{ block.text }}</span>
+          </a>
+        }
+      }
+    </div>
+  </div>
+}

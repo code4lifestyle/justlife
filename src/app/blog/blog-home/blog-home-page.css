@@ -1,0 +1,35 @@
+:host {
+  display: block;
+}
+
+/*
+ * Reduced scope: "Trending Stories" has fewer cards than the original's four. The original grid
+ * (`repeat(auto-fit, minmax(<min>, 1fr))`) would collapse the empty columns and stretch the remaining cards'
+ * columns across the whole row. Keep the columns the four original cards had instead: `auto-fill` keeps empty
+ * tracks, and the `/ 4` term caps the grid at four tracks (the original desktop layout). The per-breakpoint
+ * minimum widths are the original ones (components.css).
+ */
+.TrendingSection_trendingContainer__dP1GQ .TrendingSection_trendingCardWrapper__9JjvE {
+  --trending-min: 8.75rem;
+  grid-template-columns: repeat(auto-fill, minmax(max(var(--trending-min), (100% - 3 * 1.25rem) / 4), 1fr));
+}
+@media (min-width: 380px) {
+  .TrendingSection_trendingContainer__dP1GQ .TrendingSection_trendingCardWrapper__9JjvE {
+    --trending-min: 10rem;
+  }
+}
+@media (min-width: 680px) {
+  .TrendingSection_trendingContainer__dP1GQ .TrendingSection_trendingCardWrapper__9JjvE {
+    --trending-min: 18.75rem;
+  }
+}
+@media (min-width: 768px) {
+  .TrendingSection_trendingContainer__dP1GQ .TrendingSection_trendingCardWrapper__9JjvE {
+    --trending-min: 15rem;
+  }
+}
+@media (min-width: 1024px) {
+  .TrendingSection_trendingContainer__dP1GQ .TrendingSection_trendingCardWrapper__9JjvE {
+    --trending-min: 11.25rem;
+  }
+}

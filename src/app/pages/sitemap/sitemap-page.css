@@ -1,0 +1,45 @@
+/* The host stands in for the original page root: the only in-flow child of the layout's .main-wrapper
+   (flex column; the navbar is fixed, app-header is display:contents, router-outlet display:none). */
+:host {
+  display:block;
+}
+
+/* ported from Nuxt style block 3b721fbe7f */
+.list-item-title {
+  border-bottom:1px solid #eee;
+  font-size:18px;
+  margin-bottom:.5rem;
+  text-transform:uppercase;
+}
+.list-items {
+  -moz-columns:2;
+  column-count:2;
+  margin-bottom:48px;
+}
+.list-items li {
+  display:inline-block;
+  padding:4px 0;
+  text-transform:capitalize;
+}
+.list-items li a:hover {
+  color:#3273dc;
+  text-decoration:underline!important;
+}
+.list-items li a:before {
+  background-color:#3273dc;
+  border-radius:100%;
+  content:"";
+  display:inline-block;
+  height:5px;
+  margin:2px 8px;
+  width:5px;
+}
+@media screen and (max-width:1023px) {
+  .list-items {
+    -moz-columns:1;
+    column-count:1;
+  }
+  .list-items li {
+    padding:8px 0;
+  }
+}

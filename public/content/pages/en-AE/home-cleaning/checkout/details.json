@@ -1,0 +1,30 @@
+{
+ "meta": {
+  "title": "Home Cleaning Services in UAE",
+  "description": "Book your Home Cleaning services at the comfort of your home, with reliable professionals and affordable prices.",
+  "robots": "noindex, nofollow",
+  "canonical": "https://www.justlife.com/en-AE/home-cleaning/checkout/details",
+  "ogTitle": "Home Cleaning Services in UAE",
+  "ogDescription": "Book your Home Cleaning services at the comfort of your home, with reliable professionals and affordable prices."
+ },
+ "shell": {
+  "locale": "en-AE",
+  "wrapperClass": "funnel-page-wrapper en lang-service_type-checkout-details app-layout main-wrapper",
+  "navbarClass": "navbar visitor hide-on-mobile",
+  "footer": {
+   "desktopOnly": true,
+   "servicesTitle": "Service Areas",
+   "serviceAreas": null
+  }
+ },
+ "checkout": {
+  "serviceName": "Home Cleaning",
+  "image": "https://deax38zvkau9d.cloudfront.net/prod/assets/images/uploads/services/1689846492house-cleaning-dubai.webp?f=webp&w=1280",
+  "backLink": {
+   "text": "Back to House Cleaning",
+   "href": "/en-AE/house-cleaning"
+  },
+  "related": [],
+  "articles": []
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "meta": {
+  "title": "Justlife Home Services – Cleaning, Beauty, Spa, Handyman & More",
+  "description": "Top-rated home services in the UAE, delivered to your door. Cleaning, Beauty, Spa, Handyman & Repairs & more.",
+  "robots": "noindex, nofollow",
+  "canonical": "https://www.justlife.com/en-AE/deep-cleaning-ae/checkout/flex",
+  "ogTitle": "Justlife Home Services – Cleaning, Beauty, Spa, Handyman & More",
+  "ogDescription": "Top-rated home services in the UAE, delivered to your door. Cleaning, Beauty, Spa, Handyman & Repairs & more."
+ },
+ "shell": {
+  "locale": "en-AE",
+  "wrapperClass": "funnel-page-wrapper en lang-service_type-checkout-flex app-layout main-wrapper",
+  "navbarClass": "navbar visitor hide-on-mobile",
+  "footer": {
+   "desktopOnly": true,
+   "servicesTitle": "Service Areas",
+   "serviceAreas": null
+  }
+ },
+ "checkout": {
+  "serviceName": "Deep Cleaning",
+  "image": null,
+  "backLink": {
+   "text": "Back to Blog",
+   "href": "/blog/en-AE"
+  },
+  "related": [],
+  "articles": [
+   {
+    "text": "The Only Checklist You Need for Bathroom Cleaning",
+    "href": "/blog/en-AE/bathroom-cleaning-checklist"
+   },
+   {
+    "text": "How to Deep Clean a Kitchen? Kitchen Deep Cleaning Checklist",
+    "href": "/blog/en-AE/how-to-deep-clean-a-kitchen"
+   }
+  ]
+ }
+}

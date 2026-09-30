@@ -1,0 +1,102 @@
+/* Footer component CSS, ported from the original's scoped styles (2c82c13e); the social-icons and
+   linked-title rules are left out (this footer has neither). */
+:host {
+  display:block;
+}
+
+/* ported from Nuxt style block 60478d3c4d */
+.footer-wrapper {
+  background:#000000de;
+}
+.footer-wrapper .container {
+  padding:.5rem 0;
+}
+.footer-wrapper .container .footer-title {
+  color:#fff;
+  font-size:16px;
+  font-weight:700;
+  line-height:24px;
+  margin:.5rem 0;
+}
+.footer-wrapper .container .services {
+  flex-wrap:wrap;
+  margin:0 -6px;
+  padding-bottom:1.5rem;
+}
+.footer-wrapper .container .services .service {
+  background:#000000de;
+  border-radius:12px;
+  color:#fff;
+  display:inline-block;
+  font-size:13px;
+  font-weight:700;
+  line-height:20px;
+  margin:.5rem 6px;
+  padding:2px 8px;
+}
+.footer-wrapper .container .cities-wrapper {
+  display:flex;
+  flex-wrap:wrap;
+  margin:0 -24px;
+}
+.footer-wrapper .container .cities-wrapper .cities {
+  margin:0 22px;
+}
+.footer-wrapper .container .ksa-docs img {
+  height:60px;
+}
+.footer-wrapper .container .footer-bottom {
+  border-top:1px solid hsla(0,0%,100%,.1);
+  display:flex;
+  justify-content:space-between;
+  margin-top:1.5rem;
+  padding:1rem 0 .5rem;
+  width:100%;
+}
+.footer-wrapper .container .footer-bottom > div {
+  align-items:center;
+  display:flex;
+}
+.footer-wrapper .container .footer-bottom .app-icons {
+  margin:0 -9px;
+}
+.footer-wrapper .container .footer-bottom .app-icons a {
+  margin:0 9px;
+}
+.footer-wrapper .container .footer-bottom .footer-links {
+  margin:0 -8px;
+}
+.footer-wrapper .container .footer-bottom .footer-links a {
+  color:#fff;
+  font-size:13px;
+  line-height:20px;
+  margin:0 8px;
+}
+@media screen and (max-width:1023px) {
+  .footer-wrapper .container {
+    padding:.5rem 1rem;
+  }
+}
+@media screen and (max-width:780px) {
+  .footer-wrapper .container .cities-wrapper {
+    margin:0 -16px;
+  }
+  .footer-wrapper .container .ksa-docs {
+    margin:24px 0 32px;
+  }
+  .footer-wrapper .container .ksa-docs img {
+    height:48px;
+  }
+  .footer-wrapper .footer-bottom {
+    align-items:center;
+    flex-direction:column;
+  }
+  .footer-wrapper .footer-bottom .footer-links {
+    flex-wrap:wrap;
+    justify-content:center;
+    padding:0 60px;
+  }
+  .footer-wrapper .footer-bottom .footer-links a {
+    margin:6px 8px!important;
+  }
+}

@@ -1,0 +1,30 @@
+/* 404 page CSS, ported from the original's scoped styles (fed701df). */
+:host {
+  display:block;
+}
+
+/* ported from Nuxt style block 21d111fdf5 */
+.wrapper {
+  background:var(--0adfd92d) no-repeat bottom;
+  background-size:cover;
+  height:100vh;
+  padding-top:5rem;
+  text-align:center;
+}
+.wrapper .column ::ng-deep > :first-child {
+  margin-bottom:1rem;
+}
+.wrapper .column ::ng-deep > :nth-child(2),
+.wrapper .column ::ng-deep > :nth-child(3) {
+  margin-bottom:1.5rem;
+}
+
+/* "Return to home" is the link itself (the original nested a <button> in the link). Keep the
+   <button>'s look: it did not inherit the page's letter-spacing. .button:focus removes the outline,
+   so give keyboard focus the browser's ring back (the original's link showed it). */
+.wrapper .column a.button {
+  letter-spacing:normal;
+}
+.wrapper .column a.button:focus-visible {
+  outline:revert;
+}

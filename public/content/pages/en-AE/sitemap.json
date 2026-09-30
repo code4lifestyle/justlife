@@ -1,0 +1,64 @@
+{
+ "meta": {
+  "title": "Sitemap - EN (AE)",
+  "description": "Justlife DMCC",
+  "robots": "index,follow",
+  "canonical": "https://www.justlife.com/en-AE/sitemap",
+  "ogTitle": "justlife"
+ },
+ "shell": {
+  "locale": "en-AE",
+  "wrapperClass": "en lang-sitemap app-layout main-wrapper",
+  "navbarClass": "navbar visitor",
+  "footer": {
+   "desktopOnly": false,
+   "servicesTitle": "Service Areas",
+   "serviceAreas": null
+  }
+ },
+ "title": "Sitemap",
+ "crumb": {
+  "text": "Home",
+  "href": "/en-AE"
+ },
+ "sections": [
+  {
+   "title": "Blog",
+   "links": [
+    {
+     "text": "3 Alarming Reasons to Clean Your AC Before Summer",
+     "href": "/blog/en-AE/3-alarming-reasons-to-clean-your-ac-before-summer"
+    }
+   ]
+  },
+  {
+   "title": "OUR SERVICES",
+   "links": [
+    {
+     "text": "AC Cleaning and Air Duct Cleaning in the United Arab Emirates",
+     "href": "/en-AE/ac-cleaning"
+    },
+    {
+     "text": "Cat Grooming",
+     "href": "/cat-grooming"
+    },
+    {
+     "text": "Cleaning Services in the United Arab Emirates",
+     "href": "/en-AE/house-cleaning"
+    },
+    {
+     "text": "Pest Control Services in the United Arab Emirates",
+     "href": "/en-AE/pest-control"
+    },
+    {
+     "text": "Women's Salon and Beauty Services at Home in the United Arab Emirates",
+     "href": "/en-AE/salon-services-at-home"
+    },
+    {
+     "text": "Spa and Massage Services at Home in the United Arab Emirates",
+     "href": "/en-AE/spa-and-massage-service-at-home"
+    }
+   ]
+  }
+ ]
+}

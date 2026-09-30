@@ -1,0 +1,20 @@
+<!-- The arrows are a mouse convenience: keyboard users reach every item by tabbing through its links. -->
+<div
+  class="move-icon back-icon en"
+  aria-hidden="true"
+  [style.display]="canScrollBack() ? null : 'none'"
+  (click)="move(false)"
+>
+  <img class="reverse" [src]="chevron" width="36" height="36" alt="" />
+</div>
+<div #content class="slider-content" (scroll)="updateArrows()">
+  <ng-content />
+</div>
+<div
+  class="move-icon next-icon en"
+  aria-hidden="true"
+  [style.display]="canScrollNext() ? null : 'none'"
+  (click)="move(true)"
+>
+  <img [src]="chevron" width="36" height="36" alt="" />
+</div>

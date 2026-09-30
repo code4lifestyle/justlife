@@ -1,0 +1,11 @@
+<div class="main-container" [style.visibility]="ready() ? null : 'hidden'">
+  <div [class]="shell().wrapperClass">
+    <app-header [locale]="shell().locale" [navbarClass]="shell().navbarClass" />
+    <router-outlet />
+  </div>
+  @if (shell().footer; as footer) {
+    <div>
+      <app-footer [locale]="shell().locale" [settings]="footer" />
+    </div>
+  }
+</div>

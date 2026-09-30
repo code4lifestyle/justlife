@@ -1,0 +1,39 @@
+{
+ "meta": {
+  "title": "Home Services in UAE - Spa Treatments",
+  "description": "We will bring the spa to you, no need to step a foot outside your home, enjoy a home spa experience by the best beauty professionals.",
+  "robots": "noindex, nofollow",
+  "canonical": "https://www.justlife.com/en-AE/spa-treatments/checkout/flex",
+  "ogTitle": "Home Services in UAE - Spa Treatments",
+  "ogDescription": "We will bring the spa to you, no need to step a foot outside your home, enjoy a home spa experience by the best beauty professionals."
+ },
+ "shell": {
+  "locale": "en-AE",
+  "wrapperClass": "funnel-page-wrapper en lang-service_type-checkout-flex app-layout main-wrapper",
+  "navbarClass": "navbar visitor hide-on-mobile",
+  "footer": {
+   "desktopOnly": true,
+   "servicesTitle": "Service Areas",
+   "serviceAreas": null
+  }
+ },
+ "checkout": {
+  "serviceName": "Spa Treatments",
+  "image": "https://deax38zvkau9d.cloudfront.net/prod/assets/images/uploads/services/1670929266womens-spa-and-massage-service.webp?f=webp&w=1280",
+  "backLink": {
+   "text": "Back to Women's Spa",
+   "href": "/en-AE/spa-and-massage-service-at-home"
+  },
+  "related": [],
+  "articles": [
+   {
+    "text": "What Are the Different Types of Massages?",
+    "href": "/blog/en-AE/different-types-of-massages"
+   },
+   {
+    "text": "Aromatherapy Massage: What It Is & How It Works",
+    "href": "/blog/en-AE/what-is-aromatherapy-massage"
+   }
+  ]
+ }
+}
