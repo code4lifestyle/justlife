@@ -1,30 +1,54 @@
 {
  "header": {
-  "logo": "https://a.storyblok.com/f/285972427025846/173x24/7981607c7b/cleanslate-logo.svg",
-  "brand": "by Justlife"
+  "logo": "/brand/aljory-logo.png",
+  "brand": ""
  },
  "footer": {
   "servicesTitle": "Services",
   "services": [
    {
-    "text": "Home Cleaning Service",
-    "href": "/en-AE/house-cleaning"
+    "text": "Floor & Wall Tiling Works",
+    "href": "/en-AE/floor-wall-tiling/checkout/details"
    },
    {
-    "text": "AC Cleaning Service",
-    "href": "/en-AE/ac-cleaning"
+    "text": "Plumbing & Sanitary Installation",
+    "href": "/en-AE/plumbing-sanitary/checkout/details"
    },
    {
-    "text": "Pest Control Service",
-    "href": "/en-AE/pest-control"
+    "text": "False Ceiling & Light Partitions Installation",
+    "href": "/en-AE/false-ceiling/checkout/details"
    },
    {
-    "text": "Woman's Salon Service",
-    "href": "/en-AE/salon-services-at-home"
+    "text": "Air-Conditioning, Ventilations & Air Filtration Systems Installation & Maintenance",
+    "href": "/en-AE/air-conditioning/checkout/details"
    },
    {
-    "text": "Woman's Spa & Massage Service",
-    "href": "/en-AE/spa-and-massage-service-at-home"
+    "text": "Carpentry & wood Flooring Works",
+    "href": "/en-AE/carpentry-flooring/checkout/details"
+   },
+   {
+    "text": "Wallpaper Fixing Works",
+    "href": "/en-AE/wallpaper-fixing/checkout/details"
+   },
+   {
+    "text": "Plaster Works",
+    "href": "/en-AE/plaster-works/checkout/details"
+   },
+   {
+    "text": "Painting Contracting",
+    "href": "/en-AE/painting-contracting/checkout/details"
+   },
+   {
+    "text": "Buildings Cleaning Services",
+    "href": "/en-AE/buildings-cleaning/checkout/details"
+   },
+   {
+    "text": "Electrical Fittings & Fixtures Repairing & Maintenance",
+    "href": "/en-AE/electrical-fittings/checkout/details"
+   },
+   {
+    "text": "Electromechanical Equipment Installation and Maintenance",
+    "href": "/en-AE/electromechanical/checkout/details"
    }
   ],
   "countries": [
@@ -161,7 +185,7 @@
   ]
  },
  "justlifeCard": {
-  "logo": "https://a.storyblok.com/f/285972427025846/181x57/b21180d1cf/justlife-logo.svg",
+  "logo": "/brand/aljory-logo.png",
   "title": "Tired of juggling home tasks?",
   "button": "Download Justlife",
   "href": "https://just.life/YQBgj2",
@@ -177,7 +201,7 @@
   "image": "https://a.storyblok.com/f/285972427025846/407x463/7718844817/mobile-apps-v2.png/m/680x774/filters:format(webp)"
  },
  "bookNowCard": {
-  "logo": "https://a.storyblok.com/f/285972427025846/140x45/86979fd21d/justlife-logo-blue.svg",
+  "logo": "/brand/aljory-logo.png",
   "text": "Need things sorted fast? Book UAE’s favorite home services on Justlife.",
   "button": "Book now"
  },

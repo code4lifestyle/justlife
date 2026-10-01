@@ -23,7 +23,10 @@ export class App {
       .subscribe(() => {
         let route: ActivatedRouteSnapshot = router.routerState.snapshot.root;
         while (route.firstChild) route = route.firstChild;
-        seo.apply((route.data['content'] as { meta?: PageMeta } | undefined)?.meta);
+        const content = route.data['content'] as
+          | { meta?: PageMeta; shell?: { locale?: string } }
+          | undefined;
+        seo.apply(content?.meta, content?.shell?.locale);
       });
   }
 }

@@ -1,8 +1,10 @@
 import { Routes } from '@angular/router';
 import { matchPage } from './core/page-match';
 import { pageResolver } from './core/page.resolver';
-import { cityCatalogResolver, homeCommonResolver } from './pages/home/home.resolvers';
 import { SiteLayout } from './layout/site-layout/site-layout';
+import { bookingResolver } from './pages/booking/booking.resolver';
+import { bookingServiceBySlug } from './pages/booking/booking-services';
+import { cityCatalogResolver, homeCommonResolver } from './pages/home/home.resolvers';
 
 const content = { content: pageResolver };
 
@@ -98,6 +100,12 @@ export const routes: Routes = [
         canMatch: [matchPage('help')],
         loadComponent: () => import('./pages/help/help-page').then((m) => m.HelpPage),
         resolve: content,
+      },
+      {
+        path: ':locale/:service/checkout/details',
+        canMatch: [(_route, segments) => !!bookingServiceBySlug(segments[1]?.path)],
+        loadComponent: () => import('./pages/booking/booking-page').then((m) => m.BookingPage),
+        resolve: { content: bookingResolver },
       },
       {
         path: ':locale/:service/checkout/:step',

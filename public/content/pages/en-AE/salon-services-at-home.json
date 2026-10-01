@@ -1,32 +1,33 @@
 {
  "meta": {
-  "title": "Salon and Beauty Home Services - Women's Salon at Home",
-  "description": "Expert professionals offer you multiple services at your home. Manicures, pedicures, massage etc., many service options are on Justlife. At Justlife, we care about your comfort. It values not only comfort but also the time of its customers. So, what services can you benefit from? What are their contents and advantages?",
-  "robots": "index,follow",
-  "canonical": "https://www.justlife.com/en-AE/salon-services-at-home",
-  "ogTitle": "Salon and Beauty Home Services - Women's Salon at Home",
-  "ogDescription": "Expert professionals offer you multiple services at your home. Manicures, pedicures, massage etc., many service options are on Justlife. At Justlife, we care about your comfort. It values not only comfort but also the time of its customers. So, what services can you benefit from? What are their contents and advantages?",
-  "ogImage": "https://deax38zvkau9d.cloudfront.net/prod/assets/images/uploads/services/1670927635women-salon-at-home.webp",
-  "jsonLd": [
-   {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-     {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://www.justlife.com/en-AE"
-     },
-     {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Women's Salon at Home"
-     }
-    ]
-   }
-  ]
- },
+ "title": "Salon and Beauty Home Services - Women's Salon at Home",
+ "description": "Expert professionals offer you multiple services at your home. Manicures, pedicures, massage etc., many service options are on Aljory Cleaning Services. At Aljory Cleaning Services, we care about your comfort. It values not only comfort but also the time of its customers. So, what services can you benefit from? What are their contents and advantages?",
+ "robots": "index,follow",
+ "canonical": "https://aljorycleaning.com/en-AE/salon-services-at-home",
+ "ogTitle": "Salon and Beauty Home Services - Women's Salon at Home",
+ "ogDescription": "Expert professionals offer you multiple services at your home. Manicures, pedicures, massage etc., many service options are on Aljory Cleaning Services. At Aljory Cleaning Services, we care about your comfort. It values not only comfort but also the time of its customers. So, what services can you benefit from? What are their contents and advantages?",
+ "ogImage": "https://deax38zvkau9d.cloudfront.net/prod/assets/images/uploads/services/1670927635women-salon-at-home.webp",
+ "jsonLd": [
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://aljorycleaning.com/en-AE"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Women's Salon at Home"
+    }
+   ]
+  }
+ ],
+ "keywords": "Aljory Cleaning Services, building cleaning services, floor and wall tiling works, plumbing and sanitary installation, false ceiling and light partitions, air conditioning installation and maintenance, carpentry and wood flooring, wallpaper fixing works, plaster works, painting contracting, electrical fittings repair and maintenance, electromechanical equipment installation, Dubai, Abu Dhabi, Sharjah, Ajman"
+},
  "shell": {
   "locale": "en-AE",
   "wrapperClass": "lg-navbar en lang-services app-layout main-wrapper",

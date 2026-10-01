@@ -1,62 +1,63 @@
 {
  "meta": {
-  "title": "3 Alarming Reasons to Clean Your AC Before Summer | Justlife",
-  "description": "Protect your health, improve AC efficiency, and cut energy costs with professional air conditioner cleaning before summer.",
-  "robots": "index, follow",
-  "canonical": "https://www.justlife.com/blog/en-AE/3-alarming-reasons-to-clean-your-ac-before-summer",
-  "ogTitle": "3 Alarming Reasons to Clean Your AC Before Summer | Justlife",
-  "ogDescription": "Protect your health, improve AC efficiency, and cut energy costs with professional air conditioner cleaning before summer.",
-  "ogImage": "https://a.storyblok.com/f/285972427025846/1280x874/6be59f9bd5/reasons-to-clean-ac-before-summer.webp",
-  "jsonLd": [
-   {
-    "@context": "https://schema.org/",
-    "@type": "Article",
-    "mainEntityOfPage": {
-     "@type": "WebPage",
-     "@id": "https://www.justlife.com/blog/en-AE/3-alarming-reasons-to-clean-your-ac-before-summer"
-    },
-    "headline": "3 Alarming Reasons to Clean Your AC Before Summer | Justlife",
-    "description": "Protect your health, improve AC efficiency, and cut energy costs with professional air conditioner cleaning before summer.",
-    "image": "https://a.storyblok.com/f/285972427025846/1280x874/6be59f9bd5/reasons-to-clean-ac-before-summer.webp",
-    "author": {
-     "@type": "Organization",
-     "name": "Justlife"
-    },
-    "publisher": {
-     "@type": "Organization",
-     "name": "Justlife",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://a.storyblok.com/f/285972427025846/140x45/86979fd21d/justlife-logo-blue.svg"
-     }
-    }
+ "title": "3 Alarming Reasons to Clean Your AC Before Summer | Aljory Cleaning Services",
+ "description": "Protect your health, improve AC efficiency, and cut energy costs with professional air conditioner cleaning before summer.",
+ "robots": "index, follow",
+ "canonical": "https://aljorycleaning.com/blog/en-AE/3-alarming-reasons-to-clean-your-ac-before-summer",
+ "ogTitle": "3 Alarming Reasons to Clean Your AC Before Summer | Aljory Cleaning Services",
+ "ogDescription": "Protect your health, improve AC efficiency, and cut energy costs with professional air conditioner cleaning before summer.",
+ "ogImage": "https://a.storyblok.com/f/285972427025846/1280x874/6be59f9bd5/reasons-to-clean-ac-before-summer.webp",
+ "jsonLd": [
+  {
+   "@context": "https://schema.org/",
+   "@type": "Article",
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://aljorycleaning.com/blog/en-AE/3-alarming-reasons-to-clean-your-ac-before-summer"
    },
-   {
-    "@context": "https://schema.org/",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-     {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://www.justlife.com/en-AE"
-     },
-     {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Blog",
-      "item": "https://www.justlife.com/blog/en-AE"
-     },
-     {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "3 Alarming Reasons to Clean Your AC Before Summer",
-      "item": "https://www.justlife.com/blog/en-AE/3-alarming-reasons-to-clean-your-ac-before-summer"
-     }
-    ]
+   "headline": "3 Alarming Reasons to Clean Your AC Before Summer | Aljory Cleaning Services",
+   "description": "Protect your health, improve AC efficiency, and cut energy costs with professional air conditioner cleaning before summer.",
+   "image": "https://a.storyblok.com/f/285972427025846/1280x874/6be59f9bd5/reasons-to-clean-ac-before-summer.webp",
+   "author": {
+    "@type": "Organization",
+    "name": "Aljory Cleaning Services"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "Aljory Cleaning Services",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "/brand/aljory-logo.png"
+    }
    }
-  ]
- },
+  },
+  {
+   "@context": "https://schema.org/",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://aljorycleaning.com/en-AE"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Blog",
+     "item": "https://aljorycleaning.com/blog/en-AE"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "3 Alarming Reasons to Clean Your AC Before Summer",
+     "item": "https://aljorycleaning.com/blog/en-AE/3-alarming-reasons-to-clean-your-ac-before-summer"
+    }
+   ]
+  }
+ ],
+ "keywords": "Aljory Cleaning Services, building cleaning services, floor and wall tiling works, plumbing and sanitary installation, false ceiling and light partitions, air conditioning installation and maintenance, carpentry and wood flooring, wallpaper fixing works, plaster works, painting contracting, electrical fittings repair and maintenance, electromechanical equipment installation, Dubai, Abu Dhabi, Sharjah, Ajman"
+},
  "title": "3 Alarming Reasons to Clean Your AC Before Summer",
  "description": "Regular AC cleaning before summer is essential to protect your family’s health, improve efficiency, and reduce energy costs. Dust, mold, and bacteria buildup can harm air quality and trigger respiratory issues, while clogged filters and coils force the unit to work harder, increasing electricity usage. Professional cleaning ensures cleaner air, better cooling performance, and lower utility bills.",
  "image": "https://a.storyblok.com/f/285972427025846/1280x874/6be59f9bd5/reasons-to-clean-ac-before-summer.webp",

@@ -1,24 +1,48 @@
 {
  "services": [
   {
-   "text": "House Cleaning",
-   "href": "/en-AE/house-cleaning"
+   "text": "Floor & Wall Tiling Works",
+   "href": "/en-AE/floor-wall-tiling/checkout/details"
   },
   {
-   "text": "AC Cleaning Service",
-   "href": "/en-AE/ac-cleaning"
+   "text": "Plumbing & Sanitary Installation",
+   "href": "/en-AE/plumbing-sanitary/checkout/details"
   },
   {
-   "text": "Women's Salon",
-   "href": "/en-AE/salon-services-at-home"
+   "text": "False Ceiling & Light Partitions Installation",
+   "href": "/en-AE/false-ceiling/checkout/details"
   },
   {
-   "text": "Women's Spa",
-   "href": "/en-AE/spa-and-massage-service-at-home"
+   "text": "Air-Conditioning, Ventilations & Air Filtration Systems Installation & Maintenance",
+   "href": "/en-AE/air-conditioning/checkout/details"
   },
   {
-   "text": "Pest Control Service",
-   "href": "/en-AE/pest-control"
+   "text": "Carpentry & wood Flooring Works",
+   "href": "/en-AE/carpentry-flooring/checkout/details"
+  },
+  {
+   "text": "Wallpaper Fixing Works",
+   "href": "/en-AE/wallpaper-fixing/checkout/details"
+  },
+  {
+   "text": "Plaster Works",
+   "href": "/en-AE/plaster-works/checkout/details"
+  },
+  {
+   "text": "Painting Contracting",
+   "href": "/en-AE/painting-contracting/checkout/details"
+  },
+  {
+   "text": "Buildings Cleaning Services",
+   "href": "/en-AE/buildings-cleaning/checkout/details"
+  },
+  {
+   "text": "Electrical Fittings & Fixtures Repairing & Maintenance",
+   "href": "/en-AE/electrical-fittings/checkout/details"
+  },
+  {
+   "text": "Electromechanical Equipment Installation and Maintenance",
+   "href": "/en-AE/electromechanical/checkout/details"
   }
  ],
  "cities": [

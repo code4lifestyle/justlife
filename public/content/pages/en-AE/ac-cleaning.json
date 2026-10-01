@@ -1,32 +1,33 @@
 {
  "meta": {
-  "title": "AC Cleaning, Repair & Maintenance Services in United Arab Emirates | Justlife",
-  "description": "Book any home service you need in a few clicks. All you need to do is to decide which service you need and click on the respective home service icon. Whether you need to get your shirt ironed for a night out or to get your sofa sanitized and cleaned like new, there is a top-rated Justlife professional to make it happen.",
-  "robots": "index,follow",
-  "canonical": "https://www.justlife.com/en-AE/ac-cleaning",
-  "ogTitle": "AC Cleaning, Repair & Maintenance Services in United Arab Emirates | Justlife",
-  "ogDescription": "Book any home service you need in a few clicks. All you need to do is to decide which service you need and click on the respective home service icon. Whether you need to get your shirt ironed for a night out or to get your sofa sanitized and cleaned like new, there is a top-rated Justlife professional to make it happen.",
-  "ogImage": "https://deax38zvkau9d.cloudfront.net/prod/assets/images/uploads/services/1690540430ac-cleaning-service.webp",
-  "jsonLd": [
-   {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-     {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://www.justlife.com/en-AE"
-     },
-     {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "AC Cleaning in UAE"
-     }
-    ]
-   }
-  ]
- },
+ "title": "AC Cleaning, Repair & Maintenance Services in United Arab Emirates | Aljory Cleaning Services",
+ "description": "Book any home service you need in a few clicks. All you need to do is to decide which service you need and click on the respective home service icon. Whether you need to get your shirt ironed for a night out or to get your sofa sanitized and cleaned like new, there is a top-rated Aljory Cleaning Services professional to make it happen.",
+ "robots": "index,follow",
+ "canonical": "https://aljorycleaning.com/en-AE/ac-cleaning",
+ "ogTitle": "AC Cleaning, Repair & Maintenance Services in United Arab Emirates | Aljory Cleaning Services",
+ "ogDescription": "Book any home service you need in a few clicks. All you need to do is to decide which service you need and click on the respective home service icon. Whether you need to get your shirt ironed for a night out or to get your sofa sanitized and cleaned like new, there is a top-rated Aljory Cleaning Services professional to make it happen.",
+ "ogImage": "https://deax38zvkau9d.cloudfront.net/prod/assets/images/uploads/services/1690540430ac-cleaning-service.webp",
+ "jsonLd": [
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://aljorycleaning.com/en-AE"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "AC Cleaning in UAE"
+    }
+   ]
+  }
+ ],
+ "keywords": "Aljory Cleaning Services, building cleaning services, floor and wall tiling works, plumbing and sanitary installation, false ceiling and light partitions, air conditioning installation and maintenance, carpentry and wood flooring, wallpaper fixing works, plaster works, painting contracting, electrical fittings repair and maintenance, electromechanical equipment installation, Dubai, Abu Dhabi, Sharjah, Ajman"
+},
  "shell": {
   "locale": "en-AE",
   "wrapperClass": "lg-navbar en lang-services app-layout main-wrapper",

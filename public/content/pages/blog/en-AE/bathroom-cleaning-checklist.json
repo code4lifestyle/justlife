@@ -1,62 +1,63 @@
 {
  "meta": {
-  "title": "The Only Checklist You Need for Bathroom Cleaning | Justlife",
-  "description": "Follow this ultimate bathroom deep cleaning checklist to sanitize every surface and learn when to book professional home cleaning.",
-  "robots": "index, follow",
-  "canonical": "https://www.justlife.com/blog/en-AE/bathroom-cleaning-checklist",
-  "ogTitle": "The Only Checklist You Need for Bathroom Cleaning | Justlife",
-  "ogDescription": "Follow this ultimate bathroom deep cleaning checklist to sanitize every surface and learn when to book professional home cleaning.",
-  "ogImage": "https://a.storyblok.com/f/285972427025846/1536x1024/b05a05e972/bathroom-deep-cleaning.webp",
-  "jsonLd": [
-   {
-    "@context": "https://schema.org/",
-    "@type": "Article",
-    "mainEntityOfPage": {
-     "@type": "WebPage",
-     "@id": "https://www.justlife.com/blog/en-AE/bathroom-cleaning-checklist"
-    },
-    "headline": "The Only Checklist You Need for Bathroom Cleaning | Justlife",
-    "description": "Follow this ultimate bathroom deep cleaning checklist to sanitize every surface and learn when to book professional home cleaning.",
-    "image": "https://a.storyblok.com/f/285972427025846/1536x1024/b05a05e972/bathroom-deep-cleaning.webp",
-    "author": {
-     "@type": "Organization",
-     "name": "Justlife"
-    },
-    "publisher": {
-     "@type": "Organization",
-     "name": "Justlife",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://a.storyblok.com/f/285972427025846/140x45/86979fd21d/justlife-logo-blue.svg"
-     }
-    }
+ "title": "The Only Checklist You Need for Bathroom Cleaning | Aljory Cleaning Services",
+ "description": "Follow this ultimate bathroom deep cleaning checklist to sanitize every surface and learn when to book professional home cleaning.",
+ "robots": "index, follow",
+ "canonical": "https://aljorycleaning.com/blog/en-AE/bathroom-cleaning-checklist",
+ "ogTitle": "The Only Checklist You Need for Bathroom Cleaning | Aljory Cleaning Services",
+ "ogDescription": "Follow this ultimate bathroom deep cleaning checklist to sanitize every surface and learn when to book professional home cleaning.",
+ "ogImage": "https://a.storyblok.com/f/285972427025846/1536x1024/b05a05e972/bathroom-deep-cleaning.webp",
+ "jsonLd": [
+  {
+   "@context": "https://schema.org/",
+   "@type": "Article",
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://aljorycleaning.com/blog/en-AE/bathroom-cleaning-checklist"
    },
-   {
-    "@context": "https://schema.org/",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-     {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://www.justlife.com/en-AE"
-     },
-     {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Blog",
-      "item": "https://www.justlife.com/blog/en-AE"
-     },
-     {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "The Only Checklist You Need for Bathroom Cleaning",
-      "item": "https://www.justlife.com/blog/en-AE/bathroom-cleaning-checklist"
-     }
-    ]
+   "headline": "The Only Checklist You Need for Bathroom Cleaning | Aljory Cleaning Services",
+   "description": "Follow this ultimate bathroom deep cleaning checklist to sanitize every surface and learn when to book professional home cleaning.",
+   "image": "https://a.storyblok.com/f/285972427025846/1536x1024/b05a05e972/bathroom-deep-cleaning.webp",
+   "author": {
+    "@type": "Organization",
+    "name": "Aljory Cleaning Services"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "Aljory Cleaning Services",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "/brand/aljory-logo.png"
+    }
    }
-  ]
- },
+  },
+  {
+   "@context": "https://schema.org/",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://aljorycleaning.com/en-AE"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Blog",
+     "item": "https://aljorycleaning.com/blog/en-AE"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "The Only Checklist You Need for Bathroom Cleaning",
+     "item": "https://aljorycleaning.com/blog/en-AE/bathroom-cleaning-checklist"
+    }
+   ]
+  }
+ ],
+ "keywords": "Aljory Cleaning Services, building cleaning services, floor and wall tiling works, plumbing and sanitary installation, false ceiling and light partitions, air conditioning installation and maintenance, carpentry and wood flooring, wallpaper fixing works, plaster works, painting contracting, electrical fittings repair and maintenance, electromechanical equipment installation, Dubai, Abu Dhabi, Sharjah, Ajman"
+},
  "title": "The Only Checklist You Need for Bathroom Cleaning",
  "description": "Follow this ultimate bathroom deep cleaning checklist to sanitize every surface and learn when to book professional home cleaning.",
  "image": "https://a.storyblok.com/f/285972427025846/1536x1024/b05a05e972/bathroom-deep-cleaning.webp",

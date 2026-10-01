@@ -1,13 +1,14 @@
 {
  "meta": {
-  "title": "Terms of Use | Justlife KSA",
-  "description": "The fastest home cleaning service in KSA. Book in 30 seconds and give your home the shine it needs",
-  "robots": "index, follow",
-  "canonical": "https://www.justlife.com/en-SA/terms",
-  "ogTitle": "Terms",
-  "ogDescription": "Home Services in SA | Justlife SA",
-  "ogImage": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/rounded1.png"
- },
+ "title": "Terms of Use | Aljory Cleaning Services KSA",
+ "description": "The fastest home cleaning service in KSA. Book in 30 seconds and give your home the shine it needs",
+ "robots": "index, follow",
+ "canonical": "https://aljorycleaning.com/en-SA/terms",
+ "ogTitle": "Terms",
+ "ogDescription": "Home Services in SA | Aljory Cleaning Services SA",
+ "ogImage": "https://aljorycleaning.com/brand/aljory-logo.png",
+ "keywords": "Aljory Cleaning Services, building cleaning services, floor and wall tiling works, plumbing and sanitary installation, false ceiling and light partitions, air conditioning installation and maintenance, carpentry and wood flooring, wallpaper fixing works, plaster works, painting contracting, electrical fittings repair and maintenance, electromechanical equipment installation, Dubai, Abu Dhabi, Sharjah, Ajman, Jeddah, Riyadh, Saudi Arabia"
+},
  "shell": {
   "locale": "en-SA",
   "wrapperClass": "en lang-terms app-layout main-wrapper",

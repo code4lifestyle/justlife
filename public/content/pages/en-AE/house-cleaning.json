@@ -1,31 +1,32 @@
 {
  "meta": {
-  "title": "Cleaning Services in the UAE – Professional Cleaning at Your Door",
-  "description": "The most reliable cleaning service in UAE is just a few clicks away. Book one of Justlife's professional maids and have a bright, shiny house.",
-  "robots": "index,follow",
-  "ogTitle": "Cleaning Services in the UAE – Professional Cleaning at Your Door",
-  "ogDescription": "The most reliable cleaning service in UAE is just a few clicks away. Book one of Justlife's professional maids and have a bright, shiny house.",
-  "ogImage": "https://deax38zvkau9d.cloudfront.net/prod/assets/images/uploads/services/1689846492house-cleaning-dubai.webp",
-  "jsonLd": [
-   {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-     {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://www.justlife.com/en-AE"
-     },
-     {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "House Cleaning in UAE"
-     }
-    ]
-   }
-  ]
- },
+ "title": "Cleaning Services in the UAE – Professional Cleaning at Your Door",
+ "description": "The most reliable cleaning service in UAE is just a few clicks away. Book one of Aljory Cleaning Services's professional maids and have a bright, shiny house.",
+ "robots": "index,follow",
+ "ogTitle": "Cleaning Services in the UAE – Professional Cleaning at Your Door",
+ "ogDescription": "The most reliable cleaning service in UAE is just a few clicks away. Book one of Aljory Cleaning Services's professional maids and have a bright, shiny house.",
+ "ogImage": "https://deax38zvkau9d.cloudfront.net/prod/assets/images/uploads/services/1689846492house-cleaning-dubai.webp",
+ "jsonLd": [
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://aljorycleaning.com/en-AE"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "House Cleaning in UAE"
+    }
+   ]
+  }
+ ],
+ "keywords": "Aljory Cleaning Services, building cleaning services, floor and wall tiling works, plumbing and sanitary installation, false ceiling and light partitions, air conditioning installation and maintenance, carpentry and wood flooring, wallpaper fixing works, plaster works, painting contracting, electrical fittings repair and maintenance, electromechanical equipment installation, Dubai, Abu Dhabi, Sharjah, Ajman"
+},
  "shell": {
   "locale": "en-AE",
   "wrapperClass": "lg-navbar en lang-services app-layout main-wrapper",

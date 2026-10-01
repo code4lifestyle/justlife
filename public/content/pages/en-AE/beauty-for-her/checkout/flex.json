@@ -1,12 +1,13 @@
 {
  "meta": {
-  "title": "Home Services in UAE - Beauty for Her",
-  "description": "Get the best professional Beauty services in the UAE by top-rated professionals, and enjoy an unforgettable experience.",
-  "robots": "noindex, nofollow",
-  "canonical": "https://www.justlife.com/en-AE/beauty-for-her/checkout/flex",
-  "ogTitle": "Home Services in UAE - Beauty for Her",
-  "ogDescription": "Get the best professional Beauty services in the UAE by top-rated professionals, and enjoy an unforgettable experience."
- },
+ "title": "Home Services in UAE - Beauty for Her",
+ "description": "Get the best professional Beauty services in the UAE by top-rated professionals, and enjoy an unforgettable experience.",
+ "robots": "noindex, follow",
+ "canonical": "https://aljorycleaning.com/en-AE/beauty-for-her/checkout/flex",
+ "ogTitle": "Home Services in UAE - Beauty for Her",
+ "ogDescription": "Get the best professional Beauty services in the UAE by top-rated professionals, and enjoy an unforgettable experience.",
+ "keywords": "Aljory Cleaning Services, building cleaning services, floor and wall tiling works, plumbing and sanitary installation, false ceiling and light partitions, air conditioning installation and maintenance, carpentry and wood flooring, wallpaper fixing works, plaster works, painting contracting, electrical fittings repair and maintenance, electromechanical equipment installation, Dubai, Abu Dhabi, Sharjah, Ajman"
+},
  "shell": {
   "locale": "en-AE",
   "wrapperClass": "funnel-page-wrapper en lang-service_type-checkout-flex app-layout main-wrapper",

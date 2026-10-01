@@ -1,12 +1,13 @@
 {
  "meta": {
-  "title": "Home Services in UAE - Cleaning, Beauty, PCR, & More",
-  "description": "Get the best professional at home services for beauty, cleaning, PCR and more in UAE",
-  "robots": "noindex, nofollow",
-  "canonical": "https://www.justlife.com/en-AE/pest-control/checkout/flex",
-  "ogTitle": "Home Services in UAE - Cleaning, Beauty, PCR, & More",
-  "ogDescription": "Get the best professional at home services for beauty, cleaning, PCR and more in UAE"
- },
+ "title": "Home Services in UAE - Cleaning, Beauty, PCR, & More",
+ "description": "Get the best professional at home services for beauty, cleaning, PCR and more in UAE",
+ "robots": "noindex, follow",
+ "canonical": "https://aljorycleaning.com/en-AE/pest-control/checkout/flex",
+ "ogTitle": "Home Services in UAE - Cleaning, Beauty, PCR, & More",
+ "ogDescription": "Get the best professional at home services for beauty, cleaning, PCR and more in UAE",
+ "keywords": "Aljory Cleaning Services, building cleaning services, floor and wall tiling works, plumbing and sanitary installation, false ceiling and light partitions, air conditioning installation and maintenance, carpentry and wood flooring, wallpaper fixing works, plaster works, painting contracting, electrical fittings repair and maintenance, electromechanical equipment installation, Dubai, Abu Dhabi, Sharjah, Ajman"
+},
  "shell": {
   "locale": "en-AE",
   "wrapperClass": "funnel-page-wrapper en lang-service_type-checkout-flex app-layout main-wrapper",

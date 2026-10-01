@@ -1,12 +1,13 @@
 {
  "meta": {
-  "title": "Home Services in UAE - Spa Treatments",
-  "description": "We will bring the spa to you, no need to step a foot outside your home, enjoy a home spa experience by the best beauty professionals.",
-  "robots": "noindex, nofollow",
-  "canonical": "https://www.justlife.com/en-AE/spa-treatments/checkout/flex",
-  "ogTitle": "Home Services in UAE - Spa Treatments",
-  "ogDescription": "We will bring the spa to you, no need to step a foot outside your home, enjoy a home spa experience by the best beauty professionals."
- },
+ "title": "Home Services in UAE - Spa Treatments",
+ "description": "We will bring the spa to you, no need to step a foot outside your home, enjoy a home spa experience by the best beauty professionals.",
+ "robots": "noindex, follow",
+ "canonical": "https://aljorycleaning.com/en-AE/spa-treatments/checkout/flex",
+ "ogTitle": "Home Services in UAE - Spa Treatments",
+ "ogDescription": "We will bring the spa to you, no need to step a foot outside your home, enjoy a home spa experience by the best beauty professionals.",
+ "keywords": "Aljory Cleaning Services, building cleaning services, floor and wall tiling works, plumbing and sanitary installation, false ceiling and light partitions, air conditioning installation and maintenance, carpentry and wood flooring, wallpaper fixing works, plaster works, painting contracting, electrical fittings repair and maintenance, electromechanical equipment installation, Dubai, Abu Dhabi, Sharjah, Ajman"
+},
  "shell": {
   "locale": "en-AE",
   "wrapperClass": "funnel-page-wrapper en lang-service_type-checkout-flex app-layout main-wrapper",

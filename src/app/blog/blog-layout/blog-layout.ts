@@ -15,7 +15,14 @@ import { BLOG_HOME, BlogData } from '../blog-data';
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [RouterOutlet, RouterLink, AppLink],
   templateUrl: './blog-layout.html',
-  styles: ':host { display: block; }',
+  styles: `
+    :host { display: block; }
+    .Header_logoImage__wL82F {
+      height: auto;
+      object-fit: contain;
+      width: 9.5rem;
+    }
+  `,
 })
 export class BlogLayout {
   private readonly styles = inject(StyleWorldService);

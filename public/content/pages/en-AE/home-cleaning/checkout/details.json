@@ -1,12 +1,13 @@
 {
  "meta": {
-  "title": "Home Cleaning Services in UAE",
-  "description": "Book your Home Cleaning services at the comfort of your home, with reliable professionals and affordable prices.",
-  "robots": "noindex, nofollow",
-  "canonical": "https://www.justlife.com/en-AE/home-cleaning/checkout/details",
-  "ogTitle": "Home Cleaning Services in UAE",
-  "ogDescription": "Book your Home Cleaning services at the comfort of your home, with reliable professionals and affordable prices."
- },
+ "title": "Home Cleaning Services in UAE",
+ "description": "Book your Home Cleaning services at the comfort of your home, with reliable professionals and affordable prices.",
+ "robots": "noindex, follow",
+ "canonical": "https://aljorycleaning.com/en-AE/home-cleaning/checkout/details",
+ "ogTitle": "Home Cleaning Services in UAE",
+ "ogDescription": "Book your Home Cleaning services at the comfort of your home, with reliable professionals and affordable prices.",
+ "keywords": "Aljory Cleaning Services, building cleaning services, floor and wall tiling works, plumbing and sanitary installation, false ceiling and light partitions, air conditioning installation and maintenance, carpentry and wood flooring, wallpaper fixing works, plaster works, painting contracting, electrical fittings repair and maintenance, electromechanical equipment installation, Dubai, Abu Dhabi, Sharjah, Ajman"
+},
  "shell": {
   "locale": "en-AE",
   "wrapperClass": "funnel-page-wrapper en lang-service_type-checkout-details app-layout main-wrapper",

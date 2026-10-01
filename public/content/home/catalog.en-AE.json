@@ -1,71 +1,149 @@
 {
  "shortcuts": [
   {
-   "text": "Home Cleaning",
-   "href": "/en-AE/house-cleaning",
-   "icon": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/svgs/home-cleaning.svg",
-   "alt": "home-cleaning-icon",
-   "width": 55,
-   "height": 57
-  },
-  {
-   "text": "Women’s Salon",
-   "href": "/en-AE/salon-services-at-home",
-   "icon": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/svgs/women-salon.svg",
-   "alt": "women-salon-icon",
-   "width": 38,
-   "height": 52
-  },
-  {
-   "text": "Women’s Spa",
-   "href": "/en-AE/spa-and-massage-service-at-home",
-   "icon": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/svgs/women-spa.svg",
-   "alt": "women-spa-icon",
-   "width": 50,
-   "height": 50
-  },
-  {
-   "text": "A/C Cleaning",
-   "href": "/en-AE/ac-cleaning",
-   "icon": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/svgs/ac-cleaning.svg",
-   "alt": "ac-cleaning-icon",
-   "width": 49,
+   "text": "Floor & Wall Tiling Works",
+   "href": "/en-AE/floor-wall-tiling/checkout/details",
+   "icon": "/icons/floor-tiling.svg",
+   "alt": "floor-wall-tiling-icon",
+   "width": 48,
    "height": 48
   },
   {
-   "text": "Pest Control",
-   "href": "/en-AE/pest-control",
-   "icon": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/svgs/pest-control.svg",
-   "alt": "pest-control-icon",
-   "width": 58,
-   "height": 50
+   "text": "Plumbing & Sanitary Installation",
+   "href": "/en-AE/plumbing-sanitary/checkout/details",
+   "icon": "/icons/plumbing.svg",
+   "alt": "plumbing-sanitary-icon",
+   "width": 48,
+   "height": 48
+  },
+  {
+   "text": "False Ceiling & Light Partitions Installation",
+   "href": "/en-AE/false-ceiling/checkout/details",
+   "icon": "/icons/false-ceiling.svg",
+   "alt": "false-ceiling-icon",
+   "width": 48,
+   "height": 48
+  },
+  {
+   "text": "Air-Conditioning, Ventilations & Air Filtration Systems Installation & Maintenance",
+   "href": "/en-AE/air-conditioning/checkout/details",
+   "icon": "/icons/air-conditioning.svg",
+   "alt": "air-conditioning-icon",
+   "width": 48,
+   "height": 48
+  },
+  {
+   "text": "Carpentry & wood Flooring Works",
+   "href": "/en-AE/carpentry-flooring/checkout/details",
+   "icon": "/icons/carpentry.svg",
+   "alt": "carpentry-flooring-icon",
+   "width": 48,
+   "height": 48
+  },
+  {
+   "text": "Wallpaper Fixing Works",
+   "href": "/en-AE/wallpaper-fixing/checkout/details",
+   "icon": "/icons/wallpaper.svg",
+   "alt": "wallpaper-fixing-icon",
+   "width": 48,
+   "height": 48
+  },
+  {
+   "text": "Plaster Works",
+   "href": "/en-AE/plaster-works/checkout/details",
+   "icon": "/icons/plaster.svg",
+   "alt": "plaster-works-icon",
+   "width": 48,
+   "height": 48
+  },
+  {
+   "text": "Painting Contracting",
+   "href": "/en-AE/painting-contracting/checkout/details",
+   "icon": "/icons/painting.svg",
+   "alt": "painting-contracting-icon",
+   "width": 48,
+   "height": 48
+  },
+  {
+   "text": "Buildings Cleaning Services",
+   "href": "/en-AE/buildings-cleaning/checkout/details",
+   "icon": "/icons/building-cleaning.svg",
+   "alt": "buildings-cleaning-icon",
+   "width": 48,
+   "height": 48
+  },
+  {
+   "text": "Electrical Fittings & Fixtures Repairing & Maintenance",
+   "href": "/en-AE/electrical-fittings/checkout/details",
+   "icon": "/icons/electrical.svg",
+   "alt": "electrical-fittings-icon",
+   "width": 48,
+   "height": 48
+  },
+  {
+   "text": "Electromechanical Equipment Installation and Maintenance",
+   "href": "/en-AE/electromechanical/checkout/details",
+   "icon": "/icons/electromechanical.svg",
+   "alt": "electromechanical-icon",
+   "width": 48,
+   "height": 48
   }
  ],
  "services": [
   {
-   "text": "House Cleaning",
-   "href": "/en-AE/house-cleaning",
-   "image": "https://deax38zvkau9d.cloudfront.net/prod/assets/images/uploads/services/1689846492house-cleaning-dubai.webp?f=webp&w=1280"
+   "text": "Floor & Wall Tiling Works",
+   "href": "/en-AE/floor-wall-tiling/checkout/details",
+   "image": "/icons/floor-tiling.svg"
   },
   {
-   "text": "AC Cleaning Service",
-   "href": "/en-AE/ac-cleaning",
-   "image": "https://deax38zvkau9d.cloudfront.net/prod/assets/images/uploads/services/1690540430ac-cleaning-service.webp?f=webp&w=1280"
+   "text": "Plumbing & Sanitary Installation",
+   "href": "/en-AE/plumbing-sanitary/checkout/details",
+   "image": "/icons/plumbing.svg"
   },
   {
-   "text": "Women's Salon",
-   "href": "/en-AE/salon-services-at-home",
-   "image": "https://deax38zvkau9d.cloudfront.net/prod/assets/images/uploads/services/1670927635women-salon-at-home.webp?f=webp&w=1280"
+   "text": "False Ceiling & Light Partitions Installation",
+   "href": "/en-AE/false-ceiling/checkout/details",
+   "image": "/icons/false-ceiling.svg"
   },
   {
-   "text": "Women's Spa",
-   "href": "/en-AE/spa-and-massage-service-at-home",
-   "image": "https://deax38zvkau9d.cloudfront.net/prod/assets/images/uploads/services/1670929266womens-spa-and-massage-service.webp?f=webp&w=1280"
+   "text": "Air-Conditioning, Ventilations & Air Filtration Systems Installation & Maintenance",
+   "href": "/en-AE/air-conditioning/checkout/details",
+   "image": "/icons/air-conditioning.svg"
   },
   {
-   "text": "Pest Control Service",
-   "href": "/en-AE/pest-control",
-   "image": "https://deax38zvkau9d.cloudfront.net/prod/assets/images/uploads/services/1667551131pest-control-services.webp?f=webp&w=1280"
+   "text": "Carpentry & wood Flooring Works",
+   "href": "/en-AE/carpentry-flooring/checkout/details",
+   "image": "/icons/carpentry.svg"
+  },
+  {
+   "text": "Wallpaper Fixing Works",
+   "href": "/en-AE/wallpaper-fixing/checkout/details",
+   "image": "/icons/wallpaper.svg"
+  },
+  {
+   "text": "Plaster Works",
+   "href": "/en-AE/plaster-works/checkout/details",
+   "image": "/icons/plaster.svg"
+  },
+  {
+   "text": "Painting Contracting",
+   "href": "/en-AE/painting-contracting/checkout/details",
+   "image": "/icons/painting.svg"
+  },
+  {
+   "text": "Buildings Cleaning Services",
+   "href": "/en-AE/buildings-cleaning/checkout/details",
+   "image": "/icons/building-cleaning.svg"
+  },
+  {
+   "text": "Electrical Fittings & Fixtures Repairing & Maintenance",
+   "href": "/en-AE/electrical-fittings/checkout/details",
+   "image": "/icons/electrical.svg"
+  },
+  {
+   "text": "Electromechanical Equipment Installation and Maintenance",
+   "href": "/en-AE/electromechanical/checkout/details",
+   "image": "/icons/electromechanical.svg"
   }
  ]
 }

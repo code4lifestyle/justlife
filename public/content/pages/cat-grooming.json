@@ -1,11 +1,14 @@
 {
  "meta": {
-  "title": "Cat Grooming Service and Mobile Cat Grooming",
-  "description": "With our extensive and convenient mobile grooming solutions and skilled groomers, we are dedicated to providing exceptional care to your beloved cats.",
-  "canonical": "https://www.justlife.com/cat-grooming",
-  "ogTitle": "Cat Grooming Service and Mobile Cat Grooming",
-  "ogDescription": "With our extensive and convenient mobile grooming solutions and skilled groomers, we are dedicated to providing exceptional care to your beloved cats."
- },
+ "title": "Cat Grooming Service and Mobile Cat Grooming | Aljory Cleaning Services",
+ "description": "With our extensive and convenient mobile grooming solutions and skilled groomers, we are dedicated to providing exceptional care to your beloved cats.",
+ "canonical": "https://aljorycleaning.com/cat-grooming",
+ "ogTitle": "Cat Grooming Service and Mobile Cat Grooming | Aljory Cleaning Services",
+ "ogDescription": "With our extensive and convenient mobile grooming solutions and skilled groomers, we are dedicated to providing exceptional care to your beloved cats.",
+ "keywords": "cat grooming, mobile cat grooming, cat grooming at home, Aljory Cleaning Services",
+ "robots": "index, follow",
+ "ogImage": "https://aljorycleaning.com/brand/aljory-logo.png"
+},
  "extraMeta": [
   {
    "property": "og:type",
@@ -29,8 +32,8 @@
   "homeText": "Home > ",
   "currentText": "Cat Grooming",
   "logo": {
-   "src": "https://uploads-ssl.webflow.com/6527d4434ce0218b7ffa0b47/6527d4434ce0218b7ffa0b4c_logo_justlife.webp",
-   "alt": "Justlife Logo"
+   "src": "/brand/aljory-logo.png",
+   "alt": "Aljory Cleaning Services"
   }
  },
  "hero": {
@@ -262,8 +265,8 @@
  },
  "footer": {
   "logo": {
-   "src": "https://uploads-ssl.webflow.com/6527d4434ce0218b7ffa0b47/6527d4434ce0218b7ffa0b57_logo_justlife_white.webp",
-   "alt": "Justlife Logo",
+   "src": "/brand/aljory-logo.png",
+   "alt": "Aljory Cleaning Services",
    "width": 130,
    "height": 40
   },

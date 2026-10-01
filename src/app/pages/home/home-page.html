@@ -8,7 +8,7 @@
           <h1 class="main-title">{{ hero.title }}</h1>
           <div class="location-search-wrapper">
             <p class="en">{{ hero.search.label }}</p>
-            <div class="location-container welcome-section">
+            <div #locationBox class="location-container welcome-section">
               <div id="navbar-location-button" class="b_x1 p_x2 lg location-search">
                 <div class="_vc pl_x1">
                   <div class="pin-wrapper">
@@ -27,9 +27,13 @@
                     [attr.aria-label]="hero.search.label"
                     [value]="searchTerm()"
                     autocomplete="nope"
-                    (input)="searchTerm.set(locationInput.value)"
+                    role="combobox"
+                    aria-autocomplete="list"
+                    [attr.aria-expanded]="showSearchResults()"
+                    (input)="onSearchInput(locationInput.value)"
                     (focus)="searchFocused.set(true)"
                     (blur)="searchFocused.set(false)"
+                    (keydown.enter)="openFirstPlace()"
                     (keydown.escape)="locationInput.blur()"
                   />
                 </div>
@@ -60,7 +64,7 @@
                     id="locate-me-button"
                     class="locate-me-button _c _vc px_x2 pb_x05 mw_x16 h_x16"
                     (mousedown)="$event.preventDefault()"
-                    (click)="locationInput.focus()"
+                    (click)="locate()"
                   >
                     <span>{{ hero.search.locateMe }}</span>
                     <div class="locate-me-icon">
@@ -69,13 +73,39 @@
                   </div>
                 </div>
                 <div class="with-border search-results" [class.active]="showSearchResults()">
-                  <div class="_tc p_x2">
-                    <img [src]="hero.search.emptyIcon" alt="SearchEmptyState" loading="lazy" />
-                    <span class="body-text block mt_x4"
-                      >{{ hero.search.emptyTitle }} '{{ searchTerm() }}'</span
-                    >
-                    <span class="body-text block mt_x2">{{ hero.search.emptyHint }}</span>
-                  </div>
+                  @if (locateError()) {
+                    <div class="_tc p_x2">
+                      <img [src]="hero.search.emptyIcon" alt="SearchEmptyState" loading="lazy" />
+                      <span class="body-text block mt_x4">We couldn't access your location</span>
+                      <span class="body-text block mt_x2">Search for an area instead</span>
+                    </div>
+                  } @else if (locationResults().length) {
+                    <div role="listbox">
+                      @for (place of locationResults(); track place.name + place.city) {
+                        <a
+                          class="location-item"
+                          role="option"
+                          [href]="place.href"
+                          (mousedown)="openPlace($event, place)"
+                          (click)="openPlace($event, place)"
+                        >
+                          <img [src]="hero.search.pinIcon" alt="" width="20" height="20" />
+                          <span>
+                            <span class="item-title block">{{ place.name }}</span>
+                            <span class="item-subtitle block">{{ place.city }}</span>
+                          </span>
+                        </a>
+                      }
+                    </div>
+                  } @else {
+                    <div class="_tc p_x2">
+                      <img [src]="hero.search.emptyIcon" alt="SearchEmptyState" loading="lazy" />
+                      <span class="body-text block mt_x4"
+                        >{{ hero.search.emptyTitle }} '{{ searchTerm() }}'</span
+                      >
+                      <span class="body-text block mt_x2">{{ hero.search.emptyHint }}</span>
+                    </div>
+                  }
                 </div>
               </div>
             </div>
@@ -118,15 +148,13 @@
   }
 
   @if (page.city; as city) {
-    @let shortcuts = catalog()?.shortcuts ?? [];
-    @let services = catalog()?.services ?? [];
     <div class="retained-section">
-      @if (shortcuts.length) {
+      @if (shortcuts().length) {
         <div id="service-shortcuts" class="wrapper service-shortcuts">
           <div class="container">
             <app-home-slider>
               <div class="shortcuts">
-                @for (shortcut of shortcuts; track shortcut.href; let i = $index) {
+                @for (shortcut of shortcuts(); track shortcut.href; let i = $index) {
                   <a [id]="'shortcut-' + i" class="shortcut" [appLink]="shortcut.href">
                     <div class="mb_x4 image-container _vc _column">
                       <img
@@ -150,11 +178,16 @@
         <div class="container">
           <h1>{{ city.title }}</h1>
         </div>
-        @if (services.length) {
+        @if (serviceSearchMiss()) {
+          <div class="container search-miss">
+            <p class="f-subtitle1">We couldn't find anything for '{{ serviceQuery() }}'</p>
+            <span class="body-text">Please try a different search</span>
+          </div>
+        } @else if (services().length) {
           <div class="container">
             <div class="category-services">
               <div class="service-cards">
-                @for (service of services; track service.href) {
+                @for (service of services(); track service.href) {
                   <a class="service-card pb_x6 sm_pb_x4" [appLink]="service.href">
                     <div class="service-image">
                       <img [src]="service.image" [alt]="service.text" loading="lazy" />

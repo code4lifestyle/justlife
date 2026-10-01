@@ -13,8 +13,11 @@ import {
 import { takeUntilDestroyed, toSignal } from '@angular/core/rxjs-interop';
 import { NavigationEnd, Router, RouterLink, RouterLinkActive } from '@angular/router';
 import { filter, map } from 'rxjs';
+import { filterPlaces, locateNearestCity, Place } from '../../core/location-search';
+import { bookingHref } from '../../pages/booking/booking-services';
 import { Locale, PageType } from '../../core/models';
 import { hasPage, pageTypeOf, routeKey } from '../../core/page-registry';
+import { filterServices, SiteSearch } from '../../core/site-search';
 
 const STATIC = 'https://deax38zvkau9d.cloudfront.net/prod/assets/static/';
 
@@ -57,8 +60,8 @@ const SAME_PAGE_TYPES: ReadonlySet<PageType> = new Set<PageType>([
  * the original is intentionally not rendered (English-only build).
  *
  * The dropdowns close on an outside click, on Escape, on navigation and when keyboard focus
- * leaves them. The location search of the city pages needed Google Maps and Justlife's backend:
- * like the home page's search, typing shows the original "nothing found" state.
+ * leaves them. The location search matches areas in the current country and opens that city.
+ * The service search filters the city page's service cards.
  */
 @Component({
   selector: 'app-header',
@@ -74,12 +77,13 @@ const SAME_PAGE_TYPES: ReadonlySet<PageType> = new Set<PageType>([
 export class Header {
   private readonly router = inject(Router);
   private readonly document = inject(DOCUMENT);
+  private readonly siteSearch = inject(SiteSearch);
 
   readonly locale = input.required<Locale>();
   readonly navbarClass = input.required<string>();
 
   protected readonly countries = COUNTRIES;
-  protected readonly logo = `${STATIC}svgs/jl-logo.svg`;
+  protected readonly logo = '/brand/aljory-logo.png';
   protected readonly personIcon = `${STATIC}svgs/person.svg`;
   protected readonly hamburgerIcon = `${STATIC}svgs/hamburger-menu.svg`;
   protected readonly helpIcon = `${STATIC}svgs/question-mark-outlined.svg`;
@@ -96,8 +100,19 @@ export class Header {
   /** Typed location search term (city pages); cleared on every navigation. */
   protected readonly searchTerm = signal('');
   protected readonly searchFocused = signal(false);
+  /** Set when the locate button cannot read the browser location. */
+  protected readonly locateError = signal(false);
   protected readonly showSearchResults = computed(
-    () => this.searchFocused() && this.searchTerm().trim().length > 0,
+    () => this.searchFocused() && (this.searchTerm().trim().length > 0 || this.locateError()),
+  );
+  protected readonly locationResults = computed(() => filterPlaces(this.searchTerm(), this.locale()));
+
+  /** Service search. The page below reads the same query and filters its cards. */
+  protected readonly serviceQuery = this.siteSearch.serviceQuery;
+  protected readonly serviceFocused = signal(false);
+  protected readonly serviceResults = computed(() => filterServices(this.serviceQuery()));
+  protected readonly showServiceResults = computed(
+    () => this.serviceFocused() && this.serviceQuery().trim().length > 0,
   );
 
   private readonly countryWrapper = viewChild.required<ElementRef<HTMLElement>>('countryWrapper');
@@ -151,6 +166,8 @@ export class Header {
         // The header stays mounted from one city page to the next: start each page with an empty
         // search. (`searchFocused` follows the input's own focus/blur events, e.g. across Back.)
         this.searchTerm.set('');
+        this.locateError.set(false);
+        this.siteSearch.serviceQuery.set('');
       });
   }
 
@@ -181,10 +198,64 @@ export class Header {
     if (next && !wrapper.contains(next)) open.set(false);
   }
 
+  protected onSearchInput(value: string): void {
+    this.locateError.set(false);
+    this.searchTerm.set(value);
+  }
+
   protected clearSearch(input: HTMLInputElement): void {
+    this.locateError.set(false);
     this.searchTerm.set('');
     input.value = '';
     input.focus();
+  }
+
+  protected openPlace(event: MouseEvent, place: Place): void {
+    if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) {
+      return;
+    }
+    event.preventDefault();
+    this.searchFocused.set(false);
+    void this.router.navigateByUrl(place.href);
+  }
+
+  protected openFirstPlace(): void {
+    const place = this.locationResults()[0];
+    if (place) void this.router.navigateByUrl(place.href);
+  }
+
+  protected async locate(): Promise<void> {
+    this.locateError.set(false);
+    this.searchFocused.set(true);
+    const place = await locateNearestCity(this.locale());
+    if (!place) {
+      this.locateError.set(true);
+      return;
+    }
+    void this.router.navigateByUrl(place.href);
+  }
+
+  protected onServiceInput(value: string): void {
+    this.serviceFocused.set(true);
+    this.siteSearch.serviceQuery.set(value);
+  }
+
+  protected clearServiceSearch(input: HTMLInputElement): void {
+    this.siteSearch.serviceQuery.set('');
+    input.value = '';
+    input.focus();
+  }
+
+  /** Choosing a service opens its checkout, the same screen as the service cards. */
+  protected pickService(name: string): void {
+    const href = bookingHref(name);
+    this.serviceFocused.set(false);
+    if (href) void this.router.navigateByUrl(href);
+  }
+
+  protected pickFirstService(): void {
+    const name = this.serviceResults()[0];
+    if (name) this.pickService(name);
   }
 
   /** "Sign up or Log in": accounts live in the Justlife app. */

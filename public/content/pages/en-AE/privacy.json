@@ -1,13 +1,14 @@
 {
  "meta": {
-  "title": "Privacy Policy | Justlife UAE",
-  "description": "Most reliable cleaning service in UAE. Learn everything you need about Justlife and enjoy the experience.",
-  "robots": "index, follow",
-  "canonical": "https://www.justlife.com/en-AE/privacy",
-  "ogTitle": "Privacy",
-  "ogDescription": "Enjoy all of your favorite Home Services in just a matter of few clicks. Visit Justlife.com to book our trustworthy and reliable Home Services.",
-  "ogImage": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/rounded1.png"
- },
+ "title": "Privacy Policy | Aljory Cleaning Services UAE",
+ "description": "Most reliable cleaning service in UAE. Learn everything you need about Aljory Cleaning Services and enjoy the experience.",
+ "robots": "index, follow",
+ "canonical": "https://aljorycleaning.com/en-AE/privacy",
+ "ogTitle": "Privacy",
+ "ogDescription": "Enjoy all of your favorite Home Services in just a matter of few clicks. Visit Aljory Cleaning Services.com to book our trustworthy and reliable Home Services.",
+ "ogImage": "https://aljorycleaning.com/brand/aljory-logo.png",
+ "keywords": "Aljory Cleaning Services, building cleaning services, floor and wall tiling works, plumbing and sanitary installation, false ceiling and light partitions, air conditioning installation and maintenance, carpentry and wood flooring, wallpaper fixing works, plaster works, painting contracting, electrical fittings repair and maintenance, electromechanical equipment installation, Dubai, Abu Dhabi, Sharjah, Ajman"
+},
  "shell": {
   "locale": "en-AE",
   "wrapperClass": "en lang-privacy app-layout main-wrapper",

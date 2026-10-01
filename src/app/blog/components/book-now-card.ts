@@ -8,17 +8,24 @@ import { BlogData } from '../blog-data';
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [AppLink],
   host: { class: 'BookNowCard_bookNowCardContainer__P7nfG' },
+  styles: `
+    .BookNowCard_bookNowLogo__onpra {
+      height: auto;
+      object-fit: contain;
+      width: 8.75rem;
+    }
+  `,
   template: `
     @if (data.layout()?.bookNowCard; as card) {
       <div class="BookNowCard_bookNowCardLogoWrapper__xLuMU">
         <img
-          alt="justlife-logo"
+          alt="Aljory Cleaning Services"
           loading="lazy"
           width="140"
-          height="44"
+          height="79"
           decoding="async"
           class="BookNowCard_bookNowLogo__onpra"
-          style="color:transparent;aspect-ratio:3.1818181818181817"
+          style="color:transparent;aspect-ratio:1.776;object-fit:contain;height:auto"
           [src]="card.logo"
         />
       </div>

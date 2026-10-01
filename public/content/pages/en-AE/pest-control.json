@@ -1,32 +1,33 @@
 {
  "meta": {
-  "title": "Pest Control Services - Rat, Insect, Termite Removal Treatment",
-  "description": "Pest management or insect control is a process for getting rid of or controlling unwanted pests. Rats, insects, termites, bedbugs, and other vermin are some of the pests that pest control services remove. Pests have caused people a great deal of anxiety for a very long time. They are aware that it is common for these organisms to cause significant issues, such as health issues. Additionally, since insects infest surroundings or buildings, damage to property is another issue.",
-  "robots": "index,follow",
-  "canonical": "https://www.justlife.com/en-AE/pest-control",
-  "ogTitle": "Pest Control Services - Rat, Insect, Termite Removal Treatment",
-  "ogDescription": "Pest management or insect control is a process for getting rid of or controlling unwanted pests. Rats, insects, termites, bedbugs, and other vermin are some of the pests that pest control services remove. Pests have caused people a great deal of anxiety for a very long time. They are aware that it is common for these organisms to cause significant issues, such as health issues. Additionally, since insects infest surroundings or buildings, damage to property is another issue.",
-  "ogImage": "https://deax38zvkau9d.cloudfront.net/prod/assets/images/uploads/services/1667551131pest-control-services.webp",
-  "jsonLd": [
-   {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-     {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://www.justlife.com/en-AE"
-     },
-     {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Pest Control"
-     }
-    ]
-   }
-  ]
- },
+ "title": "Pest Control Services - Rat, Insect, Termite Removal Treatment",
+ "description": "Pest management or insect control is a process for getting rid of or controlling unwanted pests. Rats, insects, termites, bedbugs, and other vermin are some of the pests that pest control services remove. Pests have caused people a great deal of anxiety for a very long time. They are aware that it is common for these organisms to cause significant issues, such as health issues. Additionally, since insects infest surroundings or buildings, damage to property is another issue.",
+ "robots": "index,follow",
+ "canonical": "https://aljorycleaning.com/en-AE/pest-control",
+ "ogTitle": "Pest Control Services - Rat, Insect, Termite Removal Treatment",
+ "ogDescription": "Pest management or insect control is a process for getting rid of or controlling unwanted pests. Rats, insects, termites, bedbugs, and other vermin are some of the pests that pest control services remove. Pests have caused people a great deal of anxiety for a very long time. They are aware that it is common for these organisms to cause significant issues, such as health issues. Additionally, since insects infest surroundings or buildings, damage to property is another issue.",
+ "ogImage": "https://deax38zvkau9d.cloudfront.net/prod/assets/images/uploads/services/1667551131pest-control-services.webp",
+ "jsonLd": [
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://aljorycleaning.com/en-AE"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Pest Control"
+    }
+   ]
+  }
+ ],
+ "keywords": "Aljory Cleaning Services, building cleaning services, floor and wall tiling works, plumbing and sanitary installation, false ceiling and light partitions, air conditioning installation and maintenance, carpentry and wood flooring, wallpaper fixing works, plaster works, painting contracting, electrical fittings repair and maintenance, electromechanical equipment installation, Dubai, Abu Dhabi, Sharjah, Ajman"
+},
  "shell": {
   "locale": "en-AE",
   "wrapperClass": "lg-navbar en lang-services app-layout main-wrapper",

@@ -1,32 +1,33 @@
 {
  "meta": {
-  "title": "Women's Spa and Massage Home Service in United Arab Emirates",
-  "description": "There is no limit to the services you can get at home. You can continue to feel very special with our massage for women at home service. As Justlife, we try to create the best experience for you. In this way, we are making you feel relaxed and good. For this reason, we offer you a unique massage experience accompanied by skilled therapists. It would be useful to look at the massage spa services you can get at home.",
-  "robots": "index,follow",
-  "canonical": "https://www.justlife.com/en-AE/spa-and-massage-service-at-home",
-  "ogTitle": "Women's Spa and Massage Home Service in United Arab Emirates",
-  "ogDescription": "There is no limit to the services you can get at home. You can continue to feel very special with our massage for women at home service. As Justlife, we try to create the best experience for you. In this way, we are making you feel relaxed and good. For this reason, we offer you a unique massage experience accompanied by skilled therapists. It would be useful to look at the massage spa services you can get at home.",
-  "ogImage": "https://deax38zvkau9d.cloudfront.net/prod/assets/images/uploads/services/1670929266womens-spa-and-massage-service.webp",
-  "jsonLd": [
-   {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-     {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://www.justlife.com/en-AE"
-     },
-     {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Women's Spa at Home"
-     }
-    ]
-   }
-  ]
- },
+ "title": "Women's Spa and Massage Home Service in United Arab Emirates",
+ "description": "There is no limit to the services you can get at home. You can continue to feel very special with our massage for women at home service. As Aljory Cleaning Services, we try to create the best experience for you. In this way, we are making you feel relaxed and good. For this reason, we offer you a unique massage experience accompanied by skilled therapists. It would be useful to look at the massage spa services you can get at home.",
+ "robots": "index,follow",
+ "canonical": "https://aljorycleaning.com/en-AE/spa-and-massage-service-at-home",
+ "ogTitle": "Women's Spa and Massage Home Service in United Arab Emirates",
+ "ogDescription": "There is no limit to the services you can get at home. You can continue to feel very special with our massage for women at home service. As Aljory Cleaning Services, we try to create the best experience for you. In this way, we are making you feel relaxed and good. For this reason, we offer you a unique massage experience accompanied by skilled therapists. It would be useful to look at the massage spa services you can get at home.",
+ "ogImage": "https://deax38zvkau9d.cloudfront.net/prod/assets/images/uploads/services/1670929266womens-spa-and-massage-service.webp",
+ "jsonLd": [
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://aljorycleaning.com/en-AE"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Women's Spa at Home"
+    }
+   ]
+  }
+ ],
+ "keywords": "Aljory Cleaning Services, building cleaning services, floor and wall tiling works, plumbing and sanitary installation, false ceiling and light partitions, air conditioning installation and maintenance, carpentry and wood flooring, wallpaper fixing works, plaster works, painting contracting, electrical fittings repair and maintenance, electromechanical equipment installation, Dubai, Abu Dhabi, Sharjah, Ajman"
+},
  "shell": {
   "locale": "en-AE",
   "wrapperClass": "lg-navbar en lang-services app-layout main-wrapper",

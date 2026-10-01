@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Disallow: /en-AE/my-account/
+Disallow: /en-SA/my-account/
+
+Sitemap: https://aljorycleaning.com/sitemap.xml

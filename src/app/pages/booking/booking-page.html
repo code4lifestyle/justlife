@@ -1,0 +1,275 @@
+@let current = service();
+<div class="booking service-wrapper service-header-in-flow">
+  <div class="service-header">
+    <div class="checkout-header">
+      <button type="button" class="step-back" (click)="back()">
+        <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true">
+          <path fill="currentColor" d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z" />
+        </svg>
+        <span>Step {{ step() }} of 4</span>
+      </button>
+      <h1>{{ current.name }}</h1>
+      <p class="service-lead">
+        Book {{ current.name }} with Aljory Cleaning Services
+        @if (content().shell.locale === 'en-SA') {
+          in Jeddah and Riyadh.
+        } @else {
+          in Dubai, Abu Dhabi, Sharjah and Ajman.
+        }
+      </p>
+    </div>
+  </div>
+
+  <div class="checkout-body">
+    <div class="main-section">
+      <div class="main-card radiusX3 panel">
+        @switch (step()) {
+          @case (1) {
+            <h2 class="price-heading">Price list</h2>
+            <ul class="price-list">
+              <li><span>In the city</span><strong>AED {{ inCityHourly }} per hour</strong></li>
+              <li><span>Materials</span><strong>AED {{ materialsPrice }}</strong></li>
+              <li><span>Out of the city</span><strong>AED {{ outOfCityHourly }} per hour</strong></li>
+            </ul>
+
+            <h2>Where do you need the service?</h2>
+            <div class="pills" role="group" aria-label="Service location">
+              <button
+                type="button"
+                class="pill"
+                [class.selected]="!outsideCity()"
+                (click)="outsideCity.set(false)"
+              >
+                In the city
+              </button>
+              <button
+                type="button"
+                class="pill"
+                [class.selected]="outsideCity()"
+                (click)="outsideCity.set(true)"
+              >
+                Out of the city
+              </button>
+            </div>
+
+            <p class="offer-label">Exclusive offer for you!</p>
+            <div class="offer-card">
+              <div class="offer-copy">
+                <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    fill="#00a6e0"
+                    d="M21.41 11.58l-9-9A2 2 0 0 0 11 2H4a2 2 0 0 0-2 2v7a2 2 0 0 0 .59 1.42l9 9a2 2 0 0 0 2.82 0l7-7a2 2 0 0 0 0-2.84zM6.5 8A1.5 1.5 0 1 1 8 6.5 1.5 1.5 0 0 1 6.5 8z"
+                  />
+                </svg>
+                <p>150 OFF your first 3 bookings!</p>
+              </div>
+              <div class="offer-code">
+                <span>Code: 50X3</span>
+                <button type="button" class="apply" [disabled]="offerApplied()" (click)="applyOffer()">
+                  {{ offerApplied() ? 'Applied' : 'Apply' }}
+                </button>
+              </div>
+            </div>
+
+            <div class="question-row">
+              <h2>How many hours do you need your professional to stay?</h2>
+              <button
+                type="button"
+                class="info"
+                aria-label="How long should I book for?"
+                [attr.aria-expanded]="showHoursHelp()"
+                (click)="showHoursHelp.set(!showHoursHelp())"
+              >
+                i
+              </button>
+            </div>
+            @if (showHoursHelp()) {
+              <p class="help">
+                Most visits take 2–4 hours. Add an hour for a larger home, a villa, or extra tasks.
+              </p>
+            }
+            <div class="choices" role="group" aria-label="Hours">
+              @for (option of hoursOptions; track option) {
+                <button
+                  type="button"
+                  class="circle"
+                  [class.selected]="hours() === option"
+                  (click)="hours.set(option)"
+                >
+                  {{ option }}
+                </button>
+              }
+            </div>
+
+            <h2>How many professionals do you need?</h2>
+            <div class="choices" role="group" aria-label="Professionals">
+              @for (option of professionalOptions; track option) {
+                <button
+                  type="button"
+                  class="circle"
+                  [class.selected]="professionals() === option"
+                  (click)="professionals.set(option)"
+                >
+                  {{ option }}
+                </button>
+              }
+            </div>
+
+            <h2>{{ current.materialsQuestion }}</h2>
+            <div class="pills">
+              <button type="button" class="pill" [class.selected]="!materials()" (click)="materials.set(false)">
+                No, I have them
+              </button>
+              <button type="button" class="pill" [class.selected]="materials()" (click)="materials.set(true)">
+                Yes, please · AED {{ materialsPrice }}
+              </button>
+            </div>
+
+            <h2 class="instructions-label">Any instructions or special requirements?</h2>
+            <textarea
+              class="instructions"
+              rows="3"
+              placeholder="Example: Key under the mat, extra rooms, access notes..."
+              [value]="instructions()"
+              (input)="instructions.set($any($event.target).value)"
+            ></textarea>
+
+            <p class="fuel">First booking? Your fuel surcharge fee is on us. Enjoy!</p>
+          }
+          @case (2) {
+            <h2>When should we come?</h2>
+            <div class="dates">
+              @for (day of dates; track day.iso) {
+                <button
+                  type="button"
+                  class="date"
+                  [class.selected]="date() === day.iso"
+                  (click)="date.set(day.iso)"
+                >
+                  <span>{{ day.weekday }}</span>
+                  <strong>{{ day.day }}</strong>
+                </button>
+              }
+            </div>
+            <h2>What time works?</h2>
+            <div class="pills">
+              @for (slot of times; track slot) {
+                <button
+                  type="button"
+                  class="pill"
+                  [class.selected]="time() === slot"
+                  (click)="time.set(slot)"
+                >
+                  {{ timeLabel(slot) }}
+                </button>
+              }
+            </div>
+          }
+          @case (3) {
+            <h2>Where should we come?</h2>
+            <label class="field">
+              <span>Your name</span>
+              <input
+                type="text"
+                autocomplete="name"
+                placeholder="Full name"
+                [value]="customerName()"
+                (input)="customerName.set($any($event.target).value)"
+              />
+            </label>
+            <label class="field">
+              <span>Phone number</span>
+              <input
+                type="tel"
+                autocomplete="tel"
+                placeholder="05x xxx xxxx"
+                [value]="phone()"
+                (input)="phone.set($any($event.target).value)"
+              />
+            </label>
+            <label class="field">
+              <span>Address</span>
+              <input
+                type="text"
+                autocomplete="street-address"
+                placeholder="Building, street, area"
+                [value]="address()"
+                (input)="address.set($any($event.target).value)"
+              />
+            </label>
+          }
+          @case (4) {
+            <h2>You're booked</h2>
+            <p class="done">
+              {{ current.name }} is reserved for {{ hours() }}
+              {{ hours() === 1 ? 'hour' : 'hours' }} with {{ professionals() }}
+              {{ professionals() === 1 ? 'professional' : 'professionals' }}.
+            </p>
+            <p class="done">
+              We'll be there on {{ selectedDateLabel() }} at {{ timeLabel(time()!) }}, {{ address() }}.
+              A copy of this booking is on its way to our team.
+            </p>
+          }
+        }
+
+        @if (stepError()) {
+          <p class="error" role="alert">{{ stepError() }}</p>
+        }
+
+        @if (step() < 4) {
+          <button type="button" class="next" [disabled]="sending()" (click)="next()">
+            {{ sending() ? 'Sending...' : step() === 3 ? 'Confirm booking' : 'Next' }}
+          </button>
+        } @else {
+          <button type="button" class="next" (click)="home()">Back to home</button>
+        }
+      </div>
+    </div>
+
+    <aside class="sidebar">
+      <div class="main-card radiusX3 panel summary">
+        <h2>Booking Details</h2>
+        <dl>
+          <div><dt>Service</dt><dd>{{ current.name }}</dd></div>
+          <div><dt>Duration</dt><dd>{{ hours() }} {{ hours() === 1 ? 'hour' : 'hours' }}</dd></div>
+          <div><dt>Number of Professionals</dt><dd>{{ professionals() }}</dd></div>
+          <div><dt>Location</dt><dd>{{ outsideCity() ? 'Out of the city' : 'In the city' }}</dd></div>
+          <div><dt>Material</dt><dd>{{ materials() ? 'Yes' : 'No' }}</dd></div>
+          @if (date()) {
+            <div><dt>Date</dt><dd>{{ selectedDateLabel() }}</dd></div>
+          }
+          @if (time()) {
+            <div><dt>Time</dt><dd>{{ timeLabel(time()!) }}</dd></div>
+          }
+          @if (customerName()) {
+            <div><dt>Name</dt><dd>{{ customerName() }}</dd></div>
+          }
+          @if (phone()) {
+            <div><dt>Phone</dt><dd>{{ phone() }}</dd></div>
+          }
+        </dl>
+      </div>
+      <div class="main-card radiusX3 panel summary">
+        <h2>Payment Summary</h2>
+        <dl>
+          <div>
+            <dt>{{ outsideCity() ? 'Out of the city' : 'In the city' }}</dt>
+            <dd>{{ money(hourlyRate()) }} / hour</dd>
+          </div>
+          <div>
+            <dt>{{ hours() }} {{ hours() === 1 ? 'hour' : 'hours' }} × {{ professionals() }}</dt>
+            <dd>{{ money(labour()) }}</dd>
+          </div>
+          @if (materials()) {
+            <div><dt>Materials</dt><dd>{{ money(materialsFee()) }}</dd></div>
+          }
+          @if (discount()) {
+            <div><dt>Subtotal</dt><dd>{{ money(subtotal()) }}</dd></div>
+            <div><dt>Offer</dt><dd>-{{ money(discount()) }}</dd></div>
+          }
+          <div class="total"><dt>Total</dt><dd>{{ money(total()) }}</dd></div>
+        </dl>
+      </div>
+    </aside>
+  </div>
+</div>

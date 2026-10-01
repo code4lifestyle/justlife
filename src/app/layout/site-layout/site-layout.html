@@ -1,7 +1,9 @@
 <div class="main-container" [style.visibility]="ready() ? null : 'hidden'">
   <div [class]="shell().wrapperClass">
     <app-header [locale]="shell().locale" [navbarClass]="shell().navbarClass" />
-    <router-outlet />
+    <main>
+      <router-outlet />
+    </main>
   </div>
   @if (shell().footer; as footer) {
     <div>

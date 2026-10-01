@@ -1,7 +1,7 @@
 {
  "features": {
-  "title": "There are so many reasons to love Justlife!",
-  "subtitle": "Here are the top 4!",
+  "title": "Building cleaning, tiling and maintenance, booked in one place",
+  "subtitle": "Aljory Cleaning Services covers the work, from the first hour.",
   "items": [
    {
     "icon": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/svgs/star-lg.svg",
@@ -24,8 +24,8 @@
    {
     "icon": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/svgs/frame.svg",
     "alt": "frame-icon",
-    "title": "Super app",
-    "text": "Being a Super app means we’ve got the widest range of home services, so we’ve got you covered!"
+    "title": "One team for every trade",
+    "text": "Tiling, plumbing, painting, cleaning, electrical work and maintenance are booked with the same team."
    }
   ]
  },
@@ -36,11 +36,11 @@
    "width": 108,
    "height": 108
   },
-  "title": "The Justlife Promise – Excellence in Every Home",
-  "text": "At Justlife, we commit to the highest standards of home care. Our trained professionals deliver a superior service experience, ensuring your home is in expert hands. Your peace of mind is our promise."
+  "title": "The Aljory promise for every home and building",
+  "text": "Aljory Cleaning Services handles floor and wall tiling, plumbing, painting, building cleaning and maintenance with trained professionals. Your home or building stays in careful hands."
  },
  "app": {
-  "badge": "Download our Super app!",
+  "badge": "Book a service",
   "title": "Manage all to-dos with a single tap!",
   "subtitle": "Book and manage your appointments, view your professional’s profile and ratings, get the latest offers, and much more.",
   "links": [

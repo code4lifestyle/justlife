@@ -1,62 +1,63 @@
 {
  "meta": {
-  "title": "How to Deep Clean a Kitchen? Kitchen Deep Cleaning Checklist | Justlife",
-  "description": "Follow this step-by-step kitchen deep cleaning checklist and learn how to deep clean your kitchen like a pro or book expert today.",
-  "robots": "index, follow",
-  "canonical": "https://www.justlife.com/blog/en-AE/how-to-deep-clean-a-kitchen",
-  "ogTitle": "How to Deep Clean a Kitchen? Kitchen Deep Cleaning Checklist | Justlife",
-  "ogDescription": "Follow this step-by-step kitchen deep cleaning checklist and learn how to deep clean your kitchen like a pro or book expert today.",
-  "ogImage": "https://a.storyblok.com/f/285972427025846/1536x1024/651b432a59/how-to-deep-clean-kitchen.webp",
-  "jsonLd": [
-   {
-    "@context": "https://schema.org/",
-    "@type": "Article",
-    "mainEntityOfPage": {
-     "@type": "WebPage",
-     "@id": "https://www.justlife.com/blog/en-AE/how-to-deep-clean-a-kitchen"
-    },
-    "headline": "How to Deep Clean a Kitchen? Kitchen Deep Cleaning Checklist | Justlife",
-    "description": "Follow this step-by-step kitchen deep cleaning checklist and learn how to deep clean your kitchen like a pro or book expert today.",
-    "image": "https://a.storyblok.com/f/285972427025846/1536x1024/651b432a59/how-to-deep-clean-kitchen.webp",
-    "author": {
-     "@type": "Organization",
-     "name": "Justlife"
-    },
-    "publisher": {
-     "@type": "Organization",
-     "name": "Justlife",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://a.storyblok.com/f/285972427025846/140x45/86979fd21d/justlife-logo-blue.svg"
-     }
-    }
+ "title": "How to Deep Clean a Kitchen? Kitchen Deep Cleaning Checklist | Aljory Cleaning Services",
+ "description": "Follow this step-by-step kitchen deep cleaning checklist and learn how to deep clean your kitchen like a pro or book expert today.",
+ "robots": "index, follow",
+ "canonical": "https://aljorycleaning.com/blog/en-AE/how-to-deep-clean-a-kitchen",
+ "ogTitle": "How to Deep Clean a Kitchen? Kitchen Deep Cleaning Checklist | Aljory Cleaning Services",
+ "ogDescription": "Follow this step-by-step kitchen deep cleaning checklist and learn how to deep clean your kitchen like a pro or book expert today.",
+ "ogImage": "https://a.storyblok.com/f/285972427025846/1536x1024/651b432a59/how-to-deep-clean-kitchen.webp",
+ "jsonLd": [
+  {
+   "@context": "https://schema.org/",
+   "@type": "Article",
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://aljorycleaning.com/blog/en-AE/how-to-deep-clean-a-kitchen"
    },
-   {
-    "@context": "https://schema.org/",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-     {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://www.justlife.com/en-AE"
-     },
-     {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Blog",
-      "item": "https://www.justlife.com/blog/en-AE"
-     },
-     {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "How to Deep Clean a Kitchen? Kitchen Deep Cleaning Checklist",
-      "item": "https://www.justlife.com/blog/en-AE/how-to-deep-clean-a-kitchen"
-     }
-    ]
+   "headline": "How to Deep Clean a Kitchen? Kitchen Deep Cleaning Checklist | Aljory Cleaning Services",
+   "description": "Follow this step-by-step kitchen deep cleaning checklist and learn how to deep clean your kitchen like a pro or book expert today.",
+   "image": "https://a.storyblok.com/f/285972427025846/1536x1024/651b432a59/how-to-deep-clean-kitchen.webp",
+   "author": {
+    "@type": "Organization",
+    "name": "Aljory Cleaning Services"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "Aljory Cleaning Services",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "/brand/aljory-logo.png"
+    }
    }
-  ]
- },
+  },
+  {
+   "@context": "https://schema.org/",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://aljorycleaning.com/en-AE"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Blog",
+     "item": "https://aljorycleaning.com/blog/en-AE"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "How to Deep Clean a Kitchen? Kitchen Deep Cleaning Checklist",
+     "item": "https://aljorycleaning.com/blog/en-AE/how-to-deep-clean-a-kitchen"
+    }
+   ]
+  }
+ ],
+ "keywords": "Aljory Cleaning Services, building cleaning services, floor and wall tiling works, plumbing and sanitary installation, false ceiling and light partitions, air conditioning installation and maintenance, carpentry and wood flooring, wallpaper fixing works, plaster works, painting contracting, electrical fittings repair and maintenance, electromechanical equipment installation, Dubai, Abu Dhabi, Sharjah, Ajman"
+},
  "title": "How to Deep Clean a Kitchen? Kitchen Deep Cleaning Checklist",
  "description": "Follow this step-by-step kitchen deep cleaning checklist and learn how to deep clean your kitchen like a pro or book expert today.",
  "image": "https://a.storyblok.com/f/285972427025846/1536x1024/651b432a59/how-to-deep-clean-kitchen.webp",

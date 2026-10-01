@@ -8,16 +8,23 @@ import { BlogData } from '../blog-data';
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [AppLink],
   host: { class: 'JustlifeCard_justlifeCardContainer__MmFeH' },
+  styles: `
+    .JustlifeCard_justlifeCardImage__2Io8d {
+      height: auto;
+      object-fit: contain;
+      width: 10rem;
+    }
+  `,
   template: `
     @if (data.layout()?.justlifeCard; as card) {
       <img
-        alt="justlife-logo"
+        alt="Aljory Cleaning Services"
         loading="lazy"
-        width="180"
-        height="57"
+        width="160"
+        height="90"
         decoding="async"
         class="JustlifeCard_justlifeCardImage__2Io8d"
-        style="color:transparent;aspect-ratio:3.1578947368421053"
+        style="color:transparent;aspect-ratio:1.776;object-fit:contain;height:auto"
         [src]="card.logo"
       />
       <p class="JustlifeCard_justlifeCardTitle__5GtrP text-head-2">{{ card.title }}</p>

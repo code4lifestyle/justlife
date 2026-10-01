@@ -1,12 +1,13 @@
 {
  "meta": {
-  "title": "Justlife Home Services – Cleaning, Beauty, Spa, Handyman & More",
-  "description": "Top-rated home services in the UAE, delivered to your door. Cleaning, Beauty, Spa, Handyman & Repairs & more.",
-  "robots": "noindex, nofollow",
-  "canonical": "https://www.justlife.com/en-AE/deep-cleaning-ae/checkout/flex",
-  "ogTitle": "Justlife Home Services – Cleaning, Beauty, Spa, Handyman & More",
-  "ogDescription": "Top-rated home services in the UAE, delivered to your door. Cleaning, Beauty, Spa, Handyman & Repairs & more."
- },
+ "title": "Aljory Cleaning Services Home Services – Cleaning, Beauty, Spa, Handyman & More",
+ "description": "Top-rated home services in the UAE, delivered to your door. Cleaning, Beauty, Spa, Handyman & Repairs & more.",
+ "robots": "noindex, follow",
+ "canonical": "https://aljorycleaning.com/en-AE/deep-cleaning-ae/checkout/flex",
+ "ogTitle": "Aljory Cleaning Services Home Services – Cleaning, Beauty, Spa, Handyman & More",
+ "ogDescription": "Top-rated home services in the UAE, delivered to your door. Cleaning, Beauty, Spa, Handyman & Repairs & more.",
+ "keywords": "Aljory Cleaning Services, building cleaning services, floor and wall tiling works, plumbing and sanitary installation, false ceiling and light partitions, air conditioning installation and maintenance, carpentry and wood flooring, wallpaper fixing works, plaster works, painting contracting, electrical fittings repair and maintenance, electromechanical equipment installation, Dubai, Abu Dhabi, Sharjah, Ajman"
+},
  "shell": {
   "locale": "en-AE",
   "wrapperClass": "funnel-page-wrapper en lang-service_type-checkout-flex app-layout main-wrapper",

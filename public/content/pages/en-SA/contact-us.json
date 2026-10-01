@@ -1,11 +1,14 @@
 {
  "meta": {
-  "title": "Contact Us",
-  "description": "Justlife DMCC",
-  "robots": "noindex, nofollow",
-  "canonical": "https://www.justlife.com/en-SA/contact-us",
-  "ogTitle": "justlife"
- },
+ "title": "Contact Aljory Cleaning Services in Saudi Arabia",
+ "description": "Contact Aljory Cleaning Services about tiling, plumbing, painting, building cleaning and maintenance in Saudi Arabia.",
+ "robots": "noindex, nofollow",
+ "canonical": "https://aljorycleaning.com/en-SA/contact-us",
+ "ogTitle": "Contact Aljory Cleaning Services in Saudi Arabia",
+ "keywords": "Aljory Cleaning Services, building cleaning services, floor and wall tiling works, plumbing and sanitary installation, false ceiling and light partitions, air conditioning installation and maintenance, carpentry and wood flooring, wallpaper fixing works, plaster works, painting contracting, electrical fittings repair and maintenance, electromechanical equipment installation, Dubai, Abu Dhabi, Sharjah, Ajman, Jeddah, Riyadh, Saudi Arabia",
+ "ogDescription": "Contact Aljory Cleaning Services about tiling, plumbing, painting, building cleaning and maintenance in Saudi Arabia.",
+ "ogImage": "https://aljorycleaning.com/brand/aljory-logo.png"
+},
  "shell": {
   "locale": "en-SA",
   "wrapperClass": "en lang-contact-us app-layout main-wrapper",

@@ -1,93 +1,129 @@
 {
  "meta": {
-  "title": "Justlife Home Services in KSA – Cleaning, Pest Control & More",
-  "description": "Book top-rated, easy, reliable and affordable home services in KSA for Home Cleaning, Pest Control & more.",
-  "keywords": "justlife",
-  "robots": "index,follow",
-  "canonical": "https://www.justlife.com/en-SA",
-  "ogTitle": "Justlife Home Services in KSA – Cleaning, Pest Control & More",
-  "ogDescription": "Book top-rated, easy, reliable and affordable home services in KSA for Home Cleaning, Pest Control & more.",
-  "ogImage": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/rounded1.png",
-  "jsonLd": [
-   {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Justlife",
-    "description": "Book House Cleaning, Salon & Spa at home with highest ranking home services app.",
-    "applicationCategory": "House & Home",
-    "author": {
-     "name": "Justlife",
-     "@type": "Organization",
-     "url": "https://www.justlife.com"
+ "title": "Aljory Cleaning Services | Building Cleaning, Tiling and Maintenance in Saudi Arabia",
+ "description": "Aljory Cleaning Services books floor and wall tiling, plumbing, painting, building cleaning and maintenance in Jeddah and Riyadh.",
+ "keywords": "Aljory Cleaning Services, building cleaning services, floor and wall tiling works, plumbing and sanitary installation, false ceiling and light partitions, air conditioning installation and maintenance, carpentry and wood flooring, wallpaper fixing works, plaster works, painting contracting, electrical fittings repair and maintenance, electromechanical equipment installation, Dubai, Abu Dhabi, Sharjah, Ajman, Jeddah, Riyadh, Saudi Arabia",
+ "robots": "index, follow",
+ "canonical": "https://aljorycleaning.com/en-SA",
+ "ogTitle": "Aljory Cleaning Services | Building Cleaning, Tiling and Maintenance in Saudi Arabia",
+ "ogDescription": "Aljory Cleaning Services books floor and wall tiling, plumbing, painting, building cleaning and maintenance in Jeddah and Riyadh.",
+ "ogImage": "https://aljorycleaning.com/brand/aljory-logo.png",
+ "jsonLd": [
+  {
+   "@context": "https://schema.org",
+   "@type": "HomeAndConstructionBusiness",
+   "name": "Aljory Cleaning Services",
+   "url": "https://aljorycleaning.com/en-SA",
+   "image": "https://aljorycleaning.com/brand/aljory-logo.png",
+   "email": "admin@aljorycleaning.com",
+   "description": "Building cleaning, tiling, plumbing, painting and maintenance in Jeddah and Riyadh.",
+   "areaServed": [
+    {
+     "@type": "City",
+     "name": "Jeddah"
     },
-    "url": "https://www.justlife.com",
-    "hasPart": [
-     {
-      "name": "Justlife (Home Services)",
-      "applicationCategory": "House & Home",
-      "@type": "MobileApplication",
-      "operatingSystem": "iOS",
-      "downloadUrl": "https://apps.apple.com/ae/app/justlife-home-services/id1107705982",
-      "aggregateRating": {
-       "@type": "AggregateRating",
-       "ratingValue": 4.6,
-       "ratingCount": 32846
-      },
-      "offers": [
-       {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "AED",
-        "url": "https://apps.apple.com/ae/app/justlife-home-services/id1107705982"
-       }
-      ]
-     },
-     {
-      "name": "Justlife (Home Services)",
-      "applicationCategory": "House & Home",
-      "@type": "MobileApplication",
-      "operatingSystem": "Android",
-      "downloadUrl": "https://play.google.com/store/apps/details?id=com.mobile.justmop",
-      "aggregateRating": {
-       "@type": "AggregateRating",
-       "ratingValue": 4.6,
-       "ratingCount": 15816
-      },
-      "offers": [
-       {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "AED",
-        "url": "https://play.google.com/store/apps/details?id=com.mobile.justmop"
-       }
-      ]
-     }
-    ],
-    "review": [],
-    "operatingSystem": "Android, iOS",
-    "offers": [
+    {
+     "@type": "City",
+     "name": "Riyadh"
+    }
+   ],
+   "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Building cleaning and maintenance",
+    "itemListElement": [
      {
       "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "AED",
-      "url": "https://play.google.com/store/apps/details?id=com.mobile.justmop"
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Floor & Wall Tiling Works",
+       "url": "https://aljorycleaning.com/en-AE/floor-wall-tiling/checkout/details"
+      }
      },
      {
       "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "AED",
-      "url": "https://apps.apple.com/ae/app/justlife-home-services/id1107705982"
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Plumbing & Sanitary Installation",
+       "url": "https://aljorycleaning.com/en-AE/plumbing-sanitary/checkout/details"
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "False Ceiling & Light Partitions Installation",
+       "url": "https://aljorycleaning.com/en-AE/false-ceiling/checkout/details"
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Air-Conditioning, Ventilations & Air Filtration Systems Installation & Maintenance",
+       "url": "https://aljorycleaning.com/en-AE/air-conditioning/checkout/details"
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Carpentry & wood Flooring Works",
+       "url": "https://aljorycleaning.com/en-AE/carpentry-flooring/checkout/details"
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Wallpaper Fixing Works",
+       "url": "https://aljorycleaning.com/en-AE/wallpaper-fixing/checkout/details"
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Plaster Works",
+       "url": "https://aljorycleaning.com/en-AE/plaster-works/checkout/details"
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Painting Contracting",
+       "url": "https://aljorycleaning.com/en-AE/painting-contracting/checkout/details"
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Buildings Cleaning Services",
+       "url": "https://aljorycleaning.com/en-AE/buildings-cleaning/checkout/details"
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Electrical Fittings & Fixtures Repairing & Maintenance",
+       "url": "https://aljorycleaning.com/en-AE/electrical-fittings/checkout/details"
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Electromechanical Equipment Installation and Maintenance",
+       "url": "https://aljorycleaning.com/en-AE/electromechanical/checkout/details"
+      }
      }
-    ],
-    "aggregateRating": {
-     "@type": "AggregateRating",
-     "ratingValue": 4.6,
-     "reviewCount": 48662
-    },
-    "isAccessibleForFree": true
+    ]
    }
-  ]
- },
+  }
+ ]
+},
  "shell": {
   "locale": "en-SA",
   "wrapperClass": "home-wrapper en lang app-layout main-wrapper",
@@ -100,9 +136,9 @@
  },
  "kind": "home",
  "hero": {
-  "title": "#1 Super app for all home services",
+  "title": "Aljory Cleaning Services for homes and buildings in the UAE",
   "image": "https://deax38zvkau9d.cloudfront.net/prod/assets/static/home/hero-v1.webp?f=webp",
-  "imageAlt": "justlife-hero-image",
+  "imageAlt": "Aljory Cleaning Services for homes and buildings",
   "search": {
    "label": "Where would you like to receive your service?",
    "placeholder": "Search for area, street name, landmark...",

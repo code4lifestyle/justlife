@@ -21,6 +21,7 @@
 /* ported from Nuxt style block b29299d132 */
 .hero-container {
   position: relative;
+  z-index: 3;
 }
 .hero-container .main-section {
   left: calc(50% - 370px);
@@ -224,6 +225,8 @@
   background-color: #fff;
   display: none;
   left: 0;
+  max-height: 320px;
+  overflow-y: auto;
   position: absolute;
   top: 56px;
   width: 100%;
@@ -235,8 +238,23 @@
   padding: 8px 0;
 }
 .location-search .search-results .location-item {
+  align-items: center;
   cursor: pointer;
   display: flex;
+  gap: 12px;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+.location-search .search-results .location-item .item-title {
+  color: #000000de;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.location-search .search-results .location-item .item-subtitle {
+  color: #0000008a;
+  font-size: 13px;
+  line-height: 18px;
 }
 .location-search .search-results .location-item:hover {
   background-color: #d9f6ff;
@@ -383,9 +401,10 @@
   color: #000000de;
   display: inline-block;
   font-size: 16px;
-  height: 48px;
+  height: auto;
   line-height: 24px;
   margin-top: 8px;
+  min-height: 48px;
 }
 .blog-categories-section .section-content .category-card:hover .category-image {
   background-color: #f8f8f8;
@@ -414,9 +433,13 @@
 .service-shortcuts .shortcuts .shortcut {
   background-color: #fff;
   display: inline-block;
+  flex: 0 0 auto;
   margin: 0 12px;
   text-align: center;
-  width: 96px;
+  width: 148px;
+}
+.service-shortcuts .shortcuts .shortcut p {
+  white-space: normal;
 }
 .service-shortcuts .shortcuts .shortcut:hover {
   background-color: #f5f5f5;
@@ -442,7 +465,7 @@
   }
   .service-shortcuts .shortcuts .shortcut {
     margin: 0 8px;
-    width: 76px;
+    width: 132px;
   }
   .service-shortcuts .shortcuts .shortcut .tag-container {
     border-radius: 0.25rem;
@@ -468,6 +491,12 @@
   font-size: 36px;
   line-height: 48px;
   padding: 0 0 24px;
+}
+.active-services .search-miss {
+  padding-bottom: 32px;
+}
+.active-services .search-miss span {
+  color: #0000008a;
 }
 .active-services h1.h1-v2 {
   color: #00000061;
@@ -634,12 +663,17 @@
 }
 .service-card {
   display: block;
-  margin: 0 12px;
+  margin: 0 12px 24px;
   position: relative;
   width: 208.8px;
 }
+.service-card p {
+  height: auto;
+  white-space: normal;
+}
 .service-card .service-image {
-  background-color: #ddd;
+  background-color: #fff;
+  border: 1px solid #f2f2f2;
   border-radius: 6px;
   box-shadow:
     0 0 1px #4a4a4a1a,
@@ -654,11 +688,12 @@
   border-radius: 4px;
   display: block;
   height: 160px;
-  object-fit: cover;
+  object-fit: contain;
+  padding: 36px;
   width: 100%;
 }
 .service-card .service-image::before {
-  background-color: #0003;
+  background-color: transparent;
   border-radius: 4px;
   content: '';
   height: 100%;

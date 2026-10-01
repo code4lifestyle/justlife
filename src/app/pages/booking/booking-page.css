@@ -1,0 +1,379 @@
+:host {
+  display: block;
+  background: #f5f5f5;
+}
+
+.booking.service-wrapper {
+  padding-top: 5.5rem;
+}
+
+.booking .service-header {
+  background: transparent;
+  position: relative;
+  top: auto;
+  width: auto;
+}
+
+.checkout-header {
+  margin: 0 auto;
+  max-width: 946px;
+  padding: 12px 16px 8px;
+}
+
+.step-back {
+  align-items: center;
+  background: none;
+  border: none;
+  color: #212121;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 16px;
+  gap: 8px;
+  padding: 0;
+}
+
+.checkout-header h1 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+  margin: 8px 0 8px;
+}
+
+.service-lead {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 15px;
+  line-height: 22px;
+  margin: 0 0 16px;
+}
+
+.checkout-body {
+  align-items: flex-start;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 946px;
+  padding: 0 16px 48px;
+}
+
+.booking .sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 364px;
+}
+
+.panel {
+  padding: 24px;
+}
+
+.panel h2 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 22px 0 12px;
+}
+
+.panel h2.price-heading {
+  margin-top: 0;
+}
+
+.price-list {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  list-style: none;
+  margin: 0 0 4px;
+  padding: 4px 16px;
+}
+
+.price-list li {
+  align-items: center;
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.price-list li + li {
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.price-list span {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 15px;
+}
+
+.price-list strong {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.offer-label {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 22px 0 12px;
+}
+
+.offer-card {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  padding: 14px 16px;
+}
+
+.offer-copy {
+  align-items: flex-start;
+  display: flex;
+  gap: 10px;
+}
+
+.offer-copy p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  margin: 0;
+}
+
+.offer-code {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.offer-code span {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+}
+
+.apply {
+  background: #00c3ff;
+  border: none;
+  border-radius: 16px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 6px 16px;
+}
+
+.apply:disabled {
+  cursor: default;
+  opacity: 0.7;
+}
+
+.question-row {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+}
+
+.question-row h2 {
+  margin-bottom: 0;
+}
+
+.info {
+  align-items: center;
+  background: #fff;
+  border: 1.5px solid rgba(0, 0, 0, 0.38);
+  border-radius: 50%;
+  color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  display: inline-flex;
+  flex-shrink: 0;
+  font-family: Georgia, serif;
+  font-size: 13px;
+  height: 18px;
+  justify-content: center;
+  padding: 0;
+  width: 18px;
+}
+
+.help {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  line-height: 20px;
+  margin: 8px 0 0;
+}
+
+.choices,
+.pills,
+.dates {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.circle {
+  align-items: center;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  color: #212121;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 16px;
+  height: 44px;
+  justify-content: center;
+  width: 44px;
+}
+
+.circle.selected,
+.date.selected {
+  background: #8fd4f2;
+  border-color: #8fd4f2;
+  color: #fff;
+}
+
+.pill {
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 24px;
+  color: #212121;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 10px 18px;
+}
+
+.pill.selected {
+  border-color: #5ec8ee;
+  color: #00a6d6;
+}
+
+.instructions-label {
+  margin-bottom: 8px;
+}
+
+.instructions,
+.field input {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  font: inherit;
+  padding: 12px;
+  width: 100%;
+}
+
+.field {
+  display: block;
+}
+
+.field + .field {
+  margin-top: 16px;
+}
+
+.field span {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.fuel {
+  background: #e7f7ff;
+  border-radius: 10px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 14px;
+  margin: 20px 0 0;
+  padding: 12px 14px;
+}
+
+.done {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 0 12px;
+}
+
+.error {
+  color: #d32f2f;
+  font-size: 14px;
+  margin: 16px 0 0;
+}
+
+.next {
+  background: #f6c445;
+  border: none;
+  border-radius: 28px;
+  color: #212121;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 20px;
+  padding: 14px 24px;
+  width: 100%;
+}
+
+.next:hover {
+  background: #f0b62e;
+}
+
+.next:disabled {
+  cursor: default;
+  opacity: 0.7;
+}
+
+.summary h2 {
+  margin-top: 0;
+}
+
+.summary dl {
+  margin: 0;
+}
+
+.summary dl div {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  padding: 8px 0;
+}
+
+.summary dt {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 14px;
+}
+
+.summary dd {
+  font-size: 14px;
+  margin: 0;
+  text-align: right;
+}
+
+.summary .total dt,
+.summary .total dd {
+  color: #212121;
+  font-weight: 700;
+}
+
+.date {
+  align-items: center;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 12px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  min-width: 64px;
+  padding: 8px 10px;
+}
+
+.date span {
+  font-size: 12px;
+}
+
+@media screen and (max-width: 780px) {
+  .booking.service-wrapper {
+    padding-top: 56px;
+  }
+
+  .checkout-body {
+    flex-direction: column;
+  }
+
+  .booking .main-section,
+  .booking .sidebar {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .checkout-header h1 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}

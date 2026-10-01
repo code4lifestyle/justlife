@@ -1,62 +1,63 @@
 {
  "meta": {
-  "title": "Different Types of Massages (Massage Types & Benefits) | Justlife",
-  "description": "Explore different types of massages, their benefits, and how to choose the right massage for relaxation, pain relief, recovery, and overall wellness.",
-  "robots": "index, follow",
-  "canonical": "https://www.justlife.com/blog/en-AE/different-types-of-massages",
-  "ogTitle": "Different Types of Massages (Massage Types & Benefits) | Justlife",
-  "ogDescription": "Explore different types of massages, their benefits, and how to choose the right massage for relaxation, pain relief, recovery, and overall wellness.",
-  "ogImage": "https://a.storyblok.com/f/285972427025846/1536x1024/1e9f27c824/different-types-of-massages.webp",
-  "jsonLd": [
-   {
-    "@context": "https://schema.org/",
-    "@type": "Article",
-    "mainEntityOfPage": {
-     "@type": "WebPage",
-     "@id": "https://www.justlife.com/blog/en-AE/different-types-of-massages"
-    },
-    "headline": "Different Types of Massages (Massage Types & Benefits) | Justlife",
-    "description": "Explore different types of massages, their benefits, and how to choose the right massage for relaxation, pain relief, recovery, and overall wellness.",
-    "image": "https://a.storyblok.com/f/285972427025846/1536x1024/1e9f27c824/different-types-of-massages.webp",
-    "author": {
-     "@type": "Organization",
-     "name": "Justlife"
-    },
-    "publisher": {
-     "@type": "Organization",
-     "name": "Justlife",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://a.storyblok.com/f/285972427025846/140x45/86979fd21d/justlife-logo-blue.svg"
-     }
-    }
+ "title": "Different Types of Massages (Massage Types & Benefits) | Aljory Cleaning Services",
+ "description": "Explore different types of massages, their benefits, and how to choose the right massage for relaxation, pain relief, recovery, and overall wellness.",
+ "robots": "index, follow",
+ "canonical": "https://aljorycleaning.com/blog/en-AE/different-types-of-massages",
+ "ogTitle": "Different Types of Massages (Massage Types & Benefits) | Aljory Cleaning Services",
+ "ogDescription": "Explore different types of massages, their benefits, and how to choose the right massage for relaxation, pain relief, recovery, and overall wellness.",
+ "ogImage": "https://a.storyblok.com/f/285972427025846/1536x1024/1e9f27c824/different-types-of-massages.webp",
+ "jsonLd": [
+  {
+   "@context": "https://schema.org/",
+   "@type": "Article",
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://aljorycleaning.com/blog/en-AE/different-types-of-massages"
    },
-   {
-    "@context": "https://schema.org/",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-     {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://www.justlife.com/en-AE"
-     },
-     {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Blog",
-      "item": "https://www.justlife.com/blog/en-AE"
-     },
-     {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "What Are the Different Types of Massages?",
-      "item": "https://www.justlife.com/blog/en-AE/different-types-of-massages"
-     }
-    ]
+   "headline": "Different Types of Massages (Massage Types & Benefits) | Aljory Cleaning Services",
+   "description": "Explore different types of massages, their benefits, and how to choose the right massage for relaxation, pain relief, recovery, and overall wellness.",
+   "image": "https://a.storyblok.com/f/285972427025846/1536x1024/1e9f27c824/different-types-of-massages.webp",
+   "author": {
+    "@type": "Organization",
+    "name": "Aljory Cleaning Services"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "Aljory Cleaning Services",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "/brand/aljory-logo.png"
+    }
    }
-  ]
- },
+  },
+  {
+   "@context": "https://schema.org/",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://aljorycleaning.com/en-AE"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Blog",
+     "item": "https://aljorycleaning.com/blog/en-AE"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "What Are the Different Types of Massages?",
+     "item": "https://aljorycleaning.com/blog/en-AE/different-types-of-massages"
+    }
+   ]
+  }
+ ],
+ "keywords": "Aljory Cleaning Services, building cleaning services, floor and wall tiling works, plumbing and sanitary installation, false ceiling and light partitions, air conditioning installation and maintenance, carpentry and wood flooring, wallpaper fixing works, plaster works, painting contracting, electrical fittings repair and maintenance, electromechanical equipment installation, Dubai, Abu Dhabi, Sharjah, Ajman"
+},
  "title": "What Are the Different Types of Massages?",
  "description": "Explore different types of massages, their benefits, and how to choose the right massage for relaxation, pain relief, recovery, and overall wellness.",
  "image": "https://a.storyblok.com/f/285972427025846/1536x1024/1e9f27c824/different-types-of-massages.webp",

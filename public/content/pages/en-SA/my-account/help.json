@@ -1,11 +1,12 @@
 {
  "meta": {
-  "title": "Help",
-  "description": "Justlife DMCC",
-  "robots": "noindex, nofollow",
-  "canonical": "https://www.justlife.com/en-SA/my-account/help",
-  "ogTitle": "justlife"
- },
+ "title": "Help",
+ "description": "Aljory Cleaning Services",
+ "robots": "noindex, follow",
+ "canonical": "https://aljorycleaning.com/en-SA/my-account/help",
+ "ogTitle": "justlife",
+ "keywords": "Aljory Cleaning Services, building cleaning services, floor and wall tiling works, plumbing and sanitary installation, false ceiling and light partitions, air conditioning installation and maintenance, carpentry and wood flooring, wallpaper fixing works, plaster works, painting contracting, electrical fittings repair and maintenance, electromechanical equipment installation, Dubai, Abu Dhabi, Sharjah, Ajman, Jeddah, Riyadh, Saudi Arabia"
+},
  "shell": {
   "locale": "en-SA",
   "wrapperClass": "en lang-my-account-help app-layout main-wrapper",
