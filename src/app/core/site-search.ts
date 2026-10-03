@@ -2,6 +2,7 @@ import { Injectable, signal } from '@angular/core';
 
 /** Services the city-page search can match. Names match `content/home/catalog.en-AE.json`. */
 export const SEARCH_SERVICES: readonly string[] = [
+  'Buildings Cleaning Services',
   'Floor & Wall Tiling Works',
   'Plumbing & Sanitary Installation',
   'False Ceiling & Light Partitions Installation',
@@ -10,7 +11,6 @@ export const SEARCH_SERVICES: readonly string[] = [
   'Wallpaper Fixing Works',
   'Plaster Works',
   'Painting Contracting',
-  'Buildings Cleaning Services',
   'Electrical Fittings & Fixtures Repairing & Maintenance',
   'Electromechanical Equipment Installation and Maintenance',
 ];

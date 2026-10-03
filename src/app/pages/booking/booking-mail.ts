@@ -26,16 +26,16 @@ export async function sendBookingEmail(booking: BookingMail): Promise<void> {
     `Phone: ${booking.phone}`,
     `Date: ${booking.date}`,
     `Time: ${booking.time}`,
-    `Duration: ${booking.duration}`,
-    `Professionals: ${booking.professionals}`,
-    `Location: ${booking.location}`,
-    `Rate: ${booking.rate}`,
-    `Materials: ${booking.materials}`,
+    booking.duration ? `Duration: ${booking.duration}` : '',
+    booking.professionals ? `Professionals: ${booking.professionals}` : '',
+    booking.location ? `Location: ${booking.location}` : '',
+    booking.rate ? `Rate: ${booking.rate}` : '',
+    booking.materials ? `Materials: ${booking.materials}` : '',
     `Address: ${booking.address}`,
-    `Instructions: ${booking.instructions || 'None'}`,
-    `Offer: ${booking.offer}`,
-    `Total: ${booking.total}`,
-  ];
+    booking.duration ? `Instructions: ${booking.instructions || 'None'}` : '',
+    booking.offer ? `Offer: ${booking.offer}` : '',
+    booking.total ? `Total: ${booking.total}` : '',
+  ].filter(Boolean);
 
   const response = await fetch('https://api.web3forms.com/submit', {
     method: 'POST',
@@ -53,15 +53,19 @@ export async function sendBookingEmail(booking: BookingMail): Promise<void> {
       Service: booking.service,
       Date: booking.date,
       Time: booking.time,
-      Duration: booking.duration,
-      Professionals: booking.professionals,
-      Location: booking.location,
-      Rate: booking.rate,
-      Materials: booking.materials,
+      ...(booking.duration
+        ? {
+            Duration: booking.duration,
+            Professionals: booking.professionals,
+            Location: booking.location,
+            Rate: booking.rate,
+            Materials: booking.materials,
+            Instructions: booking.instructions || 'None',
+            Offer: booking.offer,
+            Total: booking.total,
+          }
+        : {}),
       Address: booking.address,
-      Instructions: booking.instructions || 'None',
-      Offer: booking.offer,
-      Total: booking.total,
     }),
     signal: AbortSignal.timeout(20000),
   });

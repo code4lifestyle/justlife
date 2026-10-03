@@ -10,6 +10,12 @@ export interface BookingService {
 
 export const BOOKING_SERVICES: readonly BookingService[] = [
   {
+    slug: 'buildings-cleaning',
+    name: 'Buildings Cleaning Services',
+    keywords: 'building cleaning services, building cleaning company, commercial cleaning',
+    materialsQuestion: 'Need cleaning materials?',
+  },
+  {
     slug: 'floor-wall-tiling',
     name: 'Floor & Wall Tiling Works',
     keywords: 'floor and wall tiling works, tiling contractor, wall tiling, floor tiling',
@@ -56,12 +62,6 @@ export const BOOKING_SERVICES: readonly BookingService[] = [
     name: 'Painting Contracting',
     keywords: 'painting contracting, painting contractor, interior painting',
     materialsQuestion: 'Need materials?',
-  },
-  {
-    slug: 'buildings-cleaning',
-    name: 'Buildings Cleaning Services',
-    keywords: 'building cleaning services, building cleaning company, commercial cleaning',
-    materialsQuestion: 'Need cleaning materials?',
   },
   {
     slug: 'electrical-fittings',

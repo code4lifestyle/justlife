@@ -1,137 +1,137 @@
 {
  "meta": {
- "title": "Building Cleaning, Tiling and Maintenance in Dubai | Aljory Cleaning Services",
- "description": "Book floor and wall tiling, plumbing and sanitary installation, painting contracting, building cleaning, electrical repair and air conditioning maintenance in Dubai with Aljory Cleaning Services.",
- "keywords": "Aljory Cleaning Services, building cleaning services, floor and wall tiling works, plumbing and sanitary installation, false ceiling and light partitions, air conditioning installation and maintenance, carpentry and wood flooring, wallpaper fixing works, plaster works, painting contracting, electrical fittings repair and maintenance, electromechanical equipment installation, Dubai, Abu Dhabi, Sharjah, Ajman",
- "robots": "index, follow",
- "canonical": "https://aljorycleaning.com/en-AE/dubai",
- "ogTitle": "Building Cleaning, Tiling and Maintenance in Dubai | Aljory Cleaning Services",
- "ogDescription": "Book floor and wall tiling, plumbing and sanitary installation, painting contracting, building cleaning, electrical repair and air conditioning maintenance in Dubai with Aljory Cleaning Services.",
- "ogImage": "https://aljorycleaning.com/brand/aljory-logo.png",
- "jsonLd": [
-  {
-   "@context": "https://schema.org",
-   "@type": "HomeAndConstructionBusiness",
-   "name": "Aljory Cleaning Services",
-   "url": "https://aljorycleaning.com/en-AE/dubai",
-   "image": "https://aljorycleaning.com/brand/aljory-logo.png",
-   "email": "admin@aljorycleaning.com",
-   "description": "Book floor and wall tiling, plumbing and sanitary installation, painting contracting, building cleaning, electrical repair and air conditioning maintenance in Dubai with Aljory Cleaning Services.",
-   "areaServed": [
-    {
-     "@type": "City",
-     "name": "Dubai"
-    },
-    {
-     "@type": "City",
-     "name": "Abu Dhabi"
-    },
-    {
-     "@type": "City",
-     "name": "Sharjah"
-    },
-    {
-     "@type": "City",
-     "name": "Ajman"
-    }
-   ],
-   "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Building cleaning and maintenance",
-    "itemListElement": [
+  "title": "Building Cleaning, Tiling and Maintenance in Dubai | Aljory Cleaning Services",
+  "description": "Book floor and wall tiling, plumbing and sanitary installation, painting contracting, building cleaning, electrical repair and air conditioning maintenance in Dubai with Aljory Cleaning Services.",
+  "keywords": "Aljory Cleaning Services, building cleaning services, floor and wall tiling works, plumbing and sanitary installation, false ceiling and light partitions, air conditioning installation and maintenance, carpentry and wood flooring, wallpaper fixing works, plaster works, painting contracting, electrical fittings repair and maintenance, electromechanical equipment installation, Dubai, Abu Dhabi, Sharjah, Ajman",
+  "robots": "index, follow",
+  "canonical": "https://aljorycleaning.com/en-AE/dubai",
+  "ogTitle": "Building Cleaning, Tiling and Maintenance in Dubai | Aljory Cleaning Services",
+  "ogDescription": "Book floor and wall tiling, plumbing and sanitary installation, painting contracting, building cleaning, electrical repair and air conditioning maintenance in Dubai with Aljory Cleaning Services.",
+  "ogImage": "https://aljorycleaning.com/brand/aljory-logo.png",
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@type": "HomeAndConstructionBusiness",
+    "name": "Aljory Cleaning Services",
+    "url": "https://aljorycleaning.com/en-AE/dubai",
+    "image": "https://aljorycleaning.com/brand/aljory-logo.png",
+    "email": "admin@aljorycleaning.com",
+    "description": "Book floor and wall tiling, plumbing and sanitary installation, painting contracting, building cleaning, electrical repair and air conditioning maintenance in Dubai with Aljory Cleaning Services.",
+    "areaServed": [
      {
-      "@type": "Offer",
-      "itemOffered": {
-       "@type": "Service",
-       "name": "Floor & Wall Tiling Works",
-       "url": "https://aljorycleaning.com/en-AE/floor-wall-tiling/checkout/details"
-      }
+      "@type": "City",
+      "name": "Dubai"
      },
      {
-      "@type": "Offer",
-      "itemOffered": {
-       "@type": "Service",
-       "name": "Plumbing & Sanitary Installation",
-       "url": "https://aljorycleaning.com/en-AE/plumbing-sanitary/checkout/details"
-      }
+      "@type": "City",
+      "name": "Abu Dhabi"
      },
      {
-      "@type": "Offer",
-      "itemOffered": {
-       "@type": "Service",
-       "name": "False Ceiling & Light Partitions Installation",
-       "url": "https://aljorycleaning.com/en-AE/false-ceiling/checkout/details"
-      }
+      "@type": "City",
+      "name": "Sharjah"
      },
      {
-      "@type": "Offer",
-      "itemOffered": {
-       "@type": "Service",
-       "name": "Air-Conditioning, Ventilations & Air Filtration Systems Installation & Maintenance",
-       "url": "https://aljorycleaning.com/en-AE/air-conditioning/checkout/details"
-      }
-     },
-     {
-      "@type": "Offer",
-      "itemOffered": {
-       "@type": "Service",
-       "name": "Carpentry & wood Flooring Works",
-       "url": "https://aljorycleaning.com/en-AE/carpentry-flooring/checkout/details"
-      }
-     },
-     {
-      "@type": "Offer",
-      "itemOffered": {
-       "@type": "Service",
-       "name": "Wallpaper Fixing Works",
-       "url": "https://aljorycleaning.com/en-AE/wallpaper-fixing/checkout/details"
-      }
-     },
-     {
-      "@type": "Offer",
-      "itemOffered": {
-       "@type": "Service",
-       "name": "Plaster Works",
-       "url": "https://aljorycleaning.com/en-AE/plaster-works/checkout/details"
-      }
-     },
-     {
-      "@type": "Offer",
-      "itemOffered": {
-       "@type": "Service",
-       "name": "Painting Contracting",
-       "url": "https://aljorycleaning.com/en-AE/painting-contracting/checkout/details"
-      }
-     },
-     {
-      "@type": "Offer",
-      "itemOffered": {
-       "@type": "Service",
-       "name": "Buildings Cleaning Services",
-       "url": "https://aljorycleaning.com/en-AE/buildings-cleaning/checkout/details"
-      }
-     },
-     {
-      "@type": "Offer",
-      "itemOffered": {
-       "@type": "Service",
-       "name": "Electrical Fittings & Fixtures Repairing & Maintenance",
-       "url": "https://aljorycleaning.com/en-AE/electrical-fittings/checkout/details"
-      }
-     },
-     {
-      "@type": "Offer",
-      "itemOffered": {
-       "@type": "Service",
-       "name": "Electromechanical Equipment Installation and Maintenance",
-       "url": "https://aljorycleaning.com/en-AE/electromechanical/checkout/details"
-      }
+      "@type": "City",
+      "name": "Ajman"
      }
-    ]
+    ],
+    "hasOfferCatalog": {
+     "@type": "OfferCatalog",
+     "name": "Building cleaning and maintenance",
+     "itemListElement": [
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Floor & Wall Tiling Works",
+        "url": "https://aljorycleaning.com/en-AE/floor-wall-tiling/checkout/details"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Plumbing & Sanitary Installation",
+        "url": "https://aljorycleaning.com/en-AE/plumbing-sanitary/checkout/details"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "False Ceiling & Light Partitions Installation",
+        "url": "https://aljorycleaning.com/en-AE/false-ceiling/checkout/details"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Air-Conditioning, Ventilations & Air Filtration Systems Installation & Maintenance",
+        "url": "https://aljorycleaning.com/en-AE/air-conditioning/checkout/details"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Carpentry & wood Flooring Works",
+        "url": "https://aljorycleaning.com/en-AE/carpentry-flooring/checkout/details"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Wallpaper Fixing Works",
+        "url": "https://aljorycleaning.com/en-AE/wallpaper-fixing/checkout/details"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Plaster Works",
+        "url": "https://aljorycleaning.com/en-AE/plaster-works/checkout/details"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Painting Contracting",
+        "url": "https://aljorycleaning.com/en-AE/painting-contracting/checkout/details"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Buildings Cleaning Services",
+        "url": "https://aljorycleaning.com/en-AE/buildings-cleaning/checkout/details"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Electrical Fittings & Fixtures Repairing & Maintenance",
+        "url": "https://aljorycleaning.com/en-AE/electrical-fittings/checkout/details"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Electromechanical Equipment Installation and Maintenance",
+        "url": "https://aljorycleaning.com/en-AE/electromechanical/checkout/details"
+       }
+      }
+     ]
+    }
    }
-  }
- ]
-},
+  ]
+ },
  "shell": {
   "locale": "en-AE",
   "wrapperClass": "home-wrapper lg-navbar en lang-services app-layout main-wrapper",

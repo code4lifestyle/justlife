@@ -24,10 +24,12 @@
   z-index: 3;
 }
 .hero-container .main-section {
-  left: calc(50% - 370px);
+  left: 50%;
   padding-top: 180px;
   position: absolute;
+  transform: translateX(-50%);
   transition: 0.1s ease-out;
+  width: min(920px, calc(100% - 48px));
   z-index: 2;
 }
 .hero-container .main-section.ar {
@@ -99,6 +101,7 @@
     background: linear-gradient(180deg, #0000001a, #0009 50%, #000 70%, #000);
     left: 0;
     padding: 40px 16px;
+    transform: none;
     width: 100%;
   }
   .hero-container .main-section h1.main-title {
@@ -392,9 +395,16 @@
   border: 1px solid #f2f2f2;
   border-radius: 8px;
   display: flex;
-  height: 86px;
+  height: 132px;
   justify-content: center;
+  overflow: hidden;
   transition: 0.1s ease-out;
+  width: 100%;
+}
+.blog-categories-section .section-content .category-card .category-image img {
+  display: block;
+  height: 100%;
+  object-fit: cover;
   width: 100%;
 }
 .blog-categories-section .section-content .category-card p {
@@ -416,7 +426,10 @@
   }
   .blog-categories-section .section-content .category-card {
     margin: 0 8px 16px;
-    width: 148px;
+    width: calc(50% - 16px);
+  }
+  .blog-categories-section .section-content .category-card .category-image {
+    height: 120px;
   }
 }
 
@@ -472,12 +485,14 @@
     padding: 0.125rem 0.25rem;
   }
   .service-shortcuts .shortcuts .shortcut .image-container .shortcut-image {
-    height: 50px;
-    width: 50px;
+    border-radius: 8px;
+    height: 64px;
+    object-fit: cover;
+    width: 64px;
   }
   .service-shortcuts .shortcuts .shortcut .image-container.with-tag .shortcut-image {
-    height: 47px;
-    width: 47px;
+    height: 64px;
+    width: 64px;
   }
 }
 
@@ -657,15 +672,16 @@
   position: relative;
 }
 .category-services .service-cards {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  gap: 20px 16px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   position: relative;
 }
 .service-card {
   display: block;
-  margin: 0 12px 24px;
+  margin: 0;
   position: relative;
-  width: 208.8px;
+  width: auto;
 }
 .service-card p {
   height: auto;
@@ -688,8 +704,7 @@
   border-radius: 4px;
   display: block;
   height: 160px;
-  object-fit: contain;
-  padding: 36px;
+  object-fit: cover;
   width: 100%;
 }
 .service-card .service-image::before {
@@ -711,16 +726,12 @@
     margin: 0 10px;
   }
   .category-services .service-cards {
-    display: grid;
+    gap: 16px 12px;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-  .service-card {
-    margin: 0 6px;
-    width: auto;
   }
   .service-card .service-image,
   .service-card .service-image img {
-    height: 105px;
+    height: 128px;
   }
 }
 
@@ -729,7 +740,8 @@
  * the 60px square of the original shortcut skeleton (the ported mobile rule above makes it 50px).
  */
 .service-shortcuts .shortcuts .shortcut .shortcut-image {
-  height: 60px;
-  object-fit: contain;
-  width: 60px;
+  border-radius: 8px;
+  height: 72px;
+  object-fit: cover;
+  width: 72px;
 }

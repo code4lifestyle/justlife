@@ -1,9 +1,17 @@
 {
  "shortcuts": [
   {
+   "text": "Buildings Cleaning Services",
+   "href": "/en-AE/buildings-cleaning/checkout/details",
+   "icon": "/services/cleaning.jpg",
+   "alt": "buildings-cleaning-icon",
+   "width": 48,
+   "height": 48
+  },
+  {
    "text": "Floor & Wall Tiling Works",
    "href": "/en-AE/floor-wall-tiling/checkout/details",
-   "icon": "/icons/floor-tiling.svg",
+   "icon": "/services/floor-tiling.jpg",
    "alt": "floor-wall-tiling-icon",
    "width": 48,
    "height": 48
@@ -11,7 +19,7 @@
   {
    "text": "Plumbing & Sanitary Installation",
    "href": "/en-AE/plumbing-sanitary/checkout/details",
-   "icon": "/icons/plumbing.svg",
+   "icon": "/services/plumbing.jpg",
    "alt": "plumbing-sanitary-icon",
    "width": 48,
    "height": 48
@@ -19,7 +27,7 @@
   {
    "text": "False Ceiling & Light Partitions Installation",
    "href": "/en-AE/false-ceiling/checkout/details",
-   "icon": "/icons/false-ceiling.svg",
+   "icon": "/services/false-ceiling.jpg",
    "alt": "false-ceiling-icon",
    "width": 48,
    "height": 48
@@ -27,7 +35,7 @@
   {
    "text": "Air-Conditioning, Ventilations & Air Filtration Systems Installation & Maintenance",
    "href": "/en-AE/air-conditioning/checkout/details",
-   "icon": "/icons/air-conditioning.svg",
+   "icon": "/services/air-conditioning.jpg",
    "alt": "air-conditioning-icon",
    "width": 48,
    "height": 48
@@ -35,7 +43,7 @@
   {
    "text": "Carpentry & wood Flooring Works",
    "href": "/en-AE/carpentry-flooring/checkout/details",
-   "icon": "/icons/carpentry.svg",
+   "icon": "/services/carpentry.jpg",
    "alt": "carpentry-flooring-icon",
    "width": 48,
    "height": 48
@@ -43,7 +51,7 @@
   {
    "text": "Wallpaper Fixing Works",
    "href": "/en-AE/wallpaper-fixing/checkout/details",
-   "icon": "/icons/wallpaper.svg",
+   "icon": "/services/wallpaper.jpg",
    "alt": "wallpaper-fixing-icon",
    "width": 48,
    "height": 48
@@ -51,7 +59,7 @@
   {
    "text": "Plaster Works",
    "href": "/en-AE/plaster-works/checkout/details",
-   "icon": "/icons/plaster.svg",
+   "icon": "/services/plaster.jpg",
    "alt": "plaster-works-icon",
    "width": 48,
    "height": 48
@@ -59,23 +67,15 @@
   {
    "text": "Painting Contracting",
    "href": "/en-AE/painting-contracting/checkout/details",
-   "icon": "/icons/painting.svg",
+   "icon": "/services/painting.jpg",
    "alt": "painting-contracting-icon",
-   "width": 48,
-   "height": 48
-  },
-  {
-   "text": "Buildings Cleaning Services",
-   "href": "/en-AE/buildings-cleaning/checkout/details",
-   "icon": "/icons/building-cleaning.svg",
-   "alt": "buildings-cleaning-icon",
    "width": 48,
    "height": 48
   },
   {
    "text": "Electrical Fittings & Fixtures Repairing & Maintenance",
    "href": "/en-AE/electrical-fittings/checkout/details",
-   "icon": "/icons/electrical.svg",
+   "icon": "/services/electrical.jpg",
    "alt": "electrical-fittings-icon",
    "width": 48,
    "height": 48
@@ -83,7 +83,7 @@
   {
    "text": "Electromechanical Equipment Installation and Maintenance",
    "href": "/en-AE/electromechanical/checkout/details",
-   "icon": "/icons/electromechanical.svg",
+   "icon": "/services/electromechanical.jpg",
    "alt": "electromechanical-icon",
    "width": 48,
    "height": 48
@@ -91,59 +91,59 @@
  ],
  "services": [
   {
+   "text": "Buildings Cleaning Services",
+   "href": "/en-AE/buildings-cleaning/checkout/details",
+   "image": "/services/cleaning.jpg"
+  },
+  {
    "text": "Floor & Wall Tiling Works",
    "href": "/en-AE/floor-wall-tiling/checkout/details",
-   "image": "/icons/floor-tiling.svg"
+   "image": "/services/floor-tiling.jpg"
   },
   {
    "text": "Plumbing & Sanitary Installation",
    "href": "/en-AE/plumbing-sanitary/checkout/details",
-   "image": "/icons/plumbing.svg"
+   "image": "/services/plumbing.jpg"
   },
   {
    "text": "False Ceiling & Light Partitions Installation",
    "href": "/en-AE/false-ceiling/checkout/details",
-   "image": "/icons/false-ceiling.svg"
+   "image": "/services/false-ceiling.jpg"
   },
   {
    "text": "Air-Conditioning, Ventilations & Air Filtration Systems Installation & Maintenance",
    "href": "/en-AE/air-conditioning/checkout/details",
-   "image": "/icons/air-conditioning.svg"
+   "image": "/services/air-conditioning.jpg"
   },
   {
    "text": "Carpentry & wood Flooring Works",
    "href": "/en-AE/carpentry-flooring/checkout/details",
-   "image": "/icons/carpentry.svg"
+   "image": "/services/carpentry.jpg"
   },
   {
    "text": "Wallpaper Fixing Works",
    "href": "/en-AE/wallpaper-fixing/checkout/details",
-   "image": "/icons/wallpaper.svg"
+   "image": "/services/wallpaper.jpg"
   },
   {
    "text": "Plaster Works",
    "href": "/en-AE/plaster-works/checkout/details",
-   "image": "/icons/plaster.svg"
+   "image": "/services/plaster.jpg"
   },
   {
    "text": "Painting Contracting",
    "href": "/en-AE/painting-contracting/checkout/details",
-   "image": "/icons/painting.svg"
-  },
-  {
-   "text": "Buildings Cleaning Services",
-   "href": "/en-AE/buildings-cleaning/checkout/details",
-   "image": "/icons/building-cleaning.svg"
+   "image": "/services/painting.jpg"
   },
   {
    "text": "Electrical Fittings & Fixtures Repairing & Maintenance",
    "href": "/en-AE/electrical-fittings/checkout/details",
-   "image": "/icons/electrical.svg"
+   "image": "/services/electrical.jpg"
   },
   {
    "text": "Electromechanical Equipment Installation and Maintenance",
    "href": "/en-AE/electromechanical/checkout/details",
-   "image": "/icons/electromechanical.svg"
+   "image": "/services/electromechanical.jpg"
   }
  ]
 }

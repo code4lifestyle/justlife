@@ -6,7 +6,7 @@
         <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true">
           <path fill="currentColor" d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z" />
         </svg>
-        <span>Step {{ step() }} of 4</span>
+        <span>{{ stepLabel() }}</span>
       </button>
       <h1>{{ current.name }}</h1>
       <p class="service-lead">
@@ -200,11 +200,15 @@
           }
           @case (4) {
             <h2>You're booked</h2>
-            <p class="done">
-              {{ current.name }} is reserved for {{ hours() }}
-              {{ hours() === 1 ? 'hour' : 'hours' }} with {{ professionals() }}
-              {{ professionals() === 1 ? 'professional' : 'professionals' }}.
-            </p>
+            @if (detailed()) {
+              <p class="done">
+                {{ current.name }} is reserved for {{ hours() }}
+                {{ hours() === 1 ? 'hour' : 'hours' }} with {{ professionals() }}
+                {{ professionals() === 1 ? 'professional' : 'professionals' }}.
+              </p>
+            } @else {
+              <p class="done">{{ current.name }} is reserved.</p>
+            }
             <p class="done">
               We'll be there on {{ selectedDateLabel() }} at {{ timeLabel(time()!) }}, {{ address() }}.
               A copy of this booking is on its way to our team.
@@ -231,10 +235,12 @@
         <h2>Booking Details</h2>
         <dl>
           <div><dt>Service</dt><dd>{{ current.name }}</dd></div>
-          <div><dt>Duration</dt><dd>{{ hours() }} {{ hours() === 1 ? 'hour' : 'hours' }}</dd></div>
-          <div><dt>Number of Professionals</dt><dd>{{ professionals() }}</dd></div>
-          <div><dt>Location</dt><dd>{{ outsideCity() ? 'Out of the city' : 'In the city' }}</dd></div>
-          <div><dt>Material</dt><dd>{{ materials() ? 'Yes' : 'No' }}</dd></div>
+          @if (detailed()) {
+            <div><dt>Duration</dt><dd>{{ hours() }} {{ hours() === 1 ? 'hour' : 'hours' }}</dd></div>
+            <div><dt>Number of Professionals</dt><dd>{{ professionals() }}</dd></div>
+            <div><dt>Location</dt><dd>{{ outsideCity() ? 'Out of the city' : 'In the city' }}</dd></div>
+            <div><dt>Material</dt><dd>{{ materials() ? 'Yes' : 'No' }}</dd></div>
+          }
           @if (date()) {
             <div><dt>Date</dt><dd>{{ selectedDateLabel() }}</dd></div>
           }
@@ -249,6 +255,7 @@
           }
         </dl>
       </div>
+      @if (detailed()) {
       <div class="main-card radiusX3 panel summary">
         <h2>Payment Summary</h2>
         <dl>
@@ -270,6 +277,7 @@
           <div class="total"><dt>Total</dt><dd>{{ money(total()) }}</dd></div>
         </dl>
       </div>
+      }
     </aside>
   </div>
 </div>

@@ -7,6 +7,10 @@
   "servicesTitle": "Services",
   "services": [
    {
+    "text": "Buildings Cleaning Services",
+    "href": "/en-AE/buildings-cleaning/checkout/details"
+   },
+   {
     "text": "Floor & Wall Tiling Works",
     "href": "/en-AE/floor-wall-tiling/checkout/details"
    },
@@ -37,10 +41,6 @@
    {
     "text": "Painting Contracting",
     "href": "/en-AE/painting-contracting/checkout/details"
-   },
-   {
-    "text": "Buildings Cleaning Services",
-    "href": "/en-AE/buildings-cleaning/checkout/details"
    },
    {
     "text": "Electrical Fittings & Fixtures Repairing & Maintenance",

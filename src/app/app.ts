@@ -4,11 +4,12 @@ import { ActivatedRouteSnapshot, NavigationEnd, Router, RouterOutlet } from '@an
 import { filter } from 'rxjs';
 import { PageMeta } from './core/models';
 import { SeoService } from './core/seo.service';
+import { WhatsappButton } from './layout/whatsapp/whatsapp';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
-  template: '<router-outlet />',
+  imports: [RouterOutlet, WhatsappButton],
+  template: '<router-outlet /><app-whatsapp-button />',
 })
 export class App {
   constructor() {

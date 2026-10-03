@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, computed, effect, inject, input, signal, untracked } from '@angular/core';
+import { ChangeDetectionStrategy, Component, computed, effect, inject, input, linkedSignal, signal, untracked } from '@angular/core';
 import { Router } from '@angular/router';
 import { sendBookingEmail } from './booking-mail';
 import { BookingPageContent } from './booking.resolver';
@@ -52,7 +52,9 @@ export class BookingPage {
     };
   });
 
-  protected readonly step = signal(1);
+  protected readonly step = linkedSignal<number>(() =>
+    this.content().service.slug === 'buildings-cleaning' ? 1 : 2,
+  );
   protected readonly hours = signal(2);
   protected readonly professionals = signal(1);
   protected readonly outsideCity = signal(false);
@@ -69,6 +71,11 @@ export class BookingPage {
   protected readonly sending = signal(false);
 
   protected readonly service = computed(() => this.content().service);
+  /** Only building cleaning collects hours, professionals, location, and materials. */
+  protected readonly detailed = computed(() => this.service().slug === 'buildings-cleaning');
+  protected readonly stepLabel = computed(() =>
+    this.detailed() ? `Step ${this.step()} of 4` : `Step ${this.step() - 1} of 3`,
+  );
   protected readonly selectedDateLabel = computed(
     () => this.dates.find((day) => day.iso === this.date())?.label ?? '',
   );
@@ -85,9 +92,9 @@ export class BookingPage {
 
   constructor() {
     effect(() => {
-      this.content();
+      const detailed = this.content().service.slug === 'buildings-cleaning';
       untracked(() => {
-        this.step.set(1);
+        this.step.set(detailed ? 1 : 2);
         this.hours.set(2);
         this.professionals.set(1);
         this.outsideCity.set(false);
@@ -120,7 +127,8 @@ export class BookingPage {
 
   protected back(): void {
     this.stepError.set('');
-    if (this.step() === 1) {
+    const firstStep = this.detailed() ? 1 : 2;
+    if (this.step() <= firstStep) {
       this.home();
       return;
     }
@@ -165,21 +173,22 @@ export class BookingPage {
     if (this.sending()) return;
     this.sending.set(true);
     try {
+      const detailed = this.detailed();
       await sendBookingEmail({
         service: this.service().name,
         date: this.selectedDateLabel(),
         time: this.timeLabel(this.time()!),
-        duration: `${this.hours()} ${this.hours() === 1 ? 'hour' : 'hours'}`,
-        professionals: String(this.professionals()),
-        location: this.outsideCity() ? 'Out of the city' : 'In the city',
-        rate: `${this.money(this.hourlyRate())} per hour`,
-        materials: this.materials() ? `Yes (${this.money(MATERIALS_FEE)})` : 'No',
-        instructions: this.instructions().trim(),
+        duration: detailed ? `${this.hours()} ${this.hours() === 1 ? 'hour' : 'hours'}` : '',
+        professionals: detailed ? String(this.professionals()) : '',
+        location: detailed ? (this.outsideCity() ? 'Out of the city' : 'In the city') : '',
+        rate: detailed ? `${this.money(this.hourlyRate())} per hour` : '',
+        materials: detailed ? (this.materials() ? `Yes (${this.money(MATERIALS_FEE)})` : 'No') : '',
+        instructions: detailed ? this.instructions().trim() : '',
         address: this.address().trim(),
         name: this.customerName().trim(),
         phone: this.phone().trim(),
-        total: this.money(this.total()),
-        offer: this.offerApplied() ? '50X3 applied' : 'None',
+        total: detailed ? this.money(this.total()) : '',
+        offer: detailed ? (this.offerApplied() ? '50X3 applied' : 'None') : '',
       });
       this.step.set(4);
     } catch {
